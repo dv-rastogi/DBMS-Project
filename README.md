@@ -1,10 +1,10 @@
 # DBMS-Project
 ## Team 2
-- Ramit 
-- Ritik
-- Divyansh
 - Anoushka
+- Divyansh
 - Gurjot
+- Ramit
+- Ritik
 
 ## Deadlines
 - Class presentation ``` Feb 1 ```
