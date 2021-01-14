@@ -7,6 +7,6 @@
 - Ritik
 
 ## Deadlines
-- Class presentation ``` Feb 1 ```
-- Mid project document submission ``` Feb 21 ```
-- Final project submission ``` April 19 ```
+- Class presentation &nbsp; ``` Feb 1 ```
+- Mid project document submission &nbsp; ``` Feb 21 ```
+- Final project submission &nbsp; ``` April 19 ```
