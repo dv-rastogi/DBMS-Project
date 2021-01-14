@@ -1,15 +1,17 @@
+# Meeting 1 | Jan 14
+
 Points to cover:
-	requirements | Done
-	Ideas | Done - Codeforces, Restaurant, Shopping Cart
-	Repo | Done
-	TechStack | Done
-	Distribution Kinda?? | Done
-		Layout
-		ER Diagram
+	- requirements | Done
+	* Ideas | Done - Codeforces, Restaurant, Shopping Cart
+	* Repo | Done
+	* TechStack | Done
+	* Distribution Kinda?? | Done
+		- Layout
+		- ER Diagram
 		---
-		Web Dev
-		SQL 
-	TechStack for project | TODO Django for now https://www.youtube.com/watch?v=F5mRW0jo-U4, SQL
+		- Web Dev
+		- SQL 
+	*TechStack for project | TODO Django for now https://www.youtube.com/watch?v=F5mRW0jo-U4, SQL
 	
 Questions:
 	When should we be done with the sql part?
