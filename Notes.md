@@ -1,6 +1,7 @@
 # Notes
 
-### Meeting 1 | *Jan 14*
+## Meeting 1 | *Jan 14*
+
 #### Points to cover
 * ~~Requirements~~
 * Ideas | Done - Codeforces, Restaurant, Shopping Cart
