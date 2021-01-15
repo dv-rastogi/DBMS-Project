@@ -14,11 +14,6 @@
 	- SQL 
 * TechStack for project | **TODO Django for now https://www.youtube.com/watch?v=F5mRW0jo-U4, SQL**
 
-Project approach:-
-	Find all E-R 
-	Implement proper E-R in MySQL
-	Add table based entries to give a basic UI to user
-	Then try to make some sitr prototype of codeforces with the help of data in MySQL
 	
 ### Questions:
 > When should we be done with the sql part?
