@@ -57,3 +57,19 @@
 			- Attraction
 	
 
+## Meeting 2 | *Jan 23*
+
+#### Points to cover
+* Refining Idea
+* Decide attributes & entities..?
+
+> Talked to archit bhaiya, need a *lot* of refinement on idea
+
+### Ideas:
+	General Programming Platform, Codeforces and Leetcode
+		- Premium Users
+		- Friends
+	
+#### Resources
+	https://meet.google.com/linkredirect?authuser=0&dest=https%3A%2F%2Fleetcode.com%2Fapi%2Fproblems%2Falgorithms%2F
+	
