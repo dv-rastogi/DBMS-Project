@@ -187,8 +187,8 @@
 #### Tasks
 * Anoushka, Ritik & Divyansh : Flask, Create utilities to call a python fn and print its contents
 * Ritik, Divyansh: How to utilize API of leetcode and codeforces from code, retrieve a JSON
-* Ramit, Divyansh: MySQL
-
+* Ramit, Divyansh, Gurjot: MySQL
+* Gurjot : UI
 #### Motivation
 * https://cfviz.netlify.app/
 * https://www.stopstalk.com/
