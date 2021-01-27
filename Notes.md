@@ -1,4 +1,4 @@
-# Notes
+# Meetings & Notes
 
 ## Meeting 1 | *Jan 14*
 
@@ -56,7 +56,9 @@
 			- Ads revenue
 			- Attraction
 	
-===
+	
+---
+<br>
 
 ## Meeting 2 | *Jan 23*
 
@@ -78,7 +80,8 @@
 	https://meet.google.com/linkredirect?authuser=0&dest=https%3A%2F%2Fleetcode.com%2Fapi%2Fproblems%2Falgorithms%2F
 	https://github.com/nomikura/atcoder-api (api for atcoder)
 	
-===
+---
+<br>
 
 ## Meeting 3 | *Jan 26*
 
