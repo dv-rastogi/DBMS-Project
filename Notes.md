@@ -83,7 +83,7 @@
 ---
 <br>
 
-## Meeting 3 | *Jan 26*
+## Meeting 3 | *Jan 26, 27, Feb 3*
 
 ### Ideas (Refined)
 	NAME OF WEBSITE: C0deb00k
@@ -101,6 +101,9 @@
 	KEY:
 	!! means its a utility / class
 	?? means its optional
+	^^ means its an action
+	[[]] denotes the visibility scope
+	// its a general comment
 
 	PARAMETERS & QUERIES:
 		User:
@@ -118,33 +121,52 @@
 					- Languages (User inputs)
 					- Tags
 					- Difficulties of problems
+					- Past contests ??
 				- Blogs !!
 				- Comments / Likes ??
 				- Groups
-				- Trust rating
+				- Trust rating [[ Admin ]]
 				- User experience (Strength & Weakness)
 				- Following people & followers
+				- Repo(s) !!
 			* Queries:
+				- What are my strenghts & weaknesses
+				- How many problems have I solved
+				- Difficulties of the problems I have solved
+				- Give me repos of certain tag
+				- User comparison (premium)
+				- Check my profile visits (premium)
 
-		Group Admin:
+		Group Admin "extends" User:
 			* Parameters:
-			
+				- Group !! [[group admin, group members, admin]]
+				- Pending Requests !! (User) [[group admin, admin]]
 			* Queries:
+				- Remove Users ^^
 
 		Recruiter:
 			* Parameters:
-			
+				- Identity !!
+				- list of preferred User !!
 			* Queries:
+		// access to database
 
 		Programming Organization:
 			* Parameters:
-			
+				- Identity !!
+				- Contests !!
+				- Premium / Non Premium
+					If premium
+						- Ads
+						- Surveys ?? 
 			* Queries:
-
+		// don't keep a copy of Users here
 		Admin:
 			* Parameters:
-			
+				- Identity !!
+				- Revenue
 			* Queries:
+				- Who all are premium users
 
 	UTILITIES:
 		Problems:
@@ -154,12 +176,16 @@
 			- Name
 			- Codeforces/Leetcode
 		Identity
-			- ID NO
+			- ID NO [[admin, self]]
 			- Username
 			- Name
 			- Location
-			- School/College
+			- School/College/Company Name
+			- Email [[self, recruiter, admin]]
 		Repo
+			- User !!
+			- Name like graphs
+			- Date
 			- Templates
 				- Name
 				- Language
@@ -167,7 +193,9 @@
 				- Problems !!
 			- Favourites
 				- Problems !!
-				- Solutions (User inputs)
+				- Solutions
+					- Author
+					- Language (User inputs)
 		Blogs
 			- Name
 			- Date
@@ -175,14 +203,22 @@
 			- Tag
 			- Content
 			- Comments / Likes ?? 
+		Contest
+			- Programming Organization name
+			- Name 
+			- Date
+			- Date of contest
+			- Content
 		Group
 			- Group Name
 			- Group size
 			- Date of formation
 			- Group admin !!
 			- Group members (Users !!)
-			- Average rating
+			- Average rating ??
 			- Blogs
+	
+	RELATIONSHPS:
 
 #### Tasks
 * Anoushka, Ritik & Divyansh : Flask, Create utilities to call a python fn and print its contents
