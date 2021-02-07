@@ -103,30 +103,33 @@
 	?? means its optional
 	^^ means its an action
 	[[]] denotes the visibility scope
+	&C means its composite attribute
+	&D means its a derived attribute
+	&Co means its a complex attribute
 	// its a general comment
 
 	PARAMETERS & QUERIES:
 		User:
 			* Parameters:
 				- Identity !!
-				- Premium / Non premium
+				- Premium / Non premium ?? (Boolean value)
 					If premium
 					- Check profile visits
 					- Check blog reads
 					- Notification for contests ??
 					- User comparison
-				- Codeforces ID, Leetcode ID
+				- Codeforces ID, Leetcode ID (A seperate table)
 					- Rating 
 					- Problems Solved !!
-					- Languages (User inputs)
 					- Tags
 					- Difficulties of problems
 					- Past contests ??
+				- Language (User inputs)
 				- Blogs !!
 				- Comments / Likes ??
 				- Groups
 				- Trust rating [[ Admin ]]
-				- User experience (Strength & Weakness)
+				- User experience (Strength & Weakness) (&D from problems)
 				- Following people & followers
 				- Repo(s) !!
 			* Queries:
@@ -149,13 +152,15 @@
 				- Identity !!
 				- list of preferred User !!
 			* Queries:
+				- Location
+				- Query for preferred users
 		// access to database
 
 		Programming Organization:
 			* Parameters:
 				- Identity !!
 				- Contests !!
-				- Premium / Non Premium
+				- Premium / Non Premium ?? 
 					If premium
 						- Ads
 						- Surveys ?? 
@@ -170,16 +175,21 @@
 
 	UTILITIES:
 		Problems:
+			- Problem ID
 			- Rating
 			- Tag
 			- Solves
 			- Name
-			- Codeforces/Leetcode
-		Identity
+			- Codeforces/Leetcode (&D from Problem ID)
+		Identity &C
 			- ID NO [[admin, self]]
 			- Username
-			- Name
-			- Location
+			- Password
+			- Name &C
+				- FirstName, LastName
+			- DOB &C
+				- Date, Month, Year
+			- Location &Co ??
 			- School/College/Company Name
 			- Email [[self, recruiter, admin]]
 		Repo
@@ -217,8 +227,6 @@
 			- Group members (Users !!)
 			- Average rating ??
 			- Blogs
-	
-	RELATIONSHPS:
 
 #### Tasks
 * Anoushka, Ritik & Divyansh : Flask, Create utilities to call a python fn and print its contents
@@ -238,3 +246,58 @@
 
 #### TODO
 	Complete PARAMETERS AND QUERIES
+
+
+---
+<br>
+
+## Meeting 4 | *Feb 7*
+
+#### Points to cover & todo
+* Decide entities and relationships
+* Refer week 2 slides, look for concepts
+
+#### Material
+* https://www.tutorialspoint.com/dbms/dbms_indexing.htm 
+* https://github.com/rhythm-3099/Codehorses-database-system
+* Sample projects
+- https://github.com/shash42/Online-University-Database/blob/main/phase_docs/phase1.pdf (Read relationships)
+- https://github.com/Groverkss/Dota2-Analyzer/blob/main/Phases/Project_Phase_-_I.pdf
+- https://github.com/rhythm-3099/Codehorses-database-system
+
+#### Key points noticed
+* Derived attributes on the basis, that if it's frequently queried, we shoudn't keep it derived.
+* Codeforces & Leetcode will be kept as seperate tables which are visible to coding organizations and they will be kept as a seperate relation table (https://stackoverflow.com/questions/163434/are-nulls-in-a-relational-database-okay/246621#:~:text=33%20Answers&text=Nulls%20are%20negatively%20viewed%20from,data%20is%20valid%20and%20valued.). Relation from user to a programming platform.
+* User to Repo is one to many relationship. Repo has user's primary key.
+* Search queries based on language (C++, Java ..)
+* Groups and user have many to many relationships. (relationship table with attribute as admin)
+* Group admin specializes from User
+* 'Roles' followers and following
+* Blog tables consists of primary key writer, primary key: User id + Blog id
+* Tags tablee would be linked with Codeforces and Leetcode table ?? (Indexing)
+* A blog would have a tag and problem would have a tag
+* Solves would be a relation between Problems and User with verdicts, Language as attributes
+* Premium & Non premium would be a seperate table (Indexing)
+* Pending relationships is a one to many relationship from group admin to user
+* list of preferred User is a one to many relationship from recruiter to user
+
+#### Entities
+
+* STRONG ENTITIES:
+- User
+- Group admin (specializes User)
+- Programming organization
+- Problem ?? (Maybe a weak entity)
+- Recruiter
+- Admin
+
+* WEAK ENTITES:
+- Group (User)
+- Blog (User)
+- Repos (User)
+- Contest (Programming organization) (Specializes from blog)
+- Tag (Blog, Problem, Strenghts and weaknesses, Repos)
+
+* RELATIONSHIPS:
+User - Programming Organization (Many to many)
+Tags - Problems (Many to Many)
