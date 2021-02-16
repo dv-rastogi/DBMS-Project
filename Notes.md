@@ -132,20 +132,28 @@
 				- User experience (Strength & Weakness) (&D from problems)
 				- Following people & followers
 				- Repo(s) !!
+				- Solved (&D)
+					- Hard
+					- Medium
+					- Easy 
+				- Profile visits
 			* Queries:
-				- What are my strenghts & weaknesses
-				- How many problems have I solved
-				- Difficulties of the problems I have solved
+				- Problems of certain tags & difficulties
 				- Give me repos of certain tag
 				- User comparison (premium)
+					- Number of problems solved
+					- Ratings
+					- Hard problems, Medium & Easy
+					- Tag wise comparison
 				- Check my profile visits (premium)
 
 		Group Admin "extends" User:
 			* Parameters:
 				- Group !! [[group admin, group members, admin]]
-				- Pending Requests !! (User) [[group admin, admin]]
 			* Queries:
 				- Remove Users ^^
+				- Pending requests
+				- Check user ratings
 
 		Recruiter:
 			* Parameters:
@@ -164,12 +172,14 @@
 					If premium
 						- Ads
 						- Surveys ?? 
+				- Revenue spent
+				- Users (With date of joining)
 			* Queries:
 		// don't keep a copy of Users here
 		Admin:
 			* Parameters:
 				- Identity !!
-				- Revenue
+				- Revenue (&D)
 			* Queries:
 				- Who all are premium users
 
@@ -189,6 +199,7 @@
 				- FirstName, LastName
 			- DOB &C
 				- Date, Month, Year
+			- Date of joining &C
 			- Location &Co ??
 			- School/College/Company Name
 			- Email [[self, recruiter, admin]]
@@ -212,7 +223,8 @@
 			- User !!
 			- Tag
 			- Content
-			- Comments / Likes ?? 
+			- Likes 
+			- Comments
 		Contest
 			- Programming Organization name
 			- Name 
@@ -227,6 +239,7 @@
 			- Group members (Users !!)
 			- Average rating ??
 			- Blogs
+			- Pending Requests !! (User) [[group admin, admin]]
 
 #### Tasks
 * Anoushka, Ritik & Divyansh : Flask, Create utilities to call a python fn and print its contents
@@ -251,7 +264,8 @@
 ---
 <br>
 
-## Meeting 4 | *Feb 7*
+## Meeting 4 | *Feb 7, Feb 12*
+DOC CREATED "DBMS QUERIES"
 
 #### Points to cover & todo
 * Decide entities and relationships
@@ -274,12 +288,15 @@
 * Group admin specializes from User
 * 'Roles' followers and following
 * Blog tables consists of primary key writer, primary key: User id + Blog id
-* Tags tablee would be linked with Codeforces and Leetcode table ?? (Indexing)
+* Tags tables would be linked with Codeforces and Leetcode table ?? (Indexing) (Refer UserVsProblems.png)
 * A blog would have a tag and problem would have a tag
 * Solves would be a relation between Problems and User with verdicts, Language as attributes
 * Premium & Non premium would be a seperate table (Indexing)
 * Pending relationships is a one to many relationship from group admin to user
 * list of preferred User is a one to many relationship from recruiter to user
+* Leetcode data is updated everytime whenever a user logins else kept static.
+* Group is related to user with a 'member of' relationship with attribute date of joining & vvvv similarly for a programming organization to a user.
+* WE QUERY OVER DYNAMIC DATA. Static data like Strenght's and Weaknesses need not be queried.
 
 #### Entities
 
@@ -296,8 +313,11 @@
 - Blog (User)
 - Repos (User)
 - Contest (Programming organization) (Specializes from blog)
-- Tag (Blog, Problem, Strenghts and weaknesses, Repos)
+- Tag (Blog, Problem, Strenghts and weaknesses, Repos) ?? (Shouldn't be an entity)
 
 * RELATIONSHIPS:
 User - Programming Organization (Many to many)
-Tags - Problems (Many to Many)
+Pending Requests (Group to user) (Many)
+
+#### Todo
+* Ramit - See specialization in mySQL
