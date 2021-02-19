@@ -2,7 +2,10 @@ import requests
 import json
 
 
+# TODO: Read json and create essential filter for the same
+
 BASE_CF = "https://codeforces.com/api"
+UNIV_TAGS = ["graphs", "dp", "binary search", "greedy", "implementation", "data structures", "brute force", "math", "strings", "number theory"]
 
 
 def get_data_cf(uri):
@@ -40,7 +43,7 @@ def get_cf_problems(tags: list):
 	uri = BASE_CF + "/problemset.problems?tags=" + tag_str
 	return get_data_cf(uri)
 
-
+# BUG
 def get_cf_user_status(username: str):
 	'''
 	return user's submissions from cf
@@ -50,4 +53,4 @@ def get_cf_user_status(username: str):
 
 
 if __name__ == "__main__":
-    print(get_cf_problems(["dp", "binary search"]))
+    print(get_cf_info("tourist"))
