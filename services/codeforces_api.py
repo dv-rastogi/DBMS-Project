@@ -53,4 +53,4 @@ def get_cf_user_status(username: str):
 
 
 if __name__ == "__main__":
-    print(get_cf_info("tourist"))
+    print(get_cf_user_status("tourist"))
