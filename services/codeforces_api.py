@@ -41,6 +41,7 @@ def get_cf_info(username: str):
 	return get_data_cf(uri)
 
 
+# For modelling entity Problems
 def get_cf_problems(tags: list):
 	'''
 	returns problem set of cf on basis of tags
@@ -54,18 +55,35 @@ def get_cf_problems(tags: list):
 		else:
 			return "Hard"
 
-	def get_cf_tag_problem(tag : str):
-
+	def get_cf_tag_problems(tag : str):
+		'''
+		return problems of specific tag
+		'''
 		uri = BASE_CF + "/problemset.problems?tags=" + tag
 		return get_data_cf(uri)["result"]["problems"]
-	
+
 	result = {}
+	for tag in UNIV_TAGS:
+		problem_set = get_cf_tag_problems(tag)
+		for problem in problem_set[:200]:
+			if "rating" not in problem:
+					continue
+			if problem["name"] in result:
+				result[problem["name"]]["Tags"].append(tag)
+			else:
+				dic = dict()
+				dic["Name"] = str(problem["name"])
+				dic["Tags"] = [tag]
+				dic["Difficulty"] = ratingFilter(problem["rating"])
+				result[dic["Name"]] = dic
+	return result
+
 
 # For modelling relationship SOLVED
 def get_cf_user_status(username: str):
 	'''
 	return user's submissions from cf
-	select problem name, language, time of submission
+	select problem name (key), language, time of submission
 	'''
 	uri = BASE_CF + "/user.status?handle=" + username
 	submissions = get_data_cf(uri)["result"]
@@ -101,9 +119,9 @@ def get_cf_user_status(username: str):
 				dic["Name"] =  submission["problem"]["name"]
 				dic["Language"] = getLanguage(submission["programmingLanguage"])
 				dic["Date"] = convertUnixTime(submission["creationTimeSeconds"])
-				result[submission["id"]] = dic
+				result[dic["Name"]] = dic
 	return result
 
 
 if __name__ == "__main__":
-    print(get_cf_user_status("Obamium"))
+    print(str(get_cf_problems(UNIV_TAGS)))
