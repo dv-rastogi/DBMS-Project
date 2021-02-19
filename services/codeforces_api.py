@@ -1,29 +1,35 @@
 import requests
 import json
-
+import datetime
+import random
 
 # TODO: Read json and create essential filter for the same
 
 BASE_CF = "https://codeforces.com/api"
 UNIV_TAGS = ["graphs", "dp", "binary search", "greedy", "implementation", "data structures", "brute force", "math", "strings", "number theory"]
+UNIV_LANG = ["C++",  "C#", "C", "Python", "Java", "JavaScript", "Kotlin"]
 
 
 def get_data_cf(uri):
 	'''
 	returns json response to specific uri
 	'''
-	response = None
 	try:
 		response = requests.get(uri)
-	except requests.ConnectionError:
-		print("ConnectionError")
+	except Exception as e:
+		print("Failed in request")
+		print(e)
 		return
-	except Exception:
-		print("Exception occured")
-		print(response)
-		return
+
 	j_response = response.text
-	data = json.loads(j_response)
+	try:
+		data = json.loads(j_response)
+		if data["status"] != "OK":
+			raise Exception("Status != OK")
+	except Exception as e:
+		print("Failed json load")
+		print(e)
+	
 	return data
 
 
@@ -39,18 +45,65 @@ def get_cf_problems(tags: list):
 	'''
 	returns problem set of cf on basis of tags
 	'''
-	tag_str = ';'.join(tags)
-	uri = BASE_CF + "/problemset.problems?tags=" + tag_str
-	return get_data_cf(uri)
 
-# BUG
+	def ratingFilter(rating: int):
+		if rating < 1600:
+			return "Easy"
+		elif rating < 2100:
+			return "Medium"
+		else:
+			return "Hard"
+
+	def get_cf_tag_problem(tag : str):
+
+		uri = BASE_CF + "/problemset.problems?tags=" + tag
+		return get_data_cf(uri)["result"]["problems"]
+	
+	result = {}
+
+# For modelling relationship SOLVED
 def get_cf_user_status(username: str):
 	'''
 	return user's submissions from cf
+	select problem name, language, time of submission
 	'''
-	uri = BASE_CF + "user.status?handle=" + username
-	return get_data_cf(uri)
+	uri = BASE_CF + "/user.status?handle=" + username
+	submissions = get_data_cf(uri)["result"]
+	# print(submissions)
+
+	def okTags(tags: list):
+		for tag in tags:
+			if tag in UNIV_TAGS:
+				return True
+		return False
+
+	def convertUnixTime(unixTime: int):
+		return str(datetime.datetime.utcfromtimestamp(unixTime).strftime('%Y-%m-%d %H:%M:%S'))
+	
+	def getLanguage(language: str):
+		'''
+		Convert submission lang into one of UNIV_LANG & if not found, return random
+		'''
+		for lang in UNIV_LANG:
+			if language.find(lang) != -1:
+				return lang
+			if lang == "Python":
+				if language.find("Pypy") != -1:
+					return "Python"
+		return random.choice(UNIV_LANG)
+
+	result = {}
+	# Extract "OK" verdicts
+	for submission in submissions:
+		if (submission["verdict"] == "OK"):
+			if okTags(submission["problem"]["tags"]):
+				dic = dict()
+				dic["Name"] =  submission["problem"]["name"]
+				dic["Language"] = getLanguage(submission["programmingLanguage"])
+				dic["Date"] = convertUnixTime(submission["creationTimeSeconds"])
+				result[submission["id"]] = dic
+	return result
 
 
 if __name__ == "__main__":
-    print(get_cf_user_status("tourist"))
+    print(get_cf_user_status("Obamium"))
