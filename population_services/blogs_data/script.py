@@ -5,6 +5,9 @@ import random
 import datetime
 
 
+UNIV_TAGS = ["graphs", "dp", "binary search", "greedy", "implementation", "data structures", "brute force", "math", "strings", "number theory"]
+
+
 def random_date(start, end):
     """
     This function will return a random datetime between two datetime
@@ -67,5 +70,30 @@ def form_blogs():
 	df.to_csv('../../tables/blogs.csv', index=False)
 
 
+# form blogs tags, blogs.csv needs to exist
+def form_blogs_tags():
+
+	dfb = pd.read_csv('../../tables/blogs.csv')
+
+	res = {
+		"ID": [],
+		"Name": [],
+		"Date": [],
+		"Tag": []
+	}
+
+	for idx in dfb.index:
+		pick = random.sample(UNIV_TAGS, random.randint(1, 5))
+		for tag in pick:
+			res["ID"].append(dfb["ID"][idx])
+			res["Name"].append(dfb["Name"][idx])
+			res["Date"].append(dfb["Date"][idx])
+			res["Tag"].append(tag)
+	
+	df = pd.DataFrame.from_dict(res)
+	print(df.head())
+	df.to_csv('../../tables/blogs_tags.csv')
+			
+
 if __name__ == "__main__":		
-	form_blogs()
+	form_blogs_tags()
