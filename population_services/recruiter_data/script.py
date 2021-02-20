@@ -133,7 +133,7 @@ def form_recruiter_preferred():
     print(df.head())
     df.to_csv('../../tables/preferred.csv', index=False)
 
-# TODO
+
 # First form recruiters.csv & users.csv & preferred.csv
 def form_recruiter_recruited():
     '''
@@ -141,14 +141,24 @@ def form_recruiter_recruited():
     '''
     dfr = pd.read_csv('../../tables/recruiters.csv')
     dfu = pd.read_csv('../../tables/users.csv')
-    preferred = pd.read_csv('../../tables/preferred.csv')
+    dfp = pd.read_csv('../../tables/preferred.csv')
+
+    preferred = dict()
+    for idx in dfp.index:
+        if dfp["Recruiter_ID"][idx] in preferred:
+            preferred[dfp["Recruiter_ID"][idx]].append(dfp["User_ID"][idx]) 
+        else:
+            preferred[dfp["Recruiter_ID"][idx]] = [dfp["User_ID"][idx]]
 
     dr = dict(dfr)
     du = dict(dfu)
     
     drID = dict(dr["ID"])
     drDate = dict(dr["DateOfJoining"])
-    res = {"Recruiter_ID": [], "User_ID": []}
+    res = {"Recruiter_ID": [], "User_ID": [], "DateOfRecruitment": []}
+
+    dHigh = datetime.strptime('1/1/2021 1:30 PM', '%m/%d/%Y %I:%M %p')
+
     for recruiter in drID:
         date_r = datetime.strptime(drDate[recruiter], "%d-%m-%Y")
         collected = []
@@ -157,13 +167,16 @@ def form_recruiter_recruited():
         for idx in duDate:
             date_u = datetime.strptime(duDate[idx], "%d-%m-%Y")
             if date_u > date_r:
-                collected.append(duID[idx])
+                collected.append((duID[idx], date_u))
         
-        sz_prefer = random.randint(0, min(len(collected), 5))
-        prefer = random.sample(collected, sz_prefer)
-        for x in prefer:  
+        sz_recruit = random.randint(0, min(len(collected), 10))
+        recruit = random.sample(collected, sz_recruit)
+        for x in recruit:
+            if (drID[recruiter] in preferred) and (x[0] in preferred[drID[recruiter]]):
+                continue  
             res["Recruiter_ID"].append(drID[recruiter])
-            res["User_ID"].append(x)
+            res["User_ID"].append(x[0])
+            res["DateOfRecruitment"].append(random_date(x[1], dHigh).date().strftime("%d-%m-%Y"))
 
     df = pd.DataFrame.from_dict(res)
     print(df.head())
