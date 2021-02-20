@@ -219,6 +219,10 @@ def get_cf_problems(tags: list):
 				result[dic["Name"]] = dic
 	return result
 
+# forms problems.csv
+def form_problems_cf():
+	probs = get_cf_problems(UNIV_TAGS)
+
 
 # For modelling relationship SOLVED
 def get_cf_user_status(username: str):
@@ -265,4 +269,4 @@ def get_cf_user_status(username: str):
 
 
 if __name__ == "__main__":
-    form_cf_users()
+    form_problems_cf()

@@ -1,9 +1,24 @@
 import os
 from functools import reduce
+from random_word import RandomWords
 import pandas as pd
+import datetime
+import random
 
 UNIV_LANG = ["C++",  "C#", "C", "Python", "Java", "JavaScript", "Kotlin"]
 UNIV_MAP = {"cpp": "C++", "cs": "C", "c": "C", "py": "Python", "java": "Java", "js": "JavaScript", "kt": "Kotlin"}
+
+
+def random_date(start, end):
+    """
+    This function will return a random datetime between two datetime
+    objects.
+    """
+    delta = end - start
+    int_delta = (delta.days * 24 * 60 * 60) + delta.seconds
+    random_second = random.randrange(int_delta)
+    return start + datetime.timedelta(seconds=random_second)
+
 
 def get_directory_structure(rootdir: str):
     """
@@ -34,8 +49,8 @@ res = {
     "Content": []
     }
 
-# Generate Template table (Need to add user PK)
-if __name__ == "__main__":
+# Forms templates.csv, Generate Template table (Need to add user PK)
+def form_template_data():
     req = dict(get_directory_structure(os.getcwd())) # get current working directory
     req = req[list(req.keys())[0]]["CSES-Solutions"]
     for tag in req.keys():
@@ -64,3 +79,35 @@ if __name__ == "__main__":
     df = pd.DataFrame.from_dict(res)
     print(df.head())
     df.to_csv("templates.csv", index=False)
+
+
+# Forms repository.csv needs users.csv
+def form_repository():
+    rand = RandomWords()
+    dfu = pd.read_csv('../../tables/users.csv')
+    
+    dHigh = datetime.datetime.strptime('1/1/2021 1:30 PM', '%m/%d/%Y %I:%M %p')
+
+    res = {
+        "ID": [],
+        "Name": [], 
+        "Date": []
+    }
+    for idx in dfu.index:
+        print("Forming", dfu["ID"][idx])
+        titles = rand.get_random_words(hasDictionaryDef="true", minLength = 5, maxLength = 10)
+        if titles is None:
+            continue
+        for name in titles[:random.randint(1, 4)]:
+            res["ID"].append(dfu["ID"][idx])
+            res["Name"].append(name)
+            dLow = datetime.datetime.strptime(dfu['DateOfJoining'][idx] + ' 1:30 PM', '%d-%m-%Y %I:%M %p')
+            res["Date"].append(random_date(dLow, dHigh).date().strftime("%d-%m-%Y"))
+
+    df = pd.DataFrame.from_dict(res)
+    print(df.head())
+    df.to_csv("../../tables/repository.csv", index=False)
+
+
+if __name__ == "__main__":
+    form_repository()
