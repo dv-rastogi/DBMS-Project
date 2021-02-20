@@ -28,7 +28,7 @@ def get_rand_locations():
     return result
 
 
-def get_name_email_loc():
+def form_name_email_loc():
     '''
     returns first_name, last_name & email zipped
     '''  
@@ -95,11 +95,81 @@ def get_name_email_loc():
         res["DateOfJoining"].append(random_date(dLow, dHigh).date().strftime("%d-%m-%Y")) # Format date here
 
     assert (len(res["ID"]) == LIM)
-    return res
+    df = pd.DataFrame.from_dict(res)
+    print(df.head())
+    df.to_csv("../../tables/recruiters.csv", index=False)
+
+# First form recruiters.csv & users.csv
+def form_recruiter_preferred():
+    '''
+    forms preferred relationship, only if user has joined after recruiter
+    '''
+    dfr = pd.read_csv('../../tables/recruiters.csv')
+    dfu = pd.read_csv('../../tables/users.csv')
+
+    dr = dict(dfr)
+    du = dict(dfu)
+    
+    drID = dict(dr["ID"])
+    drDate = dict(dr["DateOfJoining"])
+    res = {"Recruiter_ID": [], "User_ID": []}
+    for recruiter in drID:
+        date_r = datetime.strptime(drDate[recruiter], "%d-%m-%Y")
+        collected = []
+        duDate = dict(du["DateOfJoining"])
+        duID = dict(du["ID"])
+        for idx in duDate:
+            date_u = datetime.strptime(duDate[idx], "%d-%m-%Y")
+            if date_u > date_r:
+                collected.append(duID[idx])
+        
+        sz_prefer = random.randint(0, min(len(collected), 5))
+        prefer = random.sample(collected, sz_prefer)
+        for x in prefer:  
+            res["Recruiter_ID"].append(drID[recruiter])
+            res["User_ID"].append(x)
+
+    df = pd.DataFrame.from_dict(res)
+    print(df.head())
+    df.to_csv('../../tables/preferred.csv', index=False)
+
+# TODO
+# First form recruiters.csv & users.csv & preferred.csv
+def form_recruiter_recruited():
+    '''
+    forms preferred relationship, only if user has joined after recruiter
+    '''
+    dfr = pd.read_csv('../../tables/recruiters.csv')
+    dfu = pd.read_csv('../../tables/users.csv')
+    preferred = pd.read_csv('../../tables/preferred.csv')
+
+    dr = dict(dfr)
+    du = dict(dfu)
+    
+    drID = dict(dr["ID"])
+    drDate = dict(dr["DateOfJoining"])
+    res = {"Recruiter_ID": [], "User_ID": []}
+    for recruiter in drID:
+        date_r = datetime.strptime(drDate[recruiter], "%d-%m-%Y")
+        collected = []
+        duDate = dict(du["DateOfJoining"])
+        duID = dict(du["ID"])
+        for idx in duDate:
+            date_u = datetime.strptime(duDate[idx], "%d-%m-%Y")
+            if date_u > date_r:
+                collected.append(duID[idx])
+        
+        sz_prefer = random.randint(0, min(len(collected), 5))
+        prefer = random.sample(collected, sz_prefer)
+        for x in prefer:  
+            res["Recruiter_ID"].append(drID[recruiter])
+            res["User_ID"].append(x)
+
+    df = pd.DataFrame.from_dict(res)
+    print(df.head())
+    df.to_csv('../../tables/recruited.csv', index=False)
 
 
 if __name__ == "__main__":
-    result = get_name_email_loc()
-    df = pd.DataFrame.from_dict(result)
-    print(df.head())
-    df.to_csv("../../tables/recruiters.csv", index=False)
+    form_recruiter_recruited()   
+    
