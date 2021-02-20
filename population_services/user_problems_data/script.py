@@ -12,6 +12,28 @@ UNIV_LANG = ["C++",  "C#", "C", "Python", "Java", "JavaScript", "Kotlin"]
 USERS_LIM = 300
 NAME_LIM = 50
 
+
+def get_leetcode_data():
+	'''
+	IMP Need to login first
+	Returns json of logged in user
+	'''
+	uri = "https://leetcode.com/api/problems/algorithms/"
+	response = None
+	try:
+		response = requests.get(uri)
+	except requests.ConnectionError:
+		print("ConnectionError")
+		return
+	except Exception:
+		print("Exception occured")
+		print(response)
+		return
+	j_response = response.text
+	data = json.loads(j_response)
+	return data
+
+
 def get_data_cf(uri):
 	'''
 	returns json response to specific uri
