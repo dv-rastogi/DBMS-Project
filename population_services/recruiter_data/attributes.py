@@ -102,4 +102,4 @@ if __name__ == "__main__":
     result = get_name_email_loc()
     df = pd.DataFrame.from_dict(result)
     print(df.head())
-    df.to_csv("recruiter.csv", index=False)
+    df.to_csv("../../tables/recruiters.csv", index=False)

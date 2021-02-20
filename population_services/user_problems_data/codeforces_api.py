@@ -91,7 +91,7 @@ def form_cf_users():
 
 	# random cities 
 	# NOTE: Form recruiter.csv before User
-	df = pd.read_csv('../recruiter_data/recruiter.csv')
+	df = pd.read_csv('../../tables/recruiters.csv')
 	locations = list(zip(list(df["Location_City"]), list(df["Location_Country"])))
 
 	# Date of birth
@@ -158,7 +158,7 @@ def form_cf_users():
 	
 	df = pd.DataFrame.from_dict(res)
 	print(df.tail())
-	df.to_csv("users.csv", index=False)
+	df.to_csv("../../tables/users.csv", index=False)
 
 
 # For modelling entity Problems

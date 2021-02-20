@@ -1,0 +1,6 @@
+All tables are to be saved and referenced from ../tables
+Order of formation:
+1. Recruiters
+2. Users
+3. Recruiter_Prefers_Users
+4. Recruiter_Recruits_Users
