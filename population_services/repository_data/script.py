@@ -129,20 +129,30 @@ def form_repo_templates():
         "Template_Content": []
     }
 
+    # to avoid duplicacy
+    done = {}
     for idx in dfr.index:
+        print("Formed", idx)
         if len(left) == 0:
             break
         here = random.sample(left, random.randint(1, min(len(left), 5)))
         left = [x for x in left if x not in here]  # remove elements
         for selected in here:
-            res["ID"].append(dfr["ID"][idx])
-            res["Name"].append(dfr["Name"][idx])
-            res["Template_Name"].append(dft["Name"][selected])
-            res["Template_Language"].append(dft["Language"][selected])
-            x = None
-            while x is None:
-                x = rand.get_random_words(hasDictionaryDef="true", minLength=5, maxLength=10)
-            content = ' '.join(x)
+            w = dfr["ID"][idx]
+            x = dfr["Name"][idx]
+            y = dft["Name"][selected]
+            z = dft["Language"][selected]
+            if (w, x, y, z) in done:
+                continue
+            res["ID"].append(w)
+            res["Name"].append(x)
+            res["Template_Name"].append(y)
+            res["Template_Language"].append(z)
+            done[(w, x, y, z)] = True
+            a = None
+            while a is None:
+                a = rand.get_random_words(hasDictionaryDef="true", minLength=5, maxLength=10)
+            content = ' '.join(a)
             res["Template_Content"].append(content)
 
     df = pd.DataFrame.from_dict(res)
@@ -257,6 +267,6 @@ def form_repo_tags():
 if __name__ == "__main__":
     # form_repository()
     form_repo_templates()
-# form_favourites()
-# form_todo()
-# form_repo_tags()
+    # form_favourites()
+    # form_todo()
+    # form_repo_tags()
