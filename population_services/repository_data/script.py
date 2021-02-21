@@ -5,9 +5,11 @@ import pandas as pd
 import datetime
 import random
 
-UNIV_LANG = ["C++",  "C#", "C", "Python", "Java", "JavaScript", "Kotlin"]
+UNIV_LANG = ["C++", "C#", "C", "Python", "Java", "JavaScript", "Kotlin"]
 UNIV_MAP = {"cpp": "C++", "cs": "C", "c": "C", "py": "Python", "java": "Java", "js": "JavaScript", "kt": "Kotlin"}
-UNIV_TAGS = ["graphs", "dp", "binary search", "greedy", "implementation", "data structures", "brute force", "math","strings", "number theory"]
+UNIV_TAGS = ["graphs", "dp", "binary search", "greedy", "implementation", "data structures", "brute force", "math",
+             "strings", "number theory"]
+
 
 def random_date(start, end):
     """
@@ -34,6 +36,7 @@ def get_directory_structure(rootdir: str):
         parent[folders[-1]] = subdir
     return dir
 
+
 def getLang(lang: str):
     idx = lang.rfind('.')
     if idx == -1:
@@ -43,15 +46,17 @@ def getLang(lang: str):
         return None
     return UNIV_MAP[ext]
 
+
 res = {
     "Name": [],
     "Language": [],
     "Content": []
-    }
+}
+
 
 # Forms templates.csv, Generate Template table (Need to add user PK)
 def form_template_data():
-    req = dict(get_directory_structure(os.getcwd())) # get current working directory
+    req = dict(get_directory_structure(os.getcwd()))  # get current working directory
     req = req[list(req.keys())[0]]["CSES-Solutions"]
     for tag in req.keys():
         for problem in req[tag].keys():
@@ -62,10 +67,10 @@ def form_template_data():
                 problem_name = problem
                 if problem_name.find('(') != -1:
                     problem_name = problem[:problem.find('(') - 1]
-                
+
                 # get Lang
                 problem_lang = getLang(solution)
-                
+
                 # get Content
                 f = open(path, "r")
                 problem_content = f.read()
@@ -85,17 +90,17 @@ def form_template_data():
 def form_repository():
     rand = RandomWords()
     dfu = pd.read_csv('../../tables/users.csv')
-    
+
     dHigh = datetime.datetime.strptime('1/1/2021 1:30 PM', '%m/%d/%Y %I:%M %p')
 
     res = {
         "ID": [],
-        "Name": [], 
+        "Name": [],
         "Date": []
     }
     for idx in dfu.index:
         print("Forming", dfu["ID"][idx])
-        titles = rand.get_random_words(hasDictionaryDef="true", minLength = 5, maxLength = 10)
+        titles = rand.get_random_words(hasDictionaryDef="true", minLength=5, maxLength=10)
         if titles is None:
             continue
         for name in titles[:random.randint(1, 4)]:
@@ -111,6 +116,7 @@ def form_repository():
 
 # Needs repository.csv to exist
 def form_repo_templates():
+    rand = RandomWords()
     dfr = pd.read_csv('../../tables/repository.csv')
     dft = pd.read_csv('templates.csv')
     left = list(range(0, len(dft.index)))
@@ -127,13 +133,17 @@ def form_repo_templates():
         if len(left) == 0:
             break
         here = random.sample(left, random.randint(1, min(len(left), 5)))
-        left = [x for x in left if x not in here] # remove elements
+        left = [x for x in left if x not in here]  # remove elements
         for selected in here:
             res["ID"].append(dfr["ID"][idx])
             res["Name"].append(dfr["Name"][idx])
             res["Template_Name"].append(dft["Name"][selected])
             res["Template_Language"].append(dft["Language"][selected])
-            res["Template_Content"].append(dft["Content"][selected])
+            x = None
+            while x is None:
+                x = rand.get_random_words(hasDictionaryDef="true", minLength=5, maxLength=10)
+            content = ' '.join(x)
+            res["Template_Content"].append(content)
 
     df = pd.DataFrame.from_dict(res)
     print(df.head())
@@ -147,7 +157,7 @@ def form_favourites():
     length = len((readprob.to_dict())["Problem_ID"])
 
     res = {
-        "Users_ID": [], 
+        "Users_ID": [],
         "Name": [],
         "Problem_ID": []
     }
@@ -158,7 +168,7 @@ def form_favourites():
     for i in readrep.index:
         prob = random.randint(2, 6)
         for j in range(1, prob + 1):
-            id = random.randint(0, length-1)
+            id = random.randint(0, length - 1)
             x = readrep["ID"][i]
             y = readrep["Name"][i]
             z = readprob["Problem_ID"][id]
@@ -183,18 +193,18 @@ def form_todo():
     length = len((readprob.to_dict())["Problem_ID"])
 
     res = {
-        "Users_ID": [], 
+        "Users_ID": [],
         "Name": [],
         "Problem_ID": []
     }
-    
+
     # To avoid duplicacy
     done = {}
 
     for i in readrep.index:
         prob = random.randint(2, 6)
         for j in range(1, prob + 1):
-            id = random.randint(0, length-1)
+            id = random.randint(0, length - 1)
             x = readrep["ID"][i]
             y = readrep["Name"][i]
             z = readprob["Problem_ID"][id]
@@ -217,17 +227,17 @@ def form_repo_tags():
     readrep = pd.read_csv('../../tables/repository.csv')
 
     res = {
-        "User_ID": [], 
-        "Name": [], 
+        "User_ID": [],
+        "Name": [],
         "Tag": []
-        }
+    }
 
     # To avoid duplicacy
     done = {}
     for i in readrep.index:
         numofTags = random.randint(1, 5)
         for j in range(0, numofTags):
-            id = random.randint(0, len(UNIV_TAGS)-1)
+            id = random.randint(0, len(UNIV_TAGS) - 1)
             x = readrep["ID"][i]
             y = readrep["Name"][i]
             z = UNIV_TAGS[id]
@@ -246,7 +256,7 @@ def form_repo_tags():
 
 if __name__ == "__main__":
     # form_repository()
-    # form_repo_templates()
-    # form_favourites()
-    # form_todo()
-    form_repo_tags()
+    form_repo_templates()
+# form_favourites()
+# form_todo()
+# form_repo_tags()
