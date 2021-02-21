@@ -109,5 +109,37 @@ def form_repository():
     df.to_csv("../../tables/repository.csv", index=False)
 
 
+# Needs repository.csv to exist
+def form_repo_templates():
+    dfr = pd.read_csv('../../tables/repository.csv')
+    dft = pd.read_csv('templates.csv')
+    left = list(range(0, len(dft.index)))
+
+    res = {
+        "ID": [],
+        "Name": [],
+        "Template_Name": [],
+        "Template_Language": [],
+        "Template_Content": []
+    }
+
+    for idx in dfr.index:
+        if len(left) == 0:
+            break
+        here = random.sample(left, random.randint(1, min(len(left), 5)))
+        left = [x for x in left if x not in here] # remove elements
+        for selected in here:
+            res["ID"].append(dfr["ID"][idx])
+            res["Name"].append(dfr["Name"][idx])
+            res["Template_Name"].append(dft["Name"][selected])
+            res["Template_Language"].append(dft["Language"][selected])
+            res["Template_Content"].append(dft["Content"][selected])
+
+    df = pd.DataFrame.from_dict(res)
+    print(df.head())
+    df.to_csv('../../tables/repo_templates.csv', index=False)
+
+
 if __name__ == "__main__":
-    form_repository()
+    # form_repository()
+    form_repo_templates()
