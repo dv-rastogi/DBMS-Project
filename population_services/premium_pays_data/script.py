@@ -28,14 +28,5 @@ def form_premium_pays():
     df = pd.DataFrame.from_dict(res)
     print(df.head())
     df.to_csv('../../tables/premium_users_paysto.csv', index=False)
-
-
-
-
-
-
-
-
-
 if __name__ == "__main__":
     form_premium_pays()
