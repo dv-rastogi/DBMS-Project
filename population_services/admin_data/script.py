@@ -6,7 +6,6 @@ def form_admin():
     res = {
         "Role": ["Technical", "General", "Financial", "Support", "Senior", "Domain", "Signatory", "Advertisement", "HR",
                  "Global", "User"]
-        , "Revenue": []
         , "Email": ["Technical@codebook.com",
                     "General@codebook.com",
                     "Financial@codebook.com",
@@ -18,9 +17,6 @@ def form_admin():
                     "HR@codebook.com",
                     "Global@codebook.com",
                     "User@codebook.com"]}
-
-    for i in range(11):
-        res["Revenue"].append(random.randint(2000,10000))
     print(res)
     df = pd.DataFrame.from_dict(res)
     print(df.head())
