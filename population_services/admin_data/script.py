@@ -4,8 +4,8 @@ import random
 
 def form_admin():
     res = {
-        "Role": ["Technical", "General", "Financial", "Support", "Senior", "Domain", "Signatory", "Advertisement", "HR",
-                 "Global", "User"]
+        "Role": ["Technical", "General", "Financial", "Support", "Senior", "Domain", "Premium", "Advertisement", "HR",
+                 "Global", "User","Organisation"]
         , "Email": ["Technical@codebook.com",
                     "General@codebook.com",
                     "Financial@codebook.com",
@@ -16,7 +16,8 @@ def form_admin():
                     "Advertisement@codebook.com",
                     "HR@codebook.com",
                     "Global@codebook.com",
-                    "User@codebook.com"]}
+                    "User@codebook.com",
+                    "Organisation@codebook.com"]}
     print(res)
     df = pd.DataFrame.from_dict(res)
     print(df.head())
