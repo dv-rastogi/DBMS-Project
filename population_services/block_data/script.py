@@ -20,8 +20,8 @@ def form_block():
 
     users_read = pd.read_csv('../../tables/users.csv')
     blocked_users = users_read.sample(n=20, replace=False)
-    l = ["Technical", "General", "Financial", "Support", "Senior", "Domain", "Signatory", "Advertisement", "HR",
-         "Global", "User"]
+    l = ["Technical", "General", "Financial", "Support", "Senior", "Domain", "Premium", "Advertisement", "HR",
+         "Global", "User","Organisation"]
     for idx in blocked_users.index:
         res["User_ID"].append(users_read["ID"][idx])
         res["Admin_Role"].append(l[random.randint(0,10)])
