@@ -1,0 +1,1972 @@
+,Problem_ID,Tag
+0,1,graphs
+1,1,greedy
+2,1,implementation
+3,1,data structures
+4,1,brute force
+5,2,graphs
+6,2,greedy
+7,2,implementation
+8,2,brute force
+9,2,math
+10,3,graphs
+11,3,math
+12,3,number theory
+13,4,graphs
+14,4,greedy
+15,4,implementation
+16,4,brute force
+17,5,graphs
+18,5,data structures
+19,5,strings
+20,6,graphs
+21,6,dp
+22,6,greedy
+23,7,graphs
+24,8,graphs
+25,8,math
+26,9,graphs
+27,10,graphs
+28,10,dp
+29,10,binary search
+30,10,implementation
+31,10,data structures
+32,11,graphs
+33,11,greedy
+34,12,graphs
+35,12,math
+36,12,number theory
+37,13,graphs
+38,13,dp
+39,14,graphs
+40,14,dp
+41,15,graphs
+42,15,dp
+43,15,greedy
+44,15,math
+45,16,graphs
+46,16,greedy
+47,16,math
+48,17,graphs
+49,17,implementation
+50,17,data structures
+51,18,graphs
+52,18,greedy
+53,19,graphs
+54,20,graphs
+55,20,greedy
+56,20,data structures
+57,21,graphs
+58,21,implementation
+59,22,graphs
+60,22,greedy
+61,22,implementation
+62,22,brute force
+63,22,math
+64,23,graphs
+65,24,graphs
+66,25,graphs
+67,25,data structures
+68,26,graphs
+69,26,greedy
+70,26,implementation
+71,27,graphs
+72,27,greedy
+73,28,graphs
+74,28,data structures
+75,29,graphs
+76,29,greedy
+77,30,graphs
+78,30,binary search
+79,30,greedy
+80,31,graphs
+81,31,brute force
+82,32,graphs
+83,32,implementation
+84,33,graphs
+85,33,dp
+86,33,math
+87,34,graphs
+88,35,graphs
+89,36,graphs
+90,36,data structures
+91,37,graphs
+92,38,graphs
+93,38,binary search
+94,39,graphs
+95,40,graphs
+96,40,dp
+97,41,graphs
+98,41,greedy
+99,41,data structures
+100,42,graphs
+101,42,implementation
+102,42,data structures
+103,43,graphs
+104,43,binary search
+105,43,implementation
+106,43,data structures
+107,44,graphs
+108,44,dp
+109,44,greedy
+110,45,graphs
+111,46,graphs
+112,46,dp
+113,46,greedy
+114,47,graphs
+115,47,dp
+116,47,data structures
+117,48,graphs
+118,49,graphs
+119,49,data structures
+120,50,graphs
+121,50,binary search
+122,50,data structures
+123,51,graphs
+124,51,dp
+125,52,graphs
+126,52,math
+127,53,graphs
+128,53,brute force
+129,54,graphs
+130,54,greedy
+131,55,graphs
+132,55,dp
+133,55,math
+134,56,graphs
+135,56,dp
+136,56,data structures
+137,57,graphs
+138,57,implementation
+139,57,data structures
+140,58,graphs
+141,58,graphs
+142,58,dp
+143,59,graphs
+144,60,graphs
+145,60,brute force
+146,61,graphs
+147,61,dp
+148,62,graphs
+149,62,strings
+150,63,graphs
+151,63,implementation
+152,64,graphs
+153,64,brute force
+154,65,graphs
+155,65,binary search
+156,66,graphs
+157,66,binary search
+158,67,graphs
+159,67,data structures
+160,68,graphs
+161,69,graphs
+162,69,dp
+163,70,graphs
+164,70,dp
+165,70,brute force
+166,70,number theory
+167,71,graphs
+168,71,implementation
+169,72,graphs
+170,72,dp
+171,72,binary search
+172,73,graphs
+173,73,implementation
+174,74,graphs
+175,75,graphs
+176,75,binary search
+177,76,graphs
+178,77,graphs
+179,77,dp
+180,78,graphs
+181,79,graphs
+182,79,dp
+183,79,implementation
+184,80,graphs
+185,80,dp
+186,81,graphs
+187,81,implementation
+188,82,graphs
+189,82,data structures
+190,83,graphs
+191,83,dp
+192,84,graphs
+193,85,graphs
+194,85,brute force
+195,86,graphs
+196,87,graphs
+197,88,graphs
+198,88,dp
+199,89,graphs
+200,89,dp
+201,90,graphs
+202,90,dp
+203,90,implementation
+204,90,data structures
+205,91,graphs
+206,91,data structures
+207,92,graphs
+208,92,number theory
+209,93,graphs
+210,93,implementation
+211,94,graphs
+212,95,graphs
+213,95,implementation
+214,95,brute force
+215,96,graphs
+216,97,graphs
+217,97,dp
+218,98,graphs
+219,98,brute force
+220,98,number theory
+221,99,graphs
+222,99,brute force
+223,100,graphs
+224,101,graphs
+225,101,brute force
+226,101,number theory
+227,102,graphs
+228,103,graphs
+229,103,number theory
+230,104,graphs
+231,104,implementation
+232,105,graphs
+233,105,brute force
+234,106,graphs
+235,107,graphs
+236,107,graphs
+237,108,graphs
+238,109,graphs
+239,109,binary search
+240,109,data structures
+241,110,graphs
+242,111,graphs
+243,112,graphs
+244,113,graphs
+245,114,graphs
+246,115,graphs
+247,116,graphs
+248,117,graphs
+249,117,number theory
+250,118,graphs
+251,118,data structures
+252,118,brute force
+253,119,graphs
+254,119,data structures
+255,120,graphs
+256,121,graphs
+257,121,data structures
+258,122,graphs
+259,123,graphs
+260,124,graphs
+261,125,graphs
+262,125,brute force
+263,126,graphs
+264,127,graphs
+265,128,graphs
+266,129,graphs
+267,130,graphs
+268,131,graphs
+269,132,graphs
+270,133,graphs
+271,134,graphs
+272,135,graphs
+273,136,graphs
+274,137,graphs
+275,137,binary search
+276,138,graphs
+277,139,graphs
+278,140,graphs
+279,141,graphs
+280,142,graphs
+281,143,graphs
+282,144,graphs
+283,145,graphs
+284,146,graphs
+285,147,graphs
+286,148,graphs
+287,149,graphs
+288,150,graphs
+289,150,brute force
+290,151,graphs
+291,152,graphs
+292,153,graphs
+293,153,brute force
+294,154,graphs
+295,155,graphs
+296,156,graphs
+297,157,graphs
+298,158,graphs
+299,159,graphs
+300,159,strings
+301,160,graphs
+302,161,graphs
+303,162,graphs
+304,162,strings
+305,163,graphs
+306,164,graphs
+307,165,graphs
+308,166,graphs
+309,167,graphs
+310,167,strings
+311,168,graphs
+312,169,graphs
+313,170,graphs
+314,170,number theory
+315,171,graphs
+316,172,graphs
+317,173,graphs
+318,174,graphs
+319,175,graphs
+320,175,binary search
+321,176,graphs
+322,177,graphs
+323,178,graphs
+324,179,graphs
+325,180,graphs
+326,181,graphs
+327,182,graphs
+328,183,graphs
+329,184,graphs
+330,184,number theory
+331,185,graphs
+332,186,graphs
+333,186,number theory
+334,187,graphs
+335,187,binary search
+336,187,greedy
+337,188,graphs
+338,189,graphs
+339,190,graphs
+340,191,graphs
+341,192,graphs
+342,193,graphs
+343,194,graphs
+344,195,graphs
+345,196,graphs
+346,197,dp
+347,197,math
+348,198,dp
+349,198,greedy
+350,199,dp
+351,199,data structures
+352,200,dp
+353,200,greedy
+354,201,dp
+355,201,implementation
+356,201,math
+357,202,dp
+358,202,math
+359,202,number theory
+360,203,dp
+361,203,greedy
+362,203,implementation
+363,203,data structures
+364,204,dp
+365,204,greedy
+366,204,implementation
+367,204,data structures
+368,205,dp
+369,205,greedy
+370,206,dp
+371,206,greedy
+372,206,data structures
+373,207,dp
+374,207,binary search
+375,207,data structures
+376,208,dp
+377,208,greedy
+378,208,brute force
+379,208,math
+380,209,dp
+381,209,math
+382,209,number theory
+383,210,dp
+384,210,binary search
+385,211,dp
+386,211,brute force
+387,211,math
+388,212,dp
+389,212,math
+390,213,dp
+391,213,greedy
+392,213,data structures
+393,213,math
+394,214,dp
+395,214,math
+396,215,dp
+397,215,implementation
+398,215,data structures
+399,215,strings
+400,216,dp
+401,216,data structures
+402,217,dp
+403,217,math
+404,218,dp
+405,218,binary search
+406,218,greedy
+407,219,dp
+408,219,greedy
+409,219,brute force
+410,220,dp
+411,220,binary search
+412,220,data structures
+413,221,dp
+414,221,greedy
+415,222,dp
+416,222,greedy
+417,222,math
+418,223,dp
+419,223,greedy
+420,223,strings
+421,224,dp
+422,224,greedy
+423,225,dp
+424,225,greedy
+425,225,implementation
+426,226,dp
+427,226,greedy
+428,227,dp
+429,227,greedy
+430,227,data structures
+431,228,dp
+432,228,math
+433,229,dp
+434,230,dp
+435,230,math
+436,231,dp
+437,231,implementation
+438,231,strings
+439,232,dp
+440,232,greedy
+441,233,dp
+442,233,math
+443,234,dp
+444,234,implementation
+445,234,brute force
+446,235,dp
+447,236,dp
+448,237,dp
+449,237,binary search
+450,237,greedy
+451,238,dp
+452,238,data structures
+453,239,dp
+454,239,greedy
+455,240,dp
+456,240,greedy
+457,241,dp
+458,241,greedy
+459,242,dp
+460,243,dp
+461,243,implementation
+462,243,brute force
+463,244,dp
+464,244,greedy
+465,244,implementation
+466,244,strings
+467,245,dp
+468,245,greedy
+469,245,implementation
+470,245,strings
+471,246,dp
+472,246,greedy
+473,246,brute force
+474,247,dp
+475,247,math
+476,248,dp
+477,249,dp
+478,249,binary search
+479,249,data structures
+480,250,dp
+481,250,strings
+482,251,dp
+483,252,dp
+484,252,greedy
+485,253,dp
+486,253,binary search
+487,253,greedy
+488,254,dp
+489,254,greedy
+490,254,data structures
+491,255,dp
+492,255,greedy
+493,256,dp
+494,256,greedy
+495,256,math
+496,257,dp
+497,257,brute force
+498,258,dp
+499,259,dp
+500,259,math
+501,260,dp
+502,260,binary search
+503,260,implementation
+504,260,data structures
+505,261,dp
+506,261,greedy
+507,261,math
+508,262,dp
+509,262,binary search
+510,262,implementation
+511,262,brute force
+512,263,dp
+513,264,dp
+514,264,implementation
+515,264,brute force
+516,265,dp
+517,265,greedy
+518,266,dp
+519,266,greedy
+520,267,dp
+521,267,binary search
+522,267,data structures
+523,268,dp
+524,268,greedy
+525,269,dp
+526,270,dp
+527,270,math
+528,271,dp
+529,271,greedy
+530,271,implementation
+531,271,strings
+532,272,dp
+533,272,math
+534,273,dp
+535,273,math
+536,274,dp
+537,274,binary search
+538,274,implementation
+539,274,data structures
+540,274,brute force
+541,275,dp
+542,275,binary search
+543,275,implementation
+544,275,math
+545,276,dp
+546,276,strings
+547,277,dp
+548,277,binary search
+549,277,greedy
+550,277,data structures
+551,278,dp
+552,278,greedy
+553,278,data structures
+554,278,math
+555,278,strings
+556,279,dp
+557,279,math
+558,280,dp
+559,281,dp
+560,281,greedy
+561,282,dp
+562,282,greedy
+563,282,implementation
+564,282,data structures
+565,283,dp
+566,283,greedy
+567,284,dp
+568,284,greedy
+569,284,implementation
+570,284,brute force
+571,285,dp
+572,286,dp
+573,286,strings
+574,287,dp
+575,287,binary search
+576,288,dp
+577,288,greedy
+578,288,implementation
+579,289,dp
+580,289,implementation
+581,289,math
+582,290,dp
+583,290,brute force
+584,290,math
+585,291,dp
+586,291,brute force
+587,291,strings
+588,292,dp
+589,292,greedy
+590,292,data structures
+591,293,dp
+592,293,greedy
+593,293,implementation
+594,293,math
+595,293,number theory
+596,294,dp
+597,294,math
+598,295,dp
+599,295,math
+600,296,dp
+601,296,greedy
+602,297,dp
+603,297,binary search
+604,297,greedy
+605,297,data structures
+606,298,dp
+607,298,greedy
+608,299,dp
+609,299,data structures
+610,299,math
+611,300,dp
+612,300,greedy
+613,300,brute force
+614,301,dp
+615,301,greedy
+616,302,dp
+617,302,greedy
+618,303,dp
+619,303,greedy
+620,303,implementation
+621,303,brute force
+622,304,dp
+623,304,implementation
+624,304,strings
+625,305,dp
+626,305,implementation
+627,305,strings
+628,306,dp
+629,306,implementation
+630,307,dp
+631,307,data structures
+632,308,dp
+633,308,brute force
+634,308,strings
+635,309,dp
+636,309,brute force
+637,310,dp
+638,310,implementation
+639,311,dp
+640,311,brute force
+641,312,dp
+642,312,data structures
+643,313,dp
+644,313,math
+645,314,dp
+646,315,dp
+647,316,dp
+648,316,binary search
+649,316,math
+650,317,dp
+651,317,math
+652,318,dp
+653,318,binary search
+654,318,data structures
+655,318,brute force
+656,319,dp
+657,319,implementation
+658,319,brute force
+659,320,dp
+660,321,dp
+661,322,dp
+662,323,dp
+663,323,data structures
+664,324,dp
+665,324,implementation
+666,324,brute force
+667,325,dp
+668,326,dp
+669,326,brute force
+670,327,dp
+671,327,binary search
+672,327,number theory
+673,328,dp
+674,328,brute force
+675,329,dp
+676,329,implementation
+677,330,dp
+678,330,binary search
+679,330,implementation
+680,331,dp
+681,332,dp
+682,333,dp
+683,333,binary search
+684,333,data structures
+685,334,dp
+686,335,dp
+687,335,data structures
+688,335,strings
+689,336,dp
+690,336,binary search
+691,336,greedy
+692,336,brute force
+693,336,math
+694,337,dp
+695,337,strings
+696,338,dp
+697,339,dp
+698,340,dp
+699,340,implementation
+700,340,data structures
+701,341,dp
+702,341,implementation
+703,341,brute force
+704,342,dp
+705,342,brute force
+706,342,strings
+707,343,dp
+708,344,dp
+709,344,binary search
+710,344,implementation
+711,345,dp
+712,346,dp
+713,346,brute force
+714,347,dp
+715,347,brute force
+716,348,dp
+717,348,number theory
+718,349,dp
+719,350,dp
+720,351,dp
+721,352,dp
+722,352,brute force
+723,353,dp
+724,353,brute force
+725,354,dp
+726,354,binary search
+727,354,brute force
+728,355,dp
+729,356,dp
+730,356,strings
+731,357,dp
+732,358,dp
+733,358,data structures
+734,358,brute force
+735,359,dp
+736,359,binary search
+737,359,data structures
+738,359,brute force
+739,360,dp
+740,360,binary search
+741,360,data structures
+742,361,dp
+743,362,dp
+744,362,implementation
+745,362,brute force
+746,363,dp
+747,364,dp
+748,365,dp
+749,365,data structures
+750,366,dp
+751,367,dp
+752,368,binary search
+753,368,data structures
+754,368,math
+755,369,binary search
+756,369,greedy
+757,369,data structures
+758,369,math
+759,370,binary search
+760,370,greedy
+761,370,data structures
+762,371,binary search
+763,371,math
+764,372,binary search
+765,372,brute force
+766,372,math
+767,372,number theory
+768,373,binary search
+769,373,brute force
+770,373,math
+771,373,number theory
+772,374,binary search
+773,374,data structures
+774,374,brute force
+775,375,binary search
+776,376,binary search
+777,376,greedy
+778,376,brute force
+779,376,math
+780,377,binary search
+781,377,greedy
+782,377,math
+783,378,binary search
+784,378,greedy
+785,378,math
+786,378,number theory
+787,379,binary search
+788,379,brute force
+789,380,binary search
+790,381,binary search
+791,381,greedy
+792,381,data structures
+793,382,binary search
+794,382,greedy
+795,382,math
+796,382,number theory
+797,383,binary search
+798,384,binary search
+799,385,binary search
+800,385,math
+801,386,binary search
+802,386,greedy
+803,386,data structures
+804,387,binary search
+805,387,implementation
+806,387,math
+807,388,binary search
+808,388,math
+809,389,binary search
+810,389,implementation
+811,389,data structures
+812,389,brute force
+813,390,binary search
+814,390,greedy
+815,390,implementation
+816,390,data structures
+817,391,binary search
+818,391,greedy
+819,391,data structures
+820,392,binary search
+821,392,greedy
+822,392,math
+823,393,binary search
+824,393,greedy
+825,393,implementation
+826,393,data structures
+827,394,binary search
+828,394,data structures
+829,395,binary search
+830,395,greedy
+831,396,binary search
+832,396,brute force
+833,397,binary search
+834,397,greedy
+835,398,binary search
+836,398,data structures
+837,399,binary search
+838,400,binary search
+839,401,binary search
+840,401,greedy
+841,401,data structures
+842,401,math
+843,402,binary search
+844,402,greedy
+845,402,data structures
+846,403,binary search
+847,403,brute force
+848,403,math
+849,404,binary search
+850,404,math
+851,404,number theory
+852,405,binary search
+853,405,greedy
+854,405,data structures
+855,406,binary search
+856,406,math
+857,407,binary search
+858,407,implementation
+859,407,data structures
+860,408,binary search
+861,408,greedy
+862,408,brute force
+863,409,binary search
+864,409,greedy
+865,410,binary search
+866,411,binary search
+867,411,greedy
+868,411,data structures
+869,412,binary search
+870,412,data structures
+871,413,binary search
+872,413,greedy
+873,413,data structures
+874,413,math
+875,414,binary search
+876,414,greedy
+877,414,implementation
+878,414,data structures
+879,414,math
+880,415,binary search
+881,416,binary search
+882,416,greedy
+883,417,binary search
+884,418,binary search
+885,418,data structures
+886,419,binary search
+887,419,data structures
+888,419,brute force
+889,420,binary search
+890,420,brute force
+891,420,math
+892,420,number theory
+893,421,binary search
+894,422,binary search
+895,422,brute force
+896,422,number theory
+897,423,binary search
+898,423,data structures
+899,424,binary search
+900,424,data structures
+901,425,binary search
+902,426,binary search
+903,426,implementation
+904,427,binary search
+905,427,data structures
+906,427,brute force
+907,428,binary search
+908,429,binary search
+909,429,implementation
+910,430,binary search
+911,430,implementation
+912,430,brute force
+913,431,binary search
+914,431,brute force
+915,432,binary search
+916,433,binary search
+917,434,binary search
+918,434,data structures
+919,435,binary search
+920,435,brute force
+921,436,binary search
+922,437,binary search
+923,437,implementation
+924,438,binary search
+925,439,binary search
+926,439,implementation
+927,440,binary search
+928,440,data structures
+929,441,binary search
+930,442,binary search
+931,443,binary search
+932,443,implementation
+933,444,binary search
+934,444,implementation
+935,444,data structures
+936,445,binary search
+937,446,binary search
+938,446,implementation
+939,446,brute force
+940,447,binary search
+941,447,strings
+942,448,binary search
+943,448,data structures
+944,449,binary search
+945,449,implementation
+946,449,data structures
+947,450,binary search
+948,450,implementation
+949,451,binary search
+950,451,data structures
+951,452,binary search
+952,453,binary search
+953,453,strings
+954,454,binary search
+955,454,strings
+956,455,binary search
+957,456,binary search
+958,456,data structures
+959,457,binary search
+960,457,strings
+961,458,binary search
+962,459,binary search
+963,459,data structures
+964,459,strings
+965,460,binary search
+966,460,brute force
+967,461,binary search
+968,462,binary search
+969,462,brute force
+970,463,binary search
+971,463,number theory
+972,464,binary search
+973,464,data structures
+974,465,binary search
+975,465,data structures
+976,466,binary search
+977,467,binary search
+978,467,brute force
+979,468,binary search
+980,469,binary search
+981,470,binary search
+982,470,number theory
+983,471,binary search
+984,472,binary search
+985,473,binary search
+986,474,binary search
+987,475,binary search
+988,475,brute force
+989,476,binary search
+990,477,binary search
+991,477,brute force
+992,478,binary search
+993,479,binary search
+994,480,binary search
+995,481,binary search
+996,482,binary search
+997,483,binary search
+998,484,binary search
+999,485,binary search
+1000,486,binary search
+1001,486,strings
+1002,487,binary search
+1003,487,number theory
+1004,488,binary search
+1005,489,binary search
+1006,490,binary search
+1007,491,binary search
+1008,492,binary search
+1009,493,binary search
+1010,494,binary search
+1011,495,binary search
+1012,496,binary search
+1013,497,binary search
+1014,498,binary search
+1015,499,binary search
+1016,500,binary search
+1017,501,binary search
+1018,502,binary search
+1019,503,binary search
+1020,504,binary search
+1021,505,binary search
+1022,506,binary search
+1023,507,binary search
+1024,508,binary search
+1025,509,binary search
+1026,510,binary search
+1027,510,strings
+1028,511,binary search
+1029,512,binary search
+1030,513,binary search
+1031,514,binary search
+1032,514,number theory
+1033,515,binary search
+1034,516,binary search
+1035,517,binary search
+1036,518,binary search
+1037,519,binary search
+1038,520,binary search
+1039,521,binary search
+1040,522,greedy
+1041,522,math
+1042,523,greedy
+1043,523,brute force
+1044,523,math
+1045,523,number theory
+1046,524,greedy
+1047,524,implementation
+1048,525,greedy
+1049,525,strings
+1050,526,greedy
+1051,526,brute force
+1052,527,greedy
+1053,527,implementation
+1054,527,brute force
+1055,528,greedy
+1056,528,strings
+1057,529,greedy
+1058,529,data structures
+1059,530,greedy
+1060,530,math
+1061,531,greedy
+1062,531,data structures
+1063,532,greedy
+1064,532,brute force
+1065,533,greedy
+1066,534,greedy
+1067,534,implementation
+1068,534,data structures
+1069,534,brute force
+1070,535,greedy
+1071,536,greedy
+1072,536,implementation
+1073,536,math
+1074,537,greedy
+1075,538,greedy
+1076,538,math
+1077,539,greedy
+1078,539,implementation
+1079,539,brute force
+1080,539,math
+1081,540,greedy
+1082,540,math
+1083,540,number theory
+1084,541,greedy
+1085,541,math
+1086,542,greedy
+1087,542,data structures
+1088,543,greedy
+1089,544,greedy
+1090,544,implementation
+1091,545,greedy
+1092,545,math
+1093,546,greedy
+1094,547,greedy
+1095,547,math
+1096,548,greedy
+1097,548,math
+1098,548,strings
+1099,549,greedy
+1100,549,implementation
+1101,549,brute force
+1102,549,strings
+1103,550,greedy
+1104,551,greedy
+1105,551,math
+1106,551,number theory
+1107,552,greedy
+1108,552,brute force
+1109,552,math
+1110,553,greedy
+1111,554,greedy
+1112,555,greedy
+1113,555,brute force
+1114,556,greedy
+1115,556,brute force
+1116,556,math
+1117,557,greedy
+1118,557,implementation
+1119,558,greedy
+1120,558,implementation
+1121,558,brute force
+1122,558,math
+1123,559,greedy
+1124,559,math
+1125,560,greedy
+1126,561,greedy
+1127,561,implementation
+1128,562,greedy
+1129,562,math
+1130,563,greedy
+1131,563,data structures
+1132,564,greedy
+1133,565,greedy
+1134,566,greedy
+1135,566,math
+1136,567,greedy
+1137,567,math
+1138,568,greedy
+1139,568,data structures
+1140,569,greedy
+1141,569,data structures
+1142,570,greedy
+1143,571,greedy
+1144,571,brute force
+1145,572,greedy
+1146,573,greedy
+1147,573,data structures
+1148,574,greedy
+1149,574,implementation
+1150,574,data structures
+1151,575,greedy
+1152,575,math
+1153,576,greedy
+1154,577,greedy
+1155,578,greedy
+1156,578,brute force
+1157,578,math
+1158,579,greedy
+1159,579,math
+1160,580,greedy
+1161,580,implementation
+1162,580,data structures
+1163,581,greedy
+1164,582,greedy
+1165,582,implementation
+1166,583,greedy
+1167,583,implementation
+1168,583,brute force
+1169,583,math
+1170,584,greedy
+1171,584,math
+1172,585,greedy
+1173,585,data structures
+1174,585,brute force
+1175,585,strings
+1176,586,greedy
+1177,586,implementation
+1178,587,greedy
+1179,587,data structures
+1180,587,strings
+1181,588,greedy
+1182,588,implementation
+1183,588,data structures
+1184,588,math
+1185,589,greedy
+1186,589,implementation
+1187,590,greedy
+1188,590,data structures
+1189,591,greedy
+1190,591,implementation
+1191,592,greedy
+1192,592,implementation
+1193,592,math
+1194,593,greedy
+1195,593,math
+1196,594,greedy
+1197,594,brute force
+1198,594,math
+1199,595,greedy
+1200,595,data structures
+1201,596,greedy
+1202,596,math
+1203,597,greedy
+1204,597,implementation
+1205,598,greedy
+1206,598,math
+1207,599,greedy
+1208,599,implementation
+1209,600,greedy
+1210,601,greedy
+1211,601,implementation
+1212,601,math
+1213,602,greedy
+1214,602,implementation
+1215,602,brute force
+1216,602,math
+1217,603,greedy
+1218,603,implementation
+1219,604,greedy
+1220,605,greedy
+1221,605,data structures
+1222,605,math
+1223,606,greedy
+1224,606,implementation
+1225,606,math
+1226,607,greedy
+1227,607,brute force
+1228,607,math
+1229,607,number theory
+1230,608,greedy
+1231,608,math
+1232,609,greedy
+1233,609,brute force
+1234,609,math
+1235,610,greedy
+1236,610,math
+1237,611,greedy
+1238,611,strings
+1239,612,greedy
+1240,612,brute force
+1241,613,greedy
+1242,613,number theory
+1243,614,greedy
+1244,614,brute force
+1245,615,greedy
+1246,615,brute force
+1247,615,math
+1248,616,greedy
+1249,616,math
+1250,617,greedy
+1251,617,implementation
+1252,618,greedy
+1253,618,math
+1254,619,greedy
+1255,620,greedy
+1256,620,implementation
+1257,620,brute force
+1258,621,greedy
+1259,621,math
+1260,622,greedy
+1261,622,implementation
+1262,622,data structures
+1263,623,greedy
+1264,623,math
+1265,624,greedy
+1266,624,data structures
+1267,625,greedy
+1268,625,implementation
+1269,625,data structures
+1270,626,greedy
+1271,626,brute force
+1272,627,implementation
+1273,628,implementation
+1274,629,implementation
+1275,629,math
+1276,630,implementation
+1277,630,brute force
+1278,631,implementation
+1279,631,brute force
+1280,632,implementation
+1281,632,math
+1282,633,implementation
+1283,633,data structures
+1284,634,implementation
+1285,635,implementation
+1286,636,implementation
+1287,637,implementation
+1288,637,math
+1289,638,implementation
+1290,639,implementation
+1291,640,implementation
+1292,641,implementation
+1293,641,math
+1294,642,implementation
+1295,643,implementation
+1296,644,implementation
+1297,645,implementation
+1298,646,implementation
+1299,647,implementation
+1300,647,math
+1301,648,implementation
+1302,649,implementation
+1303,650,implementation
+1304,651,implementation
+1305,651,math
+1306,652,implementation
+1307,652,math
+1308,652,number theory
+1309,653,implementation
+1310,653,data structures
+1311,654,implementation
+1312,655,implementation
+1313,655,strings
+1314,656,implementation
+1315,656,data structures
+1316,656,math
+1317,657,implementation
+1318,657,data structures
+1319,658,implementation
+1320,658,math
+1321,659,implementation
+1322,659,brute force
+1323,659,math
+1324,660,implementation
+1325,660,brute force
+1326,660,strings
+1327,661,implementation
+1328,661,data structures
+1329,662,implementation
+1330,663,implementation
+1331,663,data structures
+1332,663,strings
+1333,664,implementation
+1334,664,data structures
+1335,665,implementation
+1336,665,math
+1337,666,implementation
+1338,667,implementation
+1339,667,brute force
+1340,668,implementation
+1341,668,data structures
+1342,669,implementation
+1343,669,data structures
+1344,670,implementation
+1345,671,implementation
+1346,672,implementation
+1347,673,implementation
+1348,673,number theory
+1349,674,implementation
+1350,675,implementation
+1351,675,brute force
+1352,676,implementation
+1353,676,data structures
+1354,677,implementation
+1355,677,strings
+1356,678,implementation
+1357,679,implementation
+1358,679,strings
+1359,680,implementation
+1360,681,implementation
+1361,681,data structures
+1362,682,implementation
+1363,683,implementation
+1364,684,implementation
+1365,684,data structures
+1366,685,implementation
+1367,686,implementation
+1368,687,implementation
+1369,688,implementation
+1370,688,strings
+1371,689,implementation
+1372,689,brute force
+1373,690,implementation
+1374,690,data structures
+1375,691,implementation
+1376,691,brute force
+1377,692,implementation
+1378,692,brute force
+1379,693,implementation
+1380,694,implementation
+1381,695,implementation
+1382,695,data structures
+1383,696,implementation
+1384,696,brute force
+1385,697,implementation
+1386,698,implementation
+1387,698,data structures
+1388,698,brute force
+1389,699,implementation
+1390,699,data structures
+1391,699,brute force
+1392,700,implementation
+1393,701,implementation
+1394,702,implementation
+1395,703,implementation
+1396,704,implementation
+1397,704,number theory
+1398,705,implementation
+1399,706,implementation
+1400,707,implementation
+1401,708,implementation
+1402,708,data structures
+1403,709,implementation
+1404,710,implementation
+1405,710,strings
+1406,711,implementation
+1407,712,implementation
+1408,713,implementation
+1409,714,implementation
+1410,715,implementation
+1411,716,implementation
+1412,717,implementation
+1413,717,number theory
+1414,718,implementation
+1415,718,number theory
+1416,719,implementation
+1417,719,brute force
+1418,720,implementation
+1419,720,brute force
+1420,720,strings
+1421,721,implementation
+1422,722,implementation
+1423,723,data structures
+1424,724,data structures
+1425,725,data structures
+1426,726,data structures
+1427,727,data structures
+1428,728,data structures
+1429,729,data structures
+1430,729,strings
+1431,730,data structures
+1432,731,data structures
+1433,732,data structures
+1434,733,data structures
+1435,733,math
+1436,733,number theory
+1437,734,data structures
+1438,735,data structures
+1439,736,data structures
+1440,737,data structures
+1441,737,math
+1442,737,number theory
+1443,738,data structures
+1444,739,data structures
+1445,739,brute force
+1446,739,math
+1447,740,data structures
+1448,741,data structures
+1449,742,data structures
+1450,742,math
+1451,743,data structures
+1452,744,data structures
+1453,744,strings
+1454,745,data structures
+1455,745,brute force
+1456,746,data structures
+1457,747,data structures
+1458,748,data structures
+1459,749,data structures
+1460,749,brute force
+1461,749,number theory
+1462,750,data structures
+1463,751,data structures
+1464,752,data structures
+1465,753,data structures
+1466,753,number theory
+1467,754,data structures
+1468,755,data structures
+1469,756,data structures
+1470,756,brute force
+1471,757,data structures
+1472,757,brute force
+1473,758,data structures
+1474,759,data structures
+1475,760,data structures
+1476,761,data structures
+1477,761,strings
+1478,762,data structures
+1479,763,data structures
+1480,764,data structures
+1481,764,strings
+1482,765,data structures
+1483,766,data structures
+1484,766,brute force
+1485,767,data structures
+1486,768,data structures
+1487,769,data structures
+1488,770,data structures
+1489,770,strings
+1490,771,data structures
+1491,772,data structures
+1492,772,brute force
+1493,773,data structures
+1494,774,data structures
+1495,775,data structures
+1496,776,data structures
+1497,777,data structures
+1498,778,data structures
+1499,779,data structures
+1500,780,data structures
+1501,781,data structures
+1502,781,brute force
+1503,782,data structures
+1504,783,data structures
+1505,784,data structures
+1506,785,data structures
+1507,786,data structures
+1508,786,brute force
+1509,787,data structures
+1510,787,strings
+1511,788,data structures
+1512,789,data structures
+1513,790,brute force
+1514,790,math
+1515,791,brute force
+1516,792,brute force
+1517,792,math
+1518,792,strings
+1519,792,number theory
+1520,793,brute force
+1521,793,math
+1522,794,brute force
+1523,794,math
+1524,795,brute force
+1525,795,strings
+1526,796,brute force
+1527,796,math
+1528,796,number theory
+1529,797,brute force
+1530,797,number theory
+1531,798,brute force
+1532,799,brute force
+1533,799,math
+1534,800,brute force
+1535,800,math
+1536,800,number theory
+1537,801,brute force
+1538,801,math
+1539,802,brute force
+1540,802,math
+1541,802,number theory
+1542,803,brute force
+1543,803,math
+1544,803,number theory
+1545,804,brute force
+1546,804,math
+1547,805,brute force
+1548,805,math
+1549,805,number theory
+1550,806,brute force
+1551,807,brute force
+1552,808,brute force
+1553,808,strings
+1554,809,brute force
+1555,810,brute force
+1556,811,brute force
+1557,812,brute force
+1558,813,brute force
+1559,814,brute force
+1560,815,brute force
+1561,816,brute force
+1562,817,brute force
+1563,818,brute force
+1564,819,brute force
+1565,820,brute force
+1566,820,number theory
+1567,821,brute force
+1568,822,brute force
+1569,822,strings
+1570,823,brute force
+1571,823,number theory
+1572,824,brute force
+1573,825,brute force
+1574,825,strings
+1575,826,brute force
+1576,827,brute force
+1577,828,brute force
+1578,829,brute force
+1579,830,brute force
+1580,831,brute force
+1581,831,strings
+1582,832,brute force
+1583,832,strings
+1584,833,brute force
+1585,834,brute force
+1586,835,brute force
+1587,835,strings
+1588,836,brute force
+1589,836,number theory
+1590,837,brute force
+1591,838,brute force
+1592,839,brute force
+1593,840,brute force
+1594,841,brute force
+1595,842,brute force
+1596,842,strings
+1597,843,brute force
+1598,844,brute force
+1599,845,brute force
+1600,846,brute force
+1601,847,brute force
+1602,848,brute force
+1603,849,brute force
+1604,850,brute force
+1605,851,brute force
+1606,852,brute force
+1607,853,brute force
+1608,854,brute force
+1609,855,brute force
+1610,856,brute force
+1611,856,strings
+1612,857,brute force
+1613,858,brute force
+1614,859,brute force
+1615,860,brute force
+1616,861,brute force
+1617,862,brute force
+1618,862,number theory
+1619,863,brute force
+1620,864,brute force
+1621,865,brute force
+1622,866,math
+1623,866,number theory
+1624,867,math
+1625,868,math
+1626,868,number theory
+1627,869,math
+1628,870,math
+1629,870,number theory
+1630,871,math
+1631,872,math
+1632,873,math
+1633,873,strings
+1634,874,math
+1635,875,math
+1636,876,math
+1637,877,math
+1638,877,number theory
+1639,878,math
+1640,879,math
+1641,880,math
+1642,881,math
+1643,882,math
+1644,883,math
+1645,883,number theory
+1646,884,math
+1647,884,number theory
+1648,885,math
+1649,886,math
+1650,887,math
+1651,888,math
+1652,889,math
+1653,890,math
+1654,891,math
+1655,892,math
+1656,893,math
+1657,894,math
+1658,894,number theory
+1659,895,math
+1660,896,math
+1661,897,math
+1662,898,math
+1663,899,math
+1664,899,number theory
+1665,900,math
+1666,901,math
+1667,902,math
+1668,903,math
+1669,904,math
+1670,905,math
+1671,906,math
+1672,907,math
+1673,907,number theory
+1674,908,math
+1675,909,math
+1676,910,math
+1677,910,number theory
+1678,911,math
+1679,911,number theory
+1680,912,math
+1681,913,math
+1682,914,math
+1683,914,number theory
+1684,915,math
+1685,916,math
+1686,917,math
+1687,918,math
+1688,919,math
+1689,919,number theory
+1690,920,math
+1691,920,number theory
+1692,921,math
+1693,922,math
+1694,923,math
+1695,924,math
+1696,925,math
+1697,925,number theory
+1698,926,math
+1699,926,number theory
+1700,927,math
+1701,928,math
+1702,929,math
+1703,930,math
+1704,931,math
+1705,932,strings
+1706,933,strings
+1707,934,strings
+1708,935,strings
+1709,936,strings
+1710,937,strings
+1711,938,strings
+1712,939,strings
+1713,940,strings
+1714,941,strings
+1715,942,strings
+1716,943,strings
+1717,944,strings
+1718,945,strings
+1719,946,strings
+1720,947,strings
+1721,948,strings
+1722,949,strings
+1723,950,strings
+1724,951,strings
+1725,952,strings
+1726,953,strings
+1727,954,strings
+1728,955,strings
+1729,956,strings
+1730,957,strings
+1731,958,strings
+1732,959,strings
+1733,960,strings
+1734,961,strings
+1735,962,strings
+1736,963,strings
+1737,964,strings
+1738,964,number theory
+1739,965,strings
+1740,966,strings
+1741,967,strings
+1742,968,strings
+1743,969,strings
+1744,970,strings
+1745,971,strings
+1746,972,strings
+1747,973,strings
+1748,974,strings
+1749,975,strings
+1750,976,strings
+1751,977,strings
+1752,978,strings
+1753,979,strings
+1754,980,strings
+1755,981,strings
+1756,982,strings
+1757,983,strings
+1758,984,strings
+1759,985,strings
+1760,986,strings
+1761,987,strings
+1762,988,strings
+1763,989,strings
+1764,990,strings
+1765,991,strings
+1766,992,strings
+1767,993,strings
+1768,994,strings
+1769,995,strings
+1770,995,number theory
+1771,996,strings
+1772,997,strings
+1773,998,strings
+1774,999,strings
+1775,1000,strings
+1776,1001,strings
+1777,1002,strings
+1778,1003,strings
+1779,1004,strings
+1780,1005,strings
+1781,1006,strings
+1782,1007,strings
+1783,1008,strings
+1784,1009,strings
+1785,1010,strings
+1786,1011,strings
+1787,1012,strings
+1788,1013,strings
+1789,1014,strings
+1790,1015,strings
+1791,1016,strings
+1792,1017,strings
+1793,1018,strings
+1794,1019,strings
+1795,1020,strings
+1796,1021,strings
+1797,1022,strings
+1798,1023,strings
+1799,1024,strings
+1800,1025,strings
+1801,1026,strings
+1802,1027,strings
+1803,1028,strings
+1804,1029,strings
+1805,1030,strings
+1806,1031,strings
+1807,1032,strings
+1808,1033,strings
+1809,1034,strings
+1810,1035,strings
+1811,1036,strings
+1812,1037,strings
+1813,1038,strings
+1814,1039,strings
+1815,1040,strings
+1816,1041,strings
+1817,1042,strings
+1818,1043,strings
+1819,1044,strings
+1820,1045,strings
+1821,1046,strings
+1822,1047,strings
+1823,1048,strings
+1824,1049,strings
+1825,1050,strings
+1826,1051,strings
+1827,1051,number theory
+1828,1052,strings
+1829,1053,strings
+1830,1054,strings
+1831,1055,strings
+1832,1056,strings
+1833,1057,strings
+1834,1058,strings
+1835,1059,strings
+1836,1060,strings
+1837,1061,strings
+1838,1062,strings
+1839,1063,strings
+1840,1064,strings
+1841,1065,strings
+1842,1066,strings
+1843,1067,number theory
+1844,1068,number theory
+1845,1069,number theory
+1846,1070,number theory
+1847,1071,number theory
+1848,1072,number theory
+1849,1073,number theory
+1850,1074,number theory
+1851,1075,number theory
+1852,1076,number theory
+1853,1077,number theory
+1854,1078,number theory
+1855,1079,number theory
+1856,1080,number theory
+1857,1081,number theory
+1858,1082,number theory
+1859,1083,number theory
+1860,1084,number theory
+1861,1085,number theory
+1862,1086,number theory
+1863,1087,number theory
+1864,1088,number theory
+1865,1089,number theory
+1866,1090,number theory
+1867,1091,number theory
+1868,1092,number theory
+1869,1093,number theory
+1870,1094,number theory
+1871,1095,number theory
+1872,1096,number theory
+1873,1097,number theory
+1874,1098,number theory
+1875,1099,number theory
+1876,1100,number theory
+1877,1101,number theory
+1878,1102,number theory
+1879,1103,number theory
+1880,1104,number theory
+1881,1105,number theory
+1882,1106,number theory
+1883,1107,number theory
+1884,1108,number theory
+1885,1109,number theory
+1886,1110,number theory
+1887,1111,number theory
+1888,1112,number theory
+1889,1113,number theory
+1890,1114,number theory
+1891,1115,number theory
+1892,1116,number theory
+1893,1117,number theory
+1894,1118,number theory
+1895,1119,number theory
+1896,1120,number theory
+1897,1121,number theory
+1898,1122,number theory
+1899,1123,number theory
+1900,1124,number theory
+1901,1125,number theory
+1902,1126,number theory
+1903,1127,number theory
+1904,1128,number theory
+1905,1129,number theory
+1906,1130,number theory
+1907,1131,number theory
+1908,1132,number theory
+1909,1133,number theory
+1910,1134,number theory
+1911,1135,number theory
+1912,1136,number theory
+1913,1137,number theory
+1914,1138,number theory
+1915,1139,number theory
+1916,1140,number theory
+1917,1141,number theory
+1918,1142,number theory
+1919,1142,number theory
+1920,1143,number theory
+1921,1144,number theory
+1922,1145,number theory
+1923,1146,number theory
+1924,1147,number theory
+1925,1148,number theory
+1926,1149,number theory
+1927,1150,number theory
+1928,1151,number theory
+1929,1152,number theory
+1930,1153,number theory
+1931,1154,number theory
+1932,1155,number theory
+1933,1156,number theory
+1934,1157,number theory
+1935,1158,number theory
+1936,1159,number theory
+1937,1160,number theory
+1938,1161,number theory
+1939,1162,number theory
+1940,1163,number theory
+1941,1164,number theory
+1942,1165,number theory
+1943,1166,number theory
+1944,1167,number theory
+1945,1168,number theory
+1946,1169,number theory
+1947,1170,number theory
+1948,1171,number theory
+1949,1172,number theory
+1950,1173,number theory
+1951,1174,number theory
+1952,1175,number theory
+1953,1176,number theory
+1954,1177,number theory
+1955,1178,number theory
+1956,1179,number theory
+1957,1180,number theory
+1958,1181,number theory
+1959,1182,number theory
+1960,1183,number theory
+1961,1184,number theory
+1962,1185,number theory
+1963,1186,number theory
+1964,1187,number theory
+1965,1188,number theory
+1966,1189,number theory
+1967,1190,number theory
+1968,1191,number theory
+1969,1192,number theory
+1970,1193,number theory

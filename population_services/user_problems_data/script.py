@@ -219,9 +219,48 @@ def get_cf_problems(tags: list):
 				result[dic["Name"]] = dic
 	return result
 
-# forms problems.csv
-def form_problems_cf():
-	probs = get_cf_problems(UNIV_TAGS)
+# forms problems.csv & problems_tags for CF, needs programming organization
+def form_problems_cf_wtags():
+
+	# form problems
+	dfpo = pd.read_csv('../../tables/programming_organisation.csv')
+	probs = list(get_cf_problems(UNIV_TAGS).values())
+
+	pid = 1
+	cfID = dfpo["ID"][0]
+
+	res1 = {
+		"Problem_ID": [],
+		"ID": [],
+		"Name": [],
+		"Rating_Difficulty": []
+	}
+	for prob in probs:
+		res1["Problem_ID"].append(pid)
+		pid += 1
+		res1["ID"].append(cfID)
+		res1["Name"].append(prob["Name"])
+		res1["Rating_Difficulty"].append(prob["Difficulty"])
+	
+	df1 = pd.DataFrame.from_dict(res1)
+	print(df1.head())
+	df1.to_csv('../../tables/problems.csv')
+
+	# form tags
+	res2 = {
+		"Problem_ID": [],
+		"Tag": []
+	}
+	pid = 1
+	for prob in probs:
+		for tag in prob["Tags"]:
+			res2["Problem_ID"].append(pid)
+			res2["Tag"].append(tag)
+		pid += 1
+
+	df2 = pd.DataFrame.from_dict(res2)
+	print(df2.head())
+	df2.to_csv('../../tables/problems_tags.csv')
 
 
 # For modelling relationship SOLVED
@@ -269,5 +308,5 @@ def get_cf_user_status(username: str):
 
 
 if __name__ == "__main__":
-    # form_problems_cf()
-	form_cf_users()
+	# form_cf_users()
+	form_problems_cf_wtags()

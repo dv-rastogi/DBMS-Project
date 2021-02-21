@@ -1,0 +1,1194 @@
+,Problem_ID,ID,Name,Rating_Difficulty
+0,1,P-1,Cheap Dinner,Medium
+1,2,P-1,Minimum Ties,Easy
+2,3,P-1,Multiples and Power Differences,Hard
+3,4,P-1,AB Graph,Medium
+4,5,P-1,Pattern Matching,Hard
+5,6,P-1,Longest Simple Cycle,Medium
+6,7,P-1,Nezzar and Hidden Permutations,Hard
+7,8,P-1,Ball in Berland,Easy
+8,9,P-1,Minimum Path,Hard
+9,10,P-1,Strange Permutation,Hard
+10,11,P-1,Strange Housing,Hard
+11,12,P-1,Strange Definition,Medium
+12,13,P-1,Moving to the Capital,Hard
+13,14,P-1,Long Jumps,Easy
+14,15,P-1,Finding satisfactory solutions,Hard
+15,16,P-1,Euclid's nightmare,Hard
+16,17,P-1,Similar Sets,Hard
+17,18,P-1,Road Reform,Medium
+18,19,P-1,Peaceful Rooks,Medium
+19,20,P-1,Flip and Reverse,Hard
+20,21,P-1,Plan of Lectures,Hard
+21,22,P-1,Water Level,Hard
+22,23,P-1,Capitalism,Hard
+23,24,P-1,Number of Simple Paths,Medium
+24,25,P-1,Graph Subset Problem,Hard
+25,26,P-1,Binary Table (Hard Version),Medium
+26,27,P-1,Graph Transpositions,Hard
+27,28,P-1,Team-Building,Hard
+28,29,P-1,Minimal Height Tree,Medium
+29,30,P-1,Bandit in a City,Medium
+30,31,P-1,Reducing Delivery Cost,Hard
+31,32,P-1,Belted Rooms,Easy
+32,33,P-1,Yet Another DAG Problem,Hard
+33,34,P-1,One Billion Shades of Grey,Hard
+34,35,P-1,Ancient Language,Hard
+35,36,P-1,Virus,Hard
+36,37,P-1,Dušan's Railway,Hard
+37,38,P-1,Valuable Paper,Medium
+38,39,P-1,Returning Home,Hard
+39,40,P-1,Clusterization Counting,Hard
+40,41,P-1,Avoid Rainbow Cycles,Hard
+41,42,P-1,Graph and Queries,Hard
+42,43,P-1,Rain of Fire,Hard
+43,44,P-1,Mortal Kombat Tower,Easy
+44,45,P-1,Link Cut Centroids,Medium
+45,46,P-1,Egor in the Republic of Dagestan,Hard
+46,47,P-1,Discrete Centrifugal Jumps,Hard
+47,48,P-1,Bricks,Hard
+48,49,P-1,Spring cleaning,Hard
+49,50,P-1,The Potion of Great Power,Hard
+50,51,P-1,Star Trek,Hard
+51,52,P-1,Kevin and Grid,Hard
+52,53,P-1,Boboniu Walks on Graph,Hard
+53,54,P-1,Pairs of Pairs,Hard
+54,55,P-1,Cyclic Permutations ,Easy
+55,56,P-1,Yet Another Segments Subset,Hard
+56,57,P-1,Captain Flint and Treasure,Medium
+57,58,P-1,Directing Edges,Hard
+58,59,P-1,Special Edges,Hard
+59,60,P-1,Rearrange,Hard
+60,61,P-1,String Transformation 2,Hard
+61,62,P-1,String Transformation 1,Medium
+62,63,P-1,Columns Swaps,Hard
+63,64,P-1,Tree Modification,Hard
+64,65,P-1,The Hidden Pair (Hard Version),Hard
+65,66,P-1,The Hidden Pair (Easy Version),Hard
+66,67,P-1,Shifting Dominoes,Hard
+67,68,P-1,Ski Accidents,Hard
+68,69,P-1,TediousLee,Medium
+69,70,P-1,Necklace Assembly,Medium
+70,71,P-1,Ehab's Last Corollary,Hard
+71,72,P-1,Jog Around The Graph,Hard
+72,73,P-1,Solve The Maze,Medium
+73,74,P-1,James and the Chase,Hard
+74,75,P-1,Johnny and Megan's Necklace,Hard
+75,76,P-1,Johnny and Contribution,Medium
+76,77,P-1,Magic Tricks,Medium
+77,78,P-1,Constructing the Dungeon,Medium
+78,79,P-1,Polygon,Easy
+79,80,P-1,Graph Coloring,Hard
+80,81,P-1,Orac and Game of Life,Medium
+81,82,P-1,Phoenix and Memory,Hard
+82,83,P-1,Quantifier Question,Hard
+83,84,P-1,Monopole Magnets,Medium
+84,85,P-1,Weights Distributing,Hard
+85,86,P-1,Nastya and Bees,Hard
+86,87,P-1,Nastya and Time Machine,Hard
+87,88,P-1,Nastya and Unexpected Guest,Hard
+88,89,P-1,Nastya and Scoreboard,Medium
+89,90,P-1,Journey,Hard
+90,91,P-1,Robots on a Grid,Hard
+91,92,P-1,Divisor Paths,Hard
+92,93,P-1,Minimum Euler Cycle,Medium
+93,94,P-1,JYPnation,Hard
+94,95,P-1,Challenges in school №41,Hard
+95,96,P-1,Tree Queries,Medium
+96,97,P-1,Carousel,Medium
+97,98,P-1,Infinite Path,Hard
+98,99,P-1,Princesses and Princes,Easy
+99,100,P-1,Ehab's Last Theorem,Hard
+100,101,P-1,Ehab's REAL Number Theory Problem,Hard
+101,102,P-1,Maximum White Subtree,Medium
+102,103,P-1,Instant Noodles,Hard
+103,104,P-1,Nash Matrix,Medium
+104,105,P-1,Kuroni and Antihype,Hard
+105,106,P-1,Navigation System,Medium
+106,107,P-1,Tourism,Hard
+107,108,P-1,Cow and Exercise,Hard
+108,109,P-1,Cow and Fields,Medium
+109,110,P-1,Shortest and Longest LIS,Medium
+110,111,P-1,Super Jaber,Hard
+111,112,P-1,Time to Run,Medium
+112,113,P-1,String Coloring (easy version),Medium
+113,114,P-1,Coffee Varieties (easy version),Hard
+114,115,P-1,Coffee Varieties (hard version),Hard
+115,116,P-1,Prefix Enlightenment,Hard
+116,117,P-1,Chaotic V.,Hard
+117,118,P-1,Delete a Segment,Hard
+118,119,P-1,Numbers on Tree,Medium
+119,120,P-1,Seollal,Hard
+120,121,P-1,New Year and Social Network,Hard
+121,122,P-1,Subset with Zero Sum,Hard
+122,123,P-1,Christmas Trees,Medium
+123,124,P-1,The Cake Is a Lie,Hard
+124,125,P-1,Invertation in Tournament,Hard
+125,126,P-1,Segment Tree,Hard
+126,127,P-1,Red-Blue Graph,Hard
+127,128,P-1,Almost Same Distance,Hard
+128,129,P-1,Decreasing Debts,Medium
+129,130,P-1,Jeremy Bearimy,Medium
+130,131,P-1,Two Fairs,Medium
+131,132,P-1,Nearest Opposite Parity,Medium
+132,133,P-1,Foolprüf Security,Hard
+133,134,P-1,Economic Difficulties,Hard
+134,135,P-1,Secret Passwords,Easy
+135,136,P-1,Fridge Lockers,Easy
+136,137,P-1,Cheap Robot,Hard
+137,138,P-1,Harmonious Graph,Medium
+138,139,P-1,Planar Perimeter,Hard
+139,140,P-1,Sum Balance,Hard
+140,141,P-1,0-1 MST,Medium
+141,142,P-1,Shichikuji and Power Grid,Medium
+142,143,P-1,Wires,Medium
+143,144,P-1,Projectors,Hard
+144,145,P-1,The Coronation,Hard
+145,146,P-1,Road Construction,Hard
+146,147,P-1,"Swiper, no swiping!",Hard
+147,148,P-1,Catowice City,Hard
+148,149,P-1,Alice and the Cactus,Hard
+149,150,P-1,Paint the Tree,Medium
+150,151,P-1,The Maximum Subtree,Hard
+151,152,P-1,Football,Hard
+152,153,P-1,Complete Tripartite,Medium
+153,154,P-1,Konrad and Company Evaluation,Hard
+154,155,P-1,Anadi and Domino,Medium
+155,156,P-1,Alpha planetary system,Hard
+156,157,P-1,Xor Spanning Tree,Hard
+157,158,P-1,BubbleReactor,Hard
+158,159,P-1,Koala and Notebook,Hard
+159,160,P-1,Cow and Snacks,Medium
+160,161,P-1,Unusual Graph,Hard
+161,162,P-1,kotlinkotlinkotlinkotlin...,Hard
+162,163,P-1,Forced Online Queries Problem,Hard
+163,164,P-1,Coloring Edges,Hard
+164,165,P-1,Petya and Construction Set,Medium
+165,166,P-1,Path Queries,Medium
+166,167,P-1,Unstable String Sort,Hard
+167,168,P-1,"Anna, Svyatoslav and Maps",Medium
+168,169,P-1,Shortest Cycle,Medium
+169,170,P-1,Graph Traveler,Hard
+170,171,P-1,Knightmare (hard),Hard
+171,172,P-1,Knightmare (easy),Hard
+172,173,P-1,Rectangle Painting 2,Hard
+173,174,P-1,Matching vs  Independent Set,Medium
+174,175,P-1,Stock Exchange,Hard
+175,176,P-1,Daleks' Invasion (hard),Hard
+176,177,P-1,Daleks' Invasion (medium),Hard
+177,178,P-1,Daleks' Invasion (easy),Medium
+178,179,P-1,The Doctor Meets Vader (Medium),Hard
+179,180,P-1,Gang Up,Hard
+180,181,P-1,Vus the Cossack and a Graph,Hard
+181,182,P-1,Subsequences (easy version),Medium
+182,183,P-1,Cover it!,Medium
+183,184,P-1,Recover it!,Medium
+184,185,P-1,Ehab and the Big Finale,Hard
+185,186,P-1,Gold Experience,Hard
+186,187,P-1,Pairs,Easy
+187,188,P-1,Vicky's Delivery Service,Hard
+188,189,P-1,News Distribution,Easy
+189,190,P-1,Permutation recovery,Hard
+190,191,P-1,Indecisive Taxi Fee,Hard
+191,192,P-1,Magical Permutation,Hard
+192,193,P-1,Palindrome XOR,Hard
+193,194,P-1,Hide and Seek,Easy
+194,195,P-1,Optimizer,Hard
+195,196,P-1,Election Promises,Hard
+196,197,P-1,String Counting,Hard
+197,198,P-1,Ones,Hard
+198,199,P-1,Copy or Prefix Sum,Hard
+199,200,P-1,Move and Swap,Hard
+200,201,P-1,Replace and Keep Sorted,Easy
+201,202,P-1,School Clubs,Hard
+202,203,P-1,Painting the Array II,Hard
+203,204,P-1,Painting the Array I,Medium
+204,205,P-1,AB Tree,Hard
+205,206,P-1,Sorting Books,Hard
+206,207,P-1,Lanterns,Hard
+207,208,P-1,Nezzar and Lucky Number,Easy
+208,209,P-1,Strange Beauty,Medium
+209,210,P-1,Cleaning the Phone,Medium
+210,211,P-1,New Year's Number,Easy
+211,212,P-1,1 2 3 4 ...,Hard
+212,213,P-1,Cleaning,Hard
+213,214,P-1,Tiles,Hard
+214,215,P-1,Program,Medium
+215,216,P-1,Distinctive Roots in a Tree,Hard
+216,217,P-1,Sum of Paths,Hard
+217,218,P-1,Strange Birthday Party,Easy
+218,219,P-1,New Year's Puzzle,Hard
+219,220,P-1,Correct Placement,Medium
+220,221,P-1,Even-Odd Game,Easy
+221,222,P-1,Fair Division,Easy
+222,223,P-1,Canine poetry,Easy
+223,224,P-1,Last minute enhancements,Easy
+224,225,P-1,Building a Fence,Medium
+225,226,P-1,Red and Blue,Easy
+226,227,P-1,LaIS,Hard
+227,228,P-1,Move and Turn,Easy
+228,229,P-1,Glass Half Spilled,Medium
+229,230,P-1,Max Correct Set,Hard
+230,231,P-1,Last Year's Substring,Easy
+231,232,P-1,Mathematical Expression,Hard
+232,233,P-1,Random Events,Easy
+233,234,P-1,Find the Spruce,Easy
+234,235,P-1,Communism,Hard
+235,236,P-1,Even Harder,Hard
+236,237,P-1,Dog Snacks,Hard
+237,238,P-1,Forbidden Value,Hard
+238,239,P-1,String and Operations,Hard
+239,240,P-1,Sequence and Swaps,Medium
+240,241,P-1,XOR-ranges,Hard
+241,242,P-1,Cakes for Clones,Hard
+242,243,P-1,Bouncing Ball,Easy
+243,244,P-1,String Equality,Easy
+244,245,P-1,Non-Substring Subsequence,Easy
+245,246,P-1,Two Editorials,Hard
+246,247,P-1,Radio Towers,Medium
+247,248,P-1,INOI Final Contests,Hard
+248,249,P-1,Xor Tree,Hard
+249,250,P-1,Catching Cheaters,Medium
+250,251,P-1,Zero-XOR Array,Hard
+251,252,P-1,Number Deletion Game,Hard
+252,253,P-1,"Black, White and Grey Tree",Hard
+253,254,P-1,Sum,Hard
+254,255,P-1,Extreme Subtraction,Medium
+255,256,P-1,Saving the City,Easy
+256,257,P-1,Finding the Vertex,Hard
+257,258,P-1,Rectangular Polyline,Hard
+258,259,P-1,Emotional Fishermen,Hard
+259,260,P-1,Make It Increasing,Hard
+260,261,P-1,Chef Monocarp,Medium
+261,262,P-1,Perform Easily,Medium
+262,263,P-1,Zero Remainder Sum ,Hard
+263,264,P-1,Swedish Heroes,Hard
+264,265,P-1,Lucky Numbers (Hard Version),Hard
+265,266,P-1,Lucky Numbers (Easy Version),Hard
+266,267,P-1,Fruit Sequences,Hard
+267,268,P-1,Realistic Gameplay,Hard
+268,269,P-1,The Hard Work of Paparazzi,Medium
+269,270,P-1,Bubble Cup hypothesis,Hard
+270,271,P-1,Minlexes,Hard
+271,272,P-1,Bargain,Medium
+272,273,P-1,Bitwise Magic,Hard
+273,274,P-1,Searchlights,Medium
+274,275,P-1,Discrete Acceleration,Easy
+275,276,P-1,Number of Subsequences,Medium
+276,277,P-1,Split,Hard
+277,278,P-1,XOR Inverse,Medium
+278,279,P-1,Danger of Mad Snakes,Hard
+279,280,P-1,Blue and Red of Our Faculty!,Hard
+280,281,P-1,Battle Lemmings,Hard
+281,282,P-1,Pokémon Army (hard version),Hard
+282,283,P-1,Pokémon Army (easy version),Easy
+283,284,P-1,Maximum Product,Easy
+284,285,P-1,Tree Tag,Medium
+285,286,P-1,Subsequences of Length Two,Hard
+286,287,P-1,Two Platforms,Medium
+287,288,P-1,Monster Invaders,Hard
+288,289,P-1,Chess Rush,Hard
+289,290,P-1,Mercenaries,Hard
+290,291,P-1,x-prime Substrings,Hard
+291,292,P-1,Clear the Multiset,Hard
+292,293,P-1,Maximum Distributed Tree,Medium
+293,294,P-1,ZS Shuffles Cards,Hard
+294,295,P-1,Omkar and Pies,Hard
+295,296,P-1,Omkar and Bed Wars,Medium
+296,297,P-1,Controversial Rounds,Hard
+297,298,P-1,Colored Rectangles,Medium
+298,299,P-1,Good Subarrays,Medium
+299,300,P-1,Boboniu and Bit Operations,Medium
+300,301,P-1,Boboniu and Jianghu,Hard
+301,302,P-1,Boboniu Chats with Du,Medium
+302,303,P-1,505,Medium
+303,304,P-1,Twilight and Ancient Scroll (harder version),Hard
+304,305,P-1,Twilight and Ancient Scroll (easier version),Hard
+305,306,P-1,Rarity and New Dress,Hard
+306,307,P-1,Bicolored Segments,Hard
+307,308,P-1,Good String,Easy
+308,309,P-1,Array Walk,Medium
+309,310,P-1,Koa and the Beach (Hard Version),Hard
+310,311,P-1,Koa and the Beach (Easy Version),Medium
+311,312,P-1,Strange Operation,Hard
+312,313,P-1,GameGame,Medium
+313,314,P-1,Viruses,Hard
+314,315,P-1,Village (Minimum),Hard
+315,316,P-1,Graph,Hard
+316,317,P-1,Inverse Genealogy,Hard
+317,318,P-1,Choosing flowers,Medium
+318,319,P-1,a-Good String,Easy
+319,320,P-1,The Majestic Brown Tree Snake,Hard
+320,321,P-1,Sequential Nim,Easy
+321,322,P-1,Unmerge,Medium
+322,323,P-1,Strange Addition,Hard
+323,324,P-1,Create The Teams,Easy
+324,325,P-1,Omkar and Last Floor,Hard
+325,326,P-1,Omkar and Circle,Hard
+326,327,P-1,Asterism (Hard Version),Hard
+327,328,P-1,Sum of Digits,Hard
+328,329,P-1,Maximum Sum on Even Positions,Medium
+329,330,P-1,Odd-Even Subsequence,Medium
+330,331,P-1,Breadboard Capacity (easy version),Hard
+331,332,P-1,BareLee,Hard
+332,333,P-1,Flying Sort (Hard Version),Hard
+333,334,P-1,Flying Sort (Easy Version),Hard
+334,335,P-1,Construct the String,Hard
+335,336,P-1,Two Arrays,Hard
+336,337,P-1,Rotating Substrings,Hard
+337,338,P-1,Tree Shuffling,Medium
+338,339,P-1,Pac-Man 2.0,Hard
+339,340,P-1,Yet Another Yet Another Task,Medium
+340,341,P-1,New Theatre Square,Easy
+341,342,P-1,Spy-string,Medium
+342,343,P-1,Summoning Minions,Hard
+343,344,P-1,Ternary String,Easy
+344,345,P-1,Young Explorers,Easy
+345,346,P-1,Decreasing Heights,Hard
+346,347,P-1,K-periodic Garland,Medium
+347,348,P-1,Orac and Models,Easy
+348,349,P-1,Slime and Sequences (Hard Version),Hard
+349,350,P-1,Slime and Sequences (Easy Version),Hard
+350,351,P-1,Slime and Hats,Hard
+351,352,P-1,Phoenix and Berries,Hard
+352,353,P-1,Make It Ascending,Hard
+353,354,P-1,Card Constructions,Easy
+354,355,P-1,Alternating Subsequence,Easy
+355,356,P-1,Kaavi and Magic Spell,Hard
+356,357,P-1,Linova and Kingdom,Medium
+357,358,P-1,Three Blocks Palindrome (hard version),Medium
+358,359,P-1,Three Blocks Palindrome (easy version),Medium
+359,360,P-1,Strange Function,Hard
+360,361,P-1,Nested Rubber Bands,Hard
+361,362,P-1,Filling Diamonds,Easy
+362,363,P-1,Independent Set,Hard
+363,364,P-1,Letters and Question Marks,Hard
+364,365,P-1,AND Segments,Hard
+365,366,P-1,Count The Blocks,Medium
+366,367,P-1,Spiderweb Trees,Hard
+367,368,P-1,Old Floppy Drive ,Medium
+368,369,P-1,Equalize the Array,Easy
+369,370,P-1,Accidental Victory,Easy
+370,371,P-1,Sum of Cubes,Easy
+371,372,P-1,Pythagorean Triples,Easy
+372,373,P-1,Floor and Mod,Medium
+373,374,P-1,Odd Mineral Resource,Hard
+374,375,P-1,Searching Local Minimum,Medium
+375,376,P-1,Inflation,Easy
+376,377,P-1,K-divisible Sum,Easy
+377,378,P-1,Different Divisors,Easy
+378,379,P-1,Strange Shuffle,Hard
+379,380,P-1,The Riddle of the Sphinx,Hard
+380,381,P-1,Power Sockets,Hard
+381,382,P-1,Prime Divisors Selection,Hard
+382,383,P-1,Hobbits,Hard
+383,384,P-1,Firecrackers,Medium
+384,385,P-1,Dungeon,Easy
+385,386,P-1,The Treasure of The Segments,Medium
+386,387,P-1,Close Tuples (hard version),Medium
+387,388,P-1,Close Tuples (easy version),Easy
+388,389,P-1,Divide and Summarize,Medium
+389,390,P-1,Rating Compression,Medium
+390,391,P-1,Array Partition,Hard
+391,392,P-1,Toy Blocks,Easy
+392,393,P-1,Greedy Shopping,Hard
+393,394,P-1,Line Distance,Hard
+394,395,P-1,Neural Network Problem,Hard
+395,396,P-1,Yurii Can Do Everything,Hard
+396,397,P-1,The Delivery Dilemma,Easy
+397,398,P-1,Complicated Computations,Hard
+398,399,P-1,Binary Search,Easy
+399,400,P-1,Rotary Laser Lock,Hard
+400,401,P-1,Carrots for Rabbits,Hard
+401,402,P-1,String Deletion,Medium
+402,403,P-1,Prison Break,Hard
+403,404,P-1,Lonely Numbers,Medium
+404,405,P-1,Rainbow Triples,Hard
+405,406,P-1,Increase and Copy,Easy
+406,407,P-1,k-Amazing Numbers,Easy
+407,408,P-1,Sage's Birthday (hard version),Easy
+408,409,P-1,Sage's Birthday (easy version),Easy
+409,410,P-1,Expected Damage,Hard
+410,411,P-1,Fixed Point Removal,Hard
+411,412,P-1,Reverse and Swap,Hard
+412,413,P-1,Omkar and Landslide,Hard
+413,414,P-1,Two Types of Spells,Hard
+414,415,P-1,Boboniu and String,Hard
+415,416,P-1,Weights Division (hard version),Hard
+416,417,P-1,Colors,Hard
+417,418,P-1,Chess Strikes Back (easy version),Hard
+418,419,P-1,New Passenger Trams,Hard
+419,420,P-1,Dubious Cyrpto,Easy
+420,421,P-1,Omkar and Modes,Hard
+421,422,P-1,Asterism (Easy Version),Medium
+422,423,P-1,Network Coverage,Hard
+423,424,P-1,Binary Subsequence Rotation,Hard
+424,425,P-1,Shovels and Swords,Easy
+425,426,P-1,Guess The Maximums,Hard
+426,427,P-1,RC Kaboom Show,Hard
+427,428,P-1,Mixing Water,Medium
+428,429,P-1,Tasty Cookie,Hard
+429,430,P-1,The Best Vacation,Medium
+430,431,P-1,Binary Median,Hard
+431,432,P-1,Simple Polygon Embedding,Easy
+432,433,P-1,Find a Gift,Hard
+433,434,P-1,Multiset,Medium
+434,435,P-1,Not So Simple Polygon Embedding,Medium
+435,436,P-1,Restorer Distance,Hard
+436,437,P-1,Count Triangles,Medium
+437,438,P-1,K-th Not Divisible by n,Easy
+438,439,P-1,Phoenix and Science,Medium
+439,440,P-1,Multiple Testcases,Medium
+440,441,P-1,Résumé Review,Hard
+441,442,P-1,Xenia and Colorful Gems,Medium
+442,443,P-1,Two Teams Composing,Easy
+443,444,P-1,Eugene and an array,Medium
+444,445,P-1,Dreamoon Loves AA,Hard
+445,446,P-1,K-th Beautiful String,Easy
+446,447,P-1,Prefix-Suffix Palindrome (Hard version),Medium
+447,448,P-1,Pair of Topics,Easy
+448,449,P-1,Frog Jumps,Easy
+449,450,P-1,Count Subrectangles,Easy
+450,451,P-1,Present,Hard
+451,452,P-1,Kuroni the Private Tutor,Hard
+452,453,P-1,Homecoming,Easy
+453,454,P-1,Au Pont Rouge,Hard
+454,455,P-1,Cow and Treats,Hard
+455,456,P-1,Nanosoft,Hard
+456,457,P-1,Ayoub's function,Medium
+457,458,P-1,Motarack's Birthday,Easy
+458,459,P-1,Irreducible Anagrams,Medium
+459,460,P-1,ConneR and the A.R.C. Markland-N,Easy
+460,461,P-1,Minimax Problem,Medium
+461,462,P-1,Deadline,Easy
+462,463,P-1,Classical?,Hard
+463,464,P-1,New Year and Conference,Hard
+464,465,P-1,New Year and Ascent Sequence,Easy
+465,466,P-1,New Year and Handle Change,Hard
+466,467,P-1,Verse For Santa,Easy
+467,468,P-1,K Integers,Hard
+468,469,P-1,Common Number,Hard
+469,470,P-1,Everyone is a Winner!,Easy
+470,471,P-1,A Game with Traps,Medium
+471,472,P-1,Obtain Two Zeroes,Easy
+472,473,P-1,Arson In Berland Forest,Hard
+473,474,P-1,Yet Another Monster Killing Problem,Medium
+474,475,P-1,Divide The Students,Easy
+475,476,P-1,The Parade,Medium
+476,477,P-1,Show Must Go On,Hard
+477,478,P-1,Rock Is Push,Hard
+478,479,P-1,Voting (Hard Version),Hard
+479,480,P-1,Salary Changing,Medium
+480,481,P-1,Good Numbers (hard version),Easy
+481,482,P-1,Alice and the Unfair Game,Hard
+482,483,P-1,Balanced Playlist,Medium
+483,484,P-1,Balanced Removals (Harder),Medium
+484,485,P-1,Minimizing Difference,Medium
+485,486,P-1,AB-string,Medium
+486,487,P-1,Wooden Raft,Hard
+487,488,P-1,Save the Nature,Medium
+488,489,P-1,Numerical Sequence (hard version),Hard
+489,490,P-1,Numerical Sequence (easy version),Medium
+490,491,P-1,Choose a Square,Hard
+491,492,P-1,Perfect Team,Easy
+492,493,P-1,Gardener Alex,Hard
+493,494,P-1,Road Repair in Treeland,Hard
+494,495,P-1,Double Permutation Inc.,Medium
+495,496,P-1,Teams,Medium
+496,497,P-1,The Number Of Good Substrings,Medium
+497,498,P-1,Creating a Character,Easy
+498,499,P-1,Restore Permutation,Medium
+499,500,P-1,Uniqueness,Easy
+500,501,P-1,Remove the Substring (hard version),Medium
+501,502,P-1,You Are Given Some Letters...,Hard
+502,503,P-1,Treasure Hunting,Hard
+503,504,P-1,Maximum Median,Easy
+504,505,P-1,Welfare State,Medium
+505,506,P-1,Culture Code,Hard
+506,507,P-1,Sport Mafia,Easy
+507,508,P-1,Tokitsukaze and Explosion,Hard
+508,509,P-1,The Doctor Meets Vader (Easy),Easy
+509,510,P-1,Letters Shop,Easy
+510,511,P-1,Computer Game,Easy
+511,512,P-1,Serge and Dining Room,Hard
+512,513,P-1,Irrigation,Hard
+513,514,P-1,Maximum Sine,Hard
+514,515,P-1,Electrification,Medium
+515,516,P-1,Born This Way,Medium
+516,517,P-1,Digits Sequence (Hard Edition),Medium
+517,518,P-1,Increasing by Modulo,Medium
+518,519,P-1,Cute Sequences,Hard
+519,520,P-1,A Tale of Two Lands,Easy
+520,521,P-1,Range Deleting,Hard
+521,522,P-1,Dense Array,Easy
+522,523,P-1,Add and Divide,Easy
+523,524,P-1,The Great Hero,Easy
+524,525,P-1,Yet Another String Game,Easy
+525,526,P-1,Fence Painting,Medium
+526,527,P-1,New Colony,Easy
+527,528,P-1,Space Navigation ,Easy
+528,529,P-1,Nezzar and Tournaments,Hard
+529,530,P-1,Nezzar and Nice Beatmap,Hard
+530,531,P-1,Nezzar and Binary String,Medium
+531,532,P-1,Nezzar and Colorful Balls,Easy
+532,533,P-1,What Is It?,Hard
+533,534,P-1,Array Destruction,Medium
+534,535,P-1,Puzzle From the Future,Easy
+535,536,P-1,Replacing Elements,Easy
+536,537,P-1,Three Bags,Medium
+537,538,P-1,Wizard of Orz,Easy
+538,539,P-1,Strange List,Easy
+539,540,P-1,Strange Partition,Easy
+540,541,P-1,Cards for Friends,Easy
+541,542,P-1,13th Labour of Heracles,Easy
+542,543,P-1,Regular Bracket Sequence,Easy
+543,544,P-1,Waste Sorting,Easy
+544,545,P-1,K and Medians,Hard
+545,546,P-1,Four Segments,Easy
+546,547,P-1,The Thorny Path,Hard
+547,548,P-1,Poman Numbers,Hard
+548,549,P-1,Grime Zoo,Hard
+549,550,P-1,Find The Array,Easy
+550,551,P-1,Add to Neighbour and Remove,Easy
+551,552,P-1,Unique Number,Easy
+552,553,P-1,String Generation,Easy
+553,554,P-1,The Struggling Contestant,Hard
+554,555,P-1,Balls of Steel,Easy
+555,556,P-1,Checkpoints,Medium
+556,557,P-1,Triangles,Medium
+557,558,P-1,Four Points,Hard
+558,559,P-1,New Game Plus!,Hard
+559,560,P-1,Repainting Street,Easy
+560,561,P-1,Sequence Transformation,Easy
+561,562,P-1,Subtract or Divide,Easy
+562,563,P-1,Game On Tree,Hard
+563,564,P-1,Divide Powers,Hard
+564,565,P-1,Two Brackets,Easy
+565,566,P-1,Sum of Medians,Easy
+566,567,P-1,Numbers Box,Easy
+567,568,P-1,Frequency Problem (Hard Version),Hard
+568,569,P-1,Frequency Problem (Easy Version),Hard
+569,570,P-1,Knapsack,Easy
+570,571,P-1,Rogue-like Game,Hard
+571,572,P-1,Used Markers,Easy
+572,573,P-1,Valerii Against Everyone,Easy
+573,574,P-1,Identify the Operations,Medium
+574,575,P-1,Elimination,Easy
+575,576,P-1,Array Rearrangment,Easy
+576,577,P-1,Reverse Binary Strings,Easy
+577,578,P-1,Marketing Scheme,Easy
+578,579,P-1,Solo mid Oracle,Hard
+579,580,P-1,Shurikens,Medium
+580,581,P-1,Dominant Piranha,Easy
+581,582,P-1,Yet Another Bookshelf,Easy
+582,583,P-1,Hexagons,Medium
+583,584,P-1,XORwice,Easy
+584,585,P-1,ABBB,Easy
+585,586,P-1,Bouncing Boomerangs,Medium
+586,587,P-1,String Reversal,Medium
+587,588,P-1,Numbers on Whiteboard,Easy
+588,589,P-1,Barrels,Easy
+589,590,P-1,Boring Card Game,Hard
+590,591,P-1,Chess Cheater,Easy
+591,592,P-1,Nice Matrix,Easy
+592,593,P-1,Arrays Sum,Easy
+593,594,P-1,"Rock, Paper, Scissors",Medium
+594,595,P-1,Non-zero Segments,Easy
+595,596,P-1,Copy-paste,Easy
+596,597,P-1,Showing Off,Hard
+597,598,P-1,Make Them Equal,Medium
+598,599,P-1,Excitation of Atoms,Hard
+599,600,P-1,Arena of Greed,Easy
+600,601,P-1,Killjoy,Easy
+601,602,P-1,Stairs,Easy
+602,603,P-1,Digit Game,Easy
+603,604,P-1,Negative Prefixes,Easy
+604,605,P-1,Three Sequences,Hard
+605,606,P-1,Subset Mex,Easy
+606,607,P-1,Big Vova,Easy
+607,608,P-1,Decrease the Sum of Digits,Easy
+608,609,P-1,Minimum Product,Easy
+609,610,P-1,Yet Another Two Integers Problem,Easy
+610,611,P-1,Juggling Letters,Easy
+611,612,P-1,Stoned Game,Medium
+612,613,P-1,Multiples of Length,Medium
+613,614,P-1,Binary String Reconstruction,Easy
+614,615,P-1,RPG Protagonist,Medium
+615,616,P-1,Ternary Sequence,Easy
+616,617,P-1,Omkar and Waterslide,Easy
+617,618,P-1,Omkar and Password,Easy
+618,619,P-1,Substring Removal Game,Easy
+619,620,P-1,Fix You,Easy
+620,621,P-1,Pinkie Pie Eats Patty-cakes,Medium
+621,622,P-1,Applejack and Storages,Easy
+622,623,P-1,"Rainbow Dash, Fluttershy and Chess Coloring",Easy
+623,624,P-1,Weights Division (easy version),Medium
+624,625,P-1,Binary String To Subsequences,Easy
+625,626,P-1,Boats Competition,Easy
+626,627,P-1,Permutation Transformation,Easy
+627,628,P-1,Arena,Easy
+628,629,P-1,Nezzar and Symmetric Array,Medium
+629,630,P-1,Hills And Valleys,Medium
+630,631,P-1,The Robot,Medium
+631,632,P-1,Plane Tiling,Hard
+632,633,P-1,Berpizza,Easy
+633,634,P-1,In-game Chat,Easy
+634,635,P-1,Busy Robot,Medium
+635,636,P-1,Favorite Sequence,Easy
+636,637,P-1,Multithreading (Hard Version),Hard
+637,638,P-1,Suffix Operations,Easy
+638,639,P-1,Cancel the Trains,Easy
+639,640,P-1,Unique Bid Auction,Easy
+640,641,P-1,Buy the String,Easy
+641,642,P-1,Binary Table (Easy Version),Easy
+642,643,P-1,Black Friday,Medium
+643,644,P-1,Polycarp and the Language of Gods,Easy
+644,645,P-1,Specific Tastes of Andre ,Easy
+645,646,P-1,A New Technique,Easy
+646,647,P-1,Boring Apartments,Easy
+647,648,P-1,Putting Bricks in the Wall,Easy
+648,649,P-1,Unshuffling a Deck,Medium
+649,650,P-1,Symmetric Matrix,Easy
+650,651,P-1,Floor Number,Easy
+651,652,P-1,Decryption,Hard
+652,653,P-1,Trash Problem,Hard
+653,654,P-1,Array Cancellation,Easy
+654,655,P-1,Balanced Bitstring,Easy
+655,656,P-1,Fancy Fence,Medium
+656,657,P-1,Divide Square,Hard
+657,658,P-1,Omkar and Infinity Clock,Easy
+658,659,P-1,Segment Intersections,Hard
+659,660,P-1,Acacius and String,Easy
+660,661,P-1,Removing Leaves,Hard
+661,662,P-1,Mastermind,Hard
+662,663,P-1,Prefix Flip (Hard Version),Medium
+663,664,P-1,Merging Towers,Hard
+664,665,P-1,Berserk And Fireball,Medium
+665,666,P-1,Omkar and Completion,Easy
+666,667,P-1,Cyclic Shifts Sorting,Hard
+667,668,P-1,Reading Books (hard version),Hard
+668,669,P-1,Raging Thunder,Hard
+669,670,P-1,Grid-00100,Medium
+670,671,P-1,A Cookie for You,Easy
+671,672,P-1,Donut Shops,Easy
+672,673,P-1,Maximum GCD,Easy
+673,674,P-1,Lamps on a Circle,Hard
+674,675,P-1,C+=,Easy
+675,676,P-1,DeadLee,Hard
+676,677,P-1,AccurateLee,Easy
+677,678,P-1,Task On The Board,Medium
+678,679,P-1,Short Substrings,Easy
+679,680,P-1,Swaps Again,Hard
+680,681,P-1,Rotation Matching,Easy
+681,682,P-1,Trouble Sort,Easy
+682,683,P-1,Matrix Game,Easy
+683,684,P-1,Johnny and New Toy,Hard
+684,685,P-1,Johnny and James,Hard
+685,686,P-1,Johnny and Grandmaster,Medium
+686,687,P-1,Johnny and Ancient Computer,Easy
+687,688,P-1,Subsequence Hate,Easy
+688,689,P-1,Odd Selection,Easy
+689,690,P-1,Are You Fired?,Hard
+690,691,P-1,Sequence with Digits,Easy
+691,692,P-1,Special Elements,Easy
+692,693,P-1,"Alice, Bob and Candies",Easy
+693,694,P-1,Sum of Round Numbers,Easy
+694,695,P-1,Skier,Easy
+695,696,P-1,Square?,Easy
+696,697,P-1,A+B (Trial Problem),Easy
+697,698,P-1,Restore the Permutation by Sorted Segments,Hard
+698,699,P-1,Nastya and Strange Generator,Easy
+699,700,P-1,Nastya and Door,Easy
+700,701,P-1,Kana and Dragon Quest game,Easy
+701,702,P-1,Anti-Sudoku,Easy
+702,703,P-1,Level Statistics,Easy
+703,704,P-1,Kate and imperfection,Hard
+704,705,P-1,Kind Anton,Easy
+705,706,P-1,Dreamoon Likes Permutations,Easy
+706,707,P-1,Dreamoon and Ranking Collection,Easy
+707,708,P-1,Drazil Likes Heap,Hard
+708,709,P-1,Dreamoon Likes Coloring,Medium
+709,710,P-1,K-Complete Word,Easy
+710,711,P-1,Exercising Walk,Easy
+711,712,P-1,Ternary XOR,Easy
+712,713,P-1,Game with Chips,Medium
+713,714,P-1,Maximums,Easy
+714,715,P-1,CopyCopyCopyCopyCopy,Easy
+715,716,P-1,Sleeping Schedule,Medium
+716,717,P-1,Yet Another Tetris Problem,Easy
+717,718,P-1,Adding Powers,Easy
+718,719,P-1,Even Subset Sum Problem,Easy
+719,720,P-1,String Modification,Easy
+720,721,P-1,Grade Allocation,Easy
+721,722,P-1,Kuroni and the Score Distribution,Hard
+722,723,P-1,Minimum Difference,Hard
+723,724,P-1,Bakery,Hard
+724,725,P-1,My Beautiful Madness,Hard
+725,726,P-1,Range Diameter Sum,Hard
+726,727,P-1,Nim Shortcuts,Hard
+727,728,P-1,Cheat and Win,Hard
+728,729,P-1,Death DBMS,Hard
+729,730,P-1,Roads and Ramen,Hard
+730,731,P-1,Years,Easy
+731,732,P-1,Growing flowers,Hard
+732,733,P-1,Boring Queries,Hard
+733,734,P-1,Impressive Harvesting of The Orchard,Hard
+734,735,P-1,Rescue Nibel!,Medium
+735,736,P-1,Three Occurrences,Hard
+736,737,P-1,Equal Product,Hard
+737,738,P-1,Rainbow Rectangles,Hard
+738,739,P-1,Zigzags,Medium
+739,740,P-1,Uncle Bogdan and Projections,Hard
+740,741,P-1,Joker,Hard
+741,742,P-1,Mixture,Hard
+742,743,P-1,Chess Strikes Back (hard version),Hard
+743,744,P-1,Prefix Flip (Easy Version),Easy
+744,745,P-1,Three Indices,Easy
+745,746,P-1,Element Extermination,Easy
+746,747,P-1,Reading Books (easy version),Medium
+747,748,P-1,Pawns,Hard
+748,749,P-1,XXXXX,Easy
+749,750,P-1,Game with Segments,Hard
+750,751,P-1,Dune II: Battle For Arrakis,Medium
+751,752,P-1,Constructing the Array,Medium
+752,753,P-1,Orac and LCM,Medium
+753,754,P-1,Phoenix and Beauty,Easy
+754,755,P-1,Train Tracks,Hard
+755,756,P-1,Constant Palindrome Sum,Medium
+756,757,P-1,Nastya and CBS,Hard
+757,758,P-1,Dreamoon Likes Strings,Hard
+758,759,P-1,No Monotone Triples,Hard
+759,760,P-1,Bombs,Hard
+760,761,P-1,Autocompletion,Hard
+761,762,P-1,Median Mountain Range,Hard
+762,763,P-1,Battalion Strength,Hard
+763,764,P-1,Reachable Strings,Hard
+764,765,P-1,Treeland and Viruses,Hard
+765,766,P-1,World of Darkraft: Battle for Azathoth,Medium
+766,767,P-1,Journey Planning,Easy
+767,768,P-1,Moving Points,Medium
+768,769,P-1,Recommendations,Medium
+769,770,P-1,Concatenation with intersection,Hard
+770,771,P-1,Skyscrapers (hard version),Medium
+771,772,P-1,Skyscrapers (easy version),Easy
+772,773,P-1,Animal Observation (hard version),Hard
+773,774,P-1,Animal Observation (easy version),Hard
+774,775,P-1,1-Trees and Queries,Medium
+775,776,P-1,Sum of Prefix Sums,Hard
+776,777,P-1,Water Balance,Hard
+777,778,P-1,String Coloring (hard version),Medium
+778,779,P-1,Yet Another Walking Robot,Easy
+779,780,P-1,Cartesian Tree ,Hard
+780,781,P-1,Mind Control,Medium
+781,782,P-1,Permutation Separation,Hard
+782,783,P-1,MEX maximizing,Medium
+783,784,P-1,NEKO's Maze Game,Easy
+784,785,P-1,Messenger Simulator,Medium
+785,786,P-1,Hyperset,Easy
+786,787,P-1,Fedya the Potter Strikes Back,Hard
+787,788,P-1,LCC,Hard
+788,789,P-1,Number of Components,Hard
+789,790,P-1,Balanced Remainders,Easy
+790,791,P-1,Unusual Matrix,Medium
+791,792,P-1,String LCM,Easy
+792,793,P-1,Apollo versus Pan,Medium
+793,794,P-1,Bovine Dilemma,Easy
+794,795,P-1,A Bit Similar,Hard
+795,796,P-1,Ceil Divisions,Medium
+796,797,P-1,Fair Numbers,Easy
+797,798,P-1,XOR-gun,Medium
+798,799,P-1,Long Permutation,Hard
+799,800,P-1,Division,Easy
+800,801,P-1,Number of Apartments,Easy
+801,802,P-1,Yet Another Array Restoration,Easy
+802,803,P-1,Power Sequence,Easy
+803,804,P-1,Boboniu Likes to Color Balls,Easy
+804,805,P-1,Captain Flint and Crew Recruitment,Easy
+805,806,P-1,Common Subsequence,Easy
+806,807,P-1,Replace by MEX,Medium
+807,808,P-1,Codeforces Subsequences,Easy
+808,809,P-1,Ehab and Prefix MEXs,Medium
+809,810,P-1,Maximum Subsequence Value,Medium
+810,811,P-1,Johnny and His Hobbies,Easy
+811,812,P-1,Berland Poker,Easy
+812,813,P-1,Candies,Easy
+813,814,P-1,Chiori and Doll Picking (hard version),Hard
+814,815,P-1,Chiori and Doll Picking (easy version),Hard
+815,816,P-1,Substring Search,Hard
+816,817,P-1,Circle of Monsters,Medium
+817,818,P-1,Perfect Triples,Hard
+818,819,P-1,Road to 1600,Hard
+819,820,P-1,Composite Coloring,Easy
+820,821,P-1,Wise Men (Easy Version),Hard
+821,822,P-1,Yet Another Palindrome Problem,Easy
+822,823,P-1,Kuroni and Impossible Calculation,Medium
+823,824,P-1,Kuroni and the Gifts,Easy
+824,825,P-1,Remove Adjacent,Medium
+825,826,P-1,Blocks and Sensors,Hard
+826,827,P-1,Construct the Binary Tree,Hard
+827,828,P-1,Three Integers,Medium
+828,829,P-1,Perform the Combo,Easy
+829,830,P-1,Fast Food Restaurant,Easy
+830,831,P-1,Cow and Message,Easy
+831,832,P-1,Longest Palindrome,Easy
+832,833,P-1,Anu Has a Function,Easy
+833,834,P-1,Aroma's Search,Medium
+834,835,P-1,Dr. Evil Underscores,Medium
+835,836,P-1,Fadi and LCM,Easy
+836,837,P-1,Harry The Potter,Hard
+837,838,P-1,Madhouse (Hard version),Hard
+838,839,P-1,Madhouse (Easy version),Hard
+839,840,P-1,Modulo Equality,Easy
+840,841,P-1,Equation,Easy
+841,842,P-1,Shuffle Hashing,Easy
+842,843,P-1,Shawarma Tent,Easy
+843,844,P-1,Suits,Easy
+844,845,P-1,Beautiful Rectangle,Hard
+845,846,P-1,Remove One Element,Easy
+846,847,P-1,Three Friends,Easy
+847,848,P-1,Beautiful Sequence,Medium
+848,849,P-1,Intriguing Selection,Hard
+849,850,P-1,Tournament,Hard
+850,851,P-1,Make Them Similar,Hard
+851,852,P-1,Daniel and Spring Cleaning,Hard
+852,853,P-1,Data Center,Easy
+853,854,P-1,The Feast and the Bus,Medium
+854,855,P-1,p-binary,Medium
+855,856,P-1,Broken Keyboard,Easy
+856,857,P-1,Tiling Terrace,Hard
+857,858,P-1,Good Numbers (easy version),Easy
+858,859,P-1,The World Is Just a Programming Task (Easy Version),Medium
+859,860,P-1,Alice and the Doll,Hard
+860,861,P-1,Stones,Easy
+861,862,P-1,The Football Season,Medium
+862,863,P-1,Rooms and Staircases,Easy
+863,864,P-1,Distinct Digits,Easy
+864,865,P-1,Dawid and Bags of Candies,Easy
+865,866,P-1,Cat Cycle,Easy
+866,867,P-1,Nezzar and Chocolate Bars,Hard
+867,868,P-1,Nezzar and Board,Medium
+868,869,P-1,Advertising Agency,Medium
+869,870,P-1,Odd Divisor,Easy
+870,871,P-1,Strange Set,Hard
+871,872,P-1,No More Inversions,Easy
+872,873,P-1,Song of the Sirens,Hard
+873,874,P-1,No Game No Life,Hard
+874,875,P-1,Red-Blue Shuffle,Easy
+875,876,P-1,Latin Square,Hard
+876,877,P-1,Row GCD,Medium
+877,878,P-1,Multithreading (Easy Version),Hard
+878,879,P-1,Errich-Tac-Toe (Hard Version),Hard
+879,880,P-1,Errich-Tac-Toe (Easy Version),Hard
+880,881,P-1,Ping-pong,Easy
+881,882,P-1,Jumps,Easy
+882,883,P-1,Strange Functions,Easy
+883,884,P-1,Number into Sequence,Easy
+884,885,P-1,Bitwise Queries (Easy Version),Medium
+885,886,P-1,Bitwise Queries (Hard Version),Hard
+886,887,P-1,Circle Game,Medium
+887,888,P-1,Robot Program,Easy
+888,889,P-1,Add Candies,Easy
+889,890,P-1,Powerful Ksenia,Hard
+890,891,P-1,Kids Seating,Easy
+891,892,P-1,Divide and Sum,Medium
+892,893,P-1,Finding Sasuke,Easy
+893,894,P-1,Sum Over Subsets,Hard
+894,895,P-1,Prime Square,Easy
+895,896,P-1,Reorder,Easy
+896,897,P-1,Two Round Dances,Easy
+897,898,P-1,Box is Pull,Easy
+898,899,P-1,Xum,Hard
+899,900,P-1,Avoiding Zero,Easy
+900,901,P-1,Coins,Hard
+901,902,P-1,Fence,Easy
+902,903,P-1,Captain of Knights,Hard
+903,904,P-1,Rock and Lever,Easy
+904,905,P-1,Cubes Sorting,Easy
+905,906,P-1,Buying Torches,Easy
+906,907,P-1,Deleting Numbers,Hard
+907,908,P-1,Chocolate Bunny,Medium
+908,909,P-1,Ahahahahahahahaha,Easy
+909,910,P-1,Game of Pairs,Hard
+910,911,P-1,Mere Array,Easy
+911,912,P-1,Distance and Axis,Easy
+912,913,P-1,Omkar and Duck,Hard
+913,914,P-1,Running Competition,Hard
+914,915,P-1,Bad Triangle,Easy
+915,916,P-1,Suborrays,Easy
+916,917,P-1,Uncle Bogdan and Country Happiness,Medium
+917,918,P-1,Captain Flint and a Long Voyage,Easy
+918,919,P-1,Calendar Ambiguity,Hard
+919,920,P-1,LCM Problem,Easy
+920,921,P-1,Three Pairwise Maximums,Easy
+921,922,P-1,Origami,Hard
+922,923,P-1,Circular Dungeon,Hard
+923,924,P-1,Omkar and Baseball,Easy
+924,925,P-1,Omkar and Last Class of Math,Easy
+925,926,P-1,Cubic Lattice,Hard
+926,927,P-1,Integer Game,Hard
+927,928,P-1,Sign Flipping,Easy
+928,929,P-1,Zero Remainder Array,Easy
+929,930,P-1,"Multiply by 2, divide by 6",Easy
+930,931,P-1,Required Remainder,Easy
+931,932,P-1,Cyclic Shifts,Hard
+932,933,P-1,Palindromifier,Easy
+933,934,P-1,String Similarity,Easy
+934,935,P-1,Boboniu and Banknote Collection,Hard
+935,936,P-1,Common Prefixes,Easy
+936,937,P-1,Move Brackets,Easy
+937,938,P-1,Phoenix and Distribution,Medium
+938,939,P-1,Binary Period,Easy
+939,940,P-1,Prefix-Suffix Palindrome (Easy version),Easy
+940,941,P-1,Kuroni and Simple Strings,Easy
+941,942,P-1,Three Strings,Easy
+942,943,P-1,Erase Subsequences,Hard
+943,944,P-1,Erasing Zeroes,Easy
+944,945,P-1,Even But Not Even,Easy
+945,946,P-1,Obtain The String,Medium
+946,947,P-1,Infinite Prefixes,Medium
+947,948,P-1,New Year and Naming,Easy
+948,949,P-1,Awesome Substrings,Hard
+949,950,P-1,Enchanted Artifact,Hard
+950,951,P-1,Long Beautiful Integer,Medium
+951,952,P-1,Two Bracket Sequences,Hard
+952,953,P-1,Lexicography,Medium
+953,954,P-1,Dominated Subarray,Easy
+954,955,P-1,Character Swap (Hard Version),Medium
+955,956,P-1,Character Swap (Easy Version),Easy
+956,957,P-1,Equalizing Two Strings,Medium
+957,958,P-1,Binary Palindromes,Easy
+958,959,P-1,Find String in a Grid,Hard
+959,960,P-1,Strings Equalization,Easy
+960,961,P-1,Middle-Out,Hard
+961,962,P-1,Prefixes,Easy
+962,963,P-1,Substring Game in the Lesson,Easy
+963,964,P-1,Cards,Easy
+964,965,P-1,Periodic integer number,Medium
+965,966,P-1,Indie Album,Hard
+966,967,P-1,Kirk and a Binary String (hard version),Hard
+967,968,P-1,Kirk and a Binary String (easy version),Medium
+968,969,P-1,Expected Value Again,Hard
+969,970,P-1,Compress Words,Medium
+970,971,P-1,You Are Given Some Strings...,Hard
+971,972,P-1,Print a 1337-string...,Medium
+972,973,P-1,You Are Given a WASD-string...,Hard
+973,974,P-1,Important Exam,Easy
+974,975,P-1,Archaeology,Medium
+975,976,P-1,WOW Factor,Easy
+976,977,P-1,From S To T,Easy
+977,978,P-1,Keanu Reeves,Easy
+978,979,P-1,Subsequences (hard version),Medium
+979,980,P-1,Email from Polycarp,Easy
+980,981,P-1,Split a Number,Easy
+981,982,P-1,Beautiful Lyrics,Medium
+982,983,P-1,Plus from Picture,Easy
+983,984,P-1,Telephone Number,Easy
+984,985,P-1,The minimal unique substring,Hard
+985,986,P-1,Mysterious Code,Hard
+986,987,P-1,Chladni Figure,Medium
+987,988,P-1,Ugly Pairs,Medium
+988,989,P-1,Three Religions,Hard
+989,990,P-1,Reverse a Substring,Easy
+990,991,P-1,"Hate ""A""",Easy
+991,992,P-1,"Love ""A""",Easy
+992,993,P-1,Maxim and Biology,Easy
+993,994,P-1,Serval and Parenthesis Sequence,Medium
+994,995,P-1,Median String,Medium
+995,996,P-1,Diverse Strings,Easy
+996,997,P-1,Even Substrings,Easy
+997,998,P-1,Circus,Medium
+998,999,P-1,Camp Schedule,Medium
+999,1000,P-1,Compress String,Hard
+1000,1001,P-1,Morse Code,Hard
+1001,1002,P-1,String Multiplication,Hard
+1002,1003,P-1,Sasha and One More Name,Medium
+1003,1004,P-1,Modest Substrings,Hard
+1004,1005,P-1,Superhero Transformation,Easy
+1005,1006,P-1,Digits Sequence Dividing,Easy
+1006,1007,P-1,Zuhair and Strings,Easy
+1007,1008,P-1,Balanced Ternary String,Easy
+1008,1009,P-1,Ж-function,Hard
+1009,1010,P-1,Mateusz and an Infinite Sequence,Hard
+1010,1011,P-1,Substring Removal,Easy
+1011,1012,P-1,Vasya and Templates,Hard
+1012,1013,P-1,Right-Left Cipher,Easy
+1013,1014,P-1,Prefixes and Suffixes,Medium
+1014,1015,P-1,Palindromic Magic,Hard
+1015,1016,P-1,Letters Rearranging,Easy
+1016,1017,P-1,The Fair Nut and Strings,Medium
+1017,1018,P-1,Two Prefixes,Hard
+1018,1019,P-1,Detect Robots,Hard
+1019,1020,P-1,Check Transcription,Hard
+1020,1021,P-1,Sonya and Matrix Beauty,Hard
+1021,1022,P-1,Minimizing the String,Easy
+1022,1023,P-1,Tree and XOR,Hard
+1023,1024,P-1,Refactoring,Hard
+1024,1025,P-1,Speckled Band,Hard
+1025,1026,P-1,Diverse Substring,Easy
+1026,1027,P-1,Oh Those Palindromes,Easy
+1027,1028,P-1,Fibonacci Suffix,Hard
+1028,1029,P-1,Side Transmutations,Hard
+1029,1030,P-1,Moonwalk challenge,Hard
+1030,1031,P-1,Palindrome Pairs,Medium
+1031,1032,P-1,Vasya and Big Integers,Hard
+1032,1033,P-1,Vasya And Password,Easy
+1033,1034,P-1,Wrap Around,Hard
+1034,1035,P-1,Equality,Easy
+1035,1036,P-1,Equalize,Easy
+1036,1037,P-1,Many Equal Substrings,Easy
+1037,1038,P-1,Palindromic Twist,Easy
+1038,1039,P-1,Single Wildcard Pattern Matching,Easy
+1039,1040,P-1,The Supersonic Rocket,Hard
+1040,1041,P-1,Bracket Substring,Hard
+1041,1042,P-1,AB-Strings,Hard
+1042,1043,P-1,Romaji,Easy
+1043,1044,P-1,Delete from the Left,Easy
+1044,1045,P-1,Abbreviation,Hard
+1045,1046,P-1,A Tide of Riverscape,Easy
+1046,1047,P-1,A Blend of Springtime,Easy
+1047,1048,P-1,Substrings Sort,Easy
+1048,1049,P-1,Antipalindrome,Easy
+1049,1050,P-1,Isomorphic Strings,Hard
+1050,1051,P-1,Kuro and GCD and XOR and SUM,Hard
+1051,1052,P-1,File Name,Easy
+1052,1053,P-1,Two-gram,Easy
+1053,1054,P-1,Aramic script,Easy
+1054,1055,P-1,Short Code,Hard
+1055,1056,P-1,Frequency of String,Hard
+1056,1057,P-1,Death Stars (medium),Medium
+1057,1058,P-1,Scissors,Hard
+1058,1059,P-1,String Typing,Easy
+1059,1060,P-1,Picking Strings,Hard
+1060,1061,P-1,Perfect Security,Medium
+1061,1062,P-1,String Transformation,Easy
+1062,1063,P-1,Game with String,Medium
+1063,1064,P-1,Lock Puzzle,Hard
+1064,1065,P-1,Login Verification,Easy
+1065,1066,P-1,Phone Numbers,Easy
+1066,1067,P-1,Full Turn,Medium
+1067,1068,P-1,Number Game,Easy
+1068,1069,P-1,GCD Compression,Easy
+1069,1070,P-1,Two Divisors,Medium
+1070,1071,P-1,Two IP Cameras,Hard
+1071,1072,P-1,Modular Stability,Medium
+1072,1073,P-1,Buying Shovels,Easy
+1073,1074,P-1,Guess Divisors Count,Hard
+1074,1075,P-1,Yet Another Counting Problem,Medium
+1075,1076,P-1,Hilbert's Hotel,Medium
+1076,1077,P-1,Bad Ugly Numbers,Easy
+1077,1078,P-1,Ehab the Xorcist,Medium
+1078,1079,P-1,EhAb AnD gCd,Easy
+1079,1080,P-1,Two Regular Polygons,Easy
+1080,1081,P-1,Kuroni and the Punishment,Hard
+1081,1082,P-1,Bad Cryptography,Hard
+1082,1083,P-1,Same GCDs,Medium
+1083,1084,P-1,Product of Three Numbers,Easy
+1084,1085,P-1,Diverse Matrix,Easy
+1085,1086,P-1,Make Them Odd,Easy
+1086,1087,P-1,Beautiful Fibonacci Problem,Hard
+1087,1088,P-1,Infinite Fence,Medium
+1088,1089,P-1,Send Boxes to Alice (Hard Version),Hard
+1089,1090,P-1,Send Boxes to Alice (Easy Version),Medium
+1090,1091,P-1,Divisor Set,Hard
+1091,1092,P-1,Tile Painting,Easy
+1092,1093,P-1,Good ol' Numbers Coloring,Easy
+1093,1094,P-1,To Make 1,Hard
+1094,1095,P-1,Power Products,Medium
+1095,1096,P-1,Prime Subtraction,Easy
+1096,1097,P-1,Primes and Multiplication,Medium
+1097,1098,P-1,Kamil and Making a Stream,Medium
+1098,1099,P-1,Alex and Julian,Medium
+1099,1100,P-1,Multiplication Table,Easy
+1100,1101,P-1,Koala and Lights,Easy
+1101,1102,P-1,Polygons,Hard
+1102,1103,P-1,"Natasha, Sasha and the Prefix Sums",Hard
+1103,1104,P-1,Round Corridor,Easy
+1104,1105,P-1,GCD Groups 2,Hard
+1105,1106,P-1,Submarine in the Rybinsk Sea (hard edition),Medium
+1106,1107,P-1,Submarine in the Rybinsk Sea (easy edition),Easy
+1107,1108,P-1,Prime Graph,Easy
+1108,1109,P-1,Crossword Expert,Hard
+1109,1110,P-1,Tokitsukaze and Powers,Hard
+1110,1111,P-1,Heidi Learns Hashing (Hard),Hard
+1111,1112,P-1,Heidi Learns Hashing (Medium),Hard
+1112,1113,P-1,Heidi Learns Hashing (Easy),Easy
+1113,1114,P-1,Count Pairs,Hard
+1114,1115,P-1,Product Oriented Recurrence,Hard
+1115,1116,P-1,Ehab and the Expected GCD Problem,Hard
+1116,1117,P-1,Ehab and a Special Coloring Problem,Easy
+1117,1118,P-1,The LCMs Must be Large,Hard
+1118,1119,P-1,All the Vowels Please,Easy
+1119,1120,P-1,Almost All Divisors,Medium
+1120,1121,P-1,Prefix Sum Primes,Easy
+1121,1122,P-1,Neko does Maths,Medium
+1122,1123,P-1,Alarm Clocks Everywhere,Easy
+1123,1124,P-1,Frog Jumping,Hard
+1124,1125,P-1,Minimum Possible LCM,Hard
+1125,1126,P-1,Nirvana,Easy
+1126,1127,P-1,Steps to One,Hard
+1127,1128,P-1,Cooperative Game,Hard
+1128,1129,P-1,Zero Quantity Maximization,Easy
+1129,1130,P-1,Preparation for International Women's Day,Easy
+1130,1131,P-1,Sasha and Magnetic Machines,Easy
+1131,1132,P-1,Sasha and a Very Easy Test,Hard
+1132,1133,P-1,"Please, another Queries on Array?",Hard
+1133,1134,P-1,Arithmetic Progression,Hard
+1134,1135,P-1,Trailing Loves (or L'oeufs?),Medium
+1135,1136,P-1,Meaningless Operations,Easy
+1136,1137,P-1,Lunar New Year and a Recursive Sequence,Hard
+1137,1138,P-1,Compression,Medium
+1138,1139,P-1,Digital root,Easy
+1139,1140,P-1,Divisors of Two Integers,Easy
+1140,1141,P-1,Radix sum,Hard
+1141,1142,P-1,GCD Counting,Medium
+1142,1143,P-1,Fedya the Potter,Hard
+1143,1144,P-1,Alex and a TV Show,Hard
+1144,1145,P-1,Makoto and a Blackboard,Hard
+1145,1146,P-1,New Year and the Factorisation Collaboration,Hard
+1146,1147,P-1,New Year and the Sphere Transmission,Easy
+1147,1148,P-1,Missing Numbers,Medium
+1148,1149,P-1,Divide Candies,Medium
+1149,1150,P-1,Multiplicity,Medium
+1150,1151,P-1,Math,Easy
+1151,1152,P-1,Divisor Subtraction,Easy
+1152,1153,P-1,Lucky Days,Medium
+1153,1154,P-1,Make It One,Hard
+1154,1155,P-1,LCM,Easy
+1155,1156,P-1,Find a Number,Hard
+1156,1157,P-1,Epic Convolution,Hard
+1157,1158,P-1,Divisors,Medium
+1158,1159,P-1,Square Difference,Easy
+1159,1160,P-1,Linear Congruential Generator,Hard
+1160,1161,P-1,Vasya and Triangle,Medium
+1161,1162,P-1,Space Isaac,Hard
+1162,1163,P-1,Region Separation,Hard
+1163,1164,P-1,Enlarge GCD,Medium
+1164,1165,P-1,Relatively Prime Pairs,Easy
+1165,1166,P-1,Relatively Prime Powers,Hard
+1166,1167,P-1,Covered Points,Hard
+1167,1168,P-1,Multicolored Markers,Medium
+1168,1169,P-1,Recovering BST,Hard
+1169,1170,P-1,Weakened Common Divisor,Medium
+1170,1171,P-1,X-mouse in the Campus,Hard
+1171,1172,P-1,Appropriate Team,Hard
+1172,1173,P-1,Border,Medium
+1173,1174,P-1,Pave the Parallelepiped,Hard
+1174,1175,P-1,Polycarp and Div 3,Easy
+1175,1176,P-1,Number Clicker,Hard
+1176,1177,P-1,Nastya Studies Informatics,Medium
+1177,1178,P-1,Oppa Funcan Style Remastered,Hard
+1178,1179,P-1,Prince's Problem,Hard
+1179,1180,P-1,Fair,Medium
+1180,1181,P-1,Billiard,Hard
+1181,1182,P-1,Perfect Groups,Hard
+1182,1183,P-1,Cutting Rectangle,Hard
+1183,1184,P-1,Alternating Sum,Medium
+1184,1185,P-1,Partitions,Hard
+1185,1186,P-1,Mahmoud and Ehab and another array construction task,Medium
+1186,1187,P-1,Sad powers,Hard
+1187,1188,P-1,Primal Sport,Medium
+1188,1189,P-1,Weird Subtraction Process,Easy
+1189,1190,P-1,Vile Grasshoppers,Easy
+1190,1191,P-1,Divisibility,Hard
+1191,1192,P-1,Cave Painting,Medium
+1192,1193,P-1,List Of Integers,Hard
