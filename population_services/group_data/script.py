@@ -39,7 +39,10 @@ def form_group():
         res["ID"].append(dfu["ID"][admin])
         res["Group_ID"].append(gid)
         gid += 1
-        res["Name"].append(rand.get_random_word(hasDictionaryDef="true", minLength=5, maxLength=15))
+        name = rand.get_random_word(hasDictionaryDef="true", minLength=5, maxLength=15)
+        while name is None:
+            name = rand.get_random_word(hasDictionaryDef="true", minLength=5, maxLength=15)
+        res["Name"].append(name)
         dLow = datetime.datetime.strptime(dfu['DateOfJoining'][admin] + ' 1:30 PM', '%Y-%m-%d %I:%M %p')
         dHigh = datetime.datetime.strptime('1/1/2021 1:30 PM', '%m/%d/%Y %I:%M %p')
         res["DateOfFormation"].append(random_date(dLow, dHigh).date().strftime("%Y-%m-%d"))
@@ -48,6 +51,10 @@ def form_group():
     df = pd.DataFrame.from_dict(res)
     print(df.head())
     df.to_csv('../../tables/groups.csv', index=False)
+
+# Needs groups to be formed
+def form_member_of():
+    pass
 
 if __name__ == "__main__":
     form_group()
