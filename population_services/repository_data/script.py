@@ -7,7 +7,7 @@ import random
 
 UNIV_LANG = ["C++",  "C#", "C", "Python", "Java", "JavaScript", "Kotlin"]
 UNIV_MAP = {"cpp": "C++", "cs": "C", "c": "C", "py": "Python", "java": "Java", "js": "JavaScript", "kt": "Kotlin"}
-
+UNIV_TAGS = ["graphs", "dp", "binary search", "greedy", "implementation", "data structures", "brute force", "math","strings", "number theory"]
 
 def random_date(start, end):
     """
@@ -212,8 +212,41 @@ def form_todo():
     df.to_csv('../../tables/todolist.csv', index=False)
 
 
+# Needs repository.csv
+def form_repo_tags():
+    readrep = pd.read_csv('../../tables/repository.csv')
+
+    res = {
+        "User_ID": [], 
+        "Name": [], 
+        "Tag": []
+        }
+
+    # To avoid duplicacy
+    done = {}
+    for i in readrep.index:
+        numofTags = random.randint(1, 5)
+        for j in range(0, numofTags):
+            id = random.randint(0, len(UNIV_TAGS)-1)
+            x = readrep["ID"][i]
+            y = readrep["Name"][i]
+            z = UNIV_TAGS[id]
+            if (x, y, z) in done:
+                continue
+
+            res["User_ID"].append(x)
+            res["Name"].append(y)
+            res["Tag"].append(z)
+            done[(x, y, z)] = True
+
+    df = pd.DataFrame.from_dict(res)
+    print(df.head())
+    df.to_csv('../../tables/repo_tags.csv', index=False)
+
+
 if __name__ == "__main__":
     # form_repository()
     # form_repo_templates()
-    form_favourites()
-    form_todo()
+    # form_favourites()
+    # form_todo()
+    form_repo_tags()
