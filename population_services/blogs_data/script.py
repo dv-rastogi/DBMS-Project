@@ -92,9 +92,9 @@ def form_blogs_tags():
 	
 	df = pd.DataFrame.from_dict(res)
 	print(df.head())
-	df.to_csv('../../tables/blogs_tags.csv')
+	df.to_csv('../../tables/blogs_tags.csv', index=False)
 			
 
 if __name__ == "__main__":		
-	form_blogs()
+	# form_blogs()
 	form_blogs_tags()

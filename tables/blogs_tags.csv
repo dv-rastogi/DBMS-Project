@@ -1,169 +1,154 @@
-,ID,Name,Date,Tag
-0,U-2,578C — Weakness and Poorness WA,2019-04-04,binary search
-1,U-2,578C — Weakness and Poorness WA,2019-04-04,dp
-2,U-11,Paths in graphs....,2019-04-25,implementation
-3,U-11,Paths in graphs....,2019-04-25,strings
-4,U-11,Paths in graphs....,2019-04-25,data structures
-5,U-11,Paths in graphs....,2019-04-25,graphs
-6,U-11,Cheating in Codeforces rounds,2020-07-06,greedy
-7,U-11,Cheating in Codeforces rounds,2020-07-06,binary search
-8,U-11,Cheating in Codeforces rounds,2020-07-06,math
-9,U-11,Cheating in Codeforces rounds,2020-07-06,data structures
-10,U-53,Bitwise and of subarray sums problem,2013-12-17,number theory
-11,U-53,Bitwise and of subarray sums problem,2013-12-17,binary search
-12,U-53,Bitwise and of subarray sums problem,2013-12-17,strings
-13,U-57,Help with problem involving bitmasking and SOS dp .,2017-03-30,strings
-14,U-57,Help with problem involving bitmasking and SOS dp .,2017-03-30,greedy
-15,U-57,Help with problem involving bitmasking and SOS dp .,2017-03-30,binary search
-16,U-57,Doubt regarding policy based data structure,2011-12-04,strings
-17,U-57,How to give team contests during pandemic ?,2016-03-29,brute force
-18,U-57,How to give team contests during pandemic ?,2016-03-29,number theory
-19,U-57,How to give team contests during pandemic ?,2016-03-29,greedy
-20,U-57,Help with Problem involving XOR,2011-09-05,brute force
-21,U-57,Help with Problem involving XOR,2011-09-05,number theory
-22,U-57,Help with Problem involving XOR,2011-09-05,strings
-23,U-57,help in a problem TRENDGCD at spoj,2013-09-04,math
-24,U-57,help in a problem TRENDGCD at spoj,2013-09-04,strings
-25,U-57,help in a problem TRENDGCD at spoj,2013-09-04,implementation
-26,U-57,help in a problem TRENDGCD at spoj,2013-09-04,data structures
-27,U-57,help in a problem TRENDGCD at spoj,2013-09-04,dp
-28,U-65,IZHO editorials,2020-12-23,data structures
-29,U-65,IZHO editorials,2020-12-23,brute force
-30,U-65,IZHO editorials,2020-12-23,implementation
-31,U-87,regarding precomputation run time calculation on spoj,2020-06-08,graphs
-32,U-101,Same solution one got tle on 11th tc. one accepted after system testing????,2018-08-23,binary search
-33,U-101,Same solution one got tle on 11th tc. one accepted after system testing????,2018-08-23,data structures
-34,U-101,Same solution one got tle on 11th tc. one accepted after system testing????,2018-08-23,number theory
-35,U-104,Please help me with memset() and fill(),2014-06-15,brute force
-36,U-104,Please help me with memset() and fill(),2014-06-15,greedy
-37,U-104,Please help me with memset() and fill(),2014-06-15,data structures
-38,U-104,Please help me with memset() and fill(),2014-06-15,math
-39,U-104,Please help me with memset() and fill(),2014-06-15,implementation
-40,U-105,Strange error ,2012-01-31,math
-41,U-105,Strange error ,2012-01-31,data structures
-42,U-105,Strange error ,2012-01-31,dp
-43,U-105,Strange error ,2012-01-31,strings
-44,U-105,Strange error ,2012-01-31,brute force
-45,U-116,Codeforces Round #671 Editorial,2017-04-20,math
-46,U-116,Codeforces Round #671 Editorial,2017-04-20,dp
-47,U-116,Codeforces Round #671,2017-10-26,graphs
-48,U-116,Codeforces Round #671,2017-10-26,data structures
-49,U-116,Codeforces Round #671,2017-10-26,binary search
-50,U-117,"Cannot get AC on Mashmokh and Reverse Operation, test #72 output is wrong",2017-10-11,data structures
-51,U-124,Got acussed of copying another user's code!!!,2007-07-28,graphs
-52,U-124,Got acussed of copying another user's code!!!,2007-07-28,number theory
-53,U-124,Got acussed of copying another user's code!!!,2007-07-28,strings
-54,U-124,Got acussed of copying another user's code!!!,2007-07-28,greedy
-55,U-124,Got acussed of copying another user's code!!!,2007-07-28,brute force
-56,U-125,[COPS] AtCoder Beginner Contest 190 — Screencast,2020-09-07,greedy
-57,U-125,[COPS] AtCoder Beginner Contest 190 — Screencast,2020-09-07,brute force
-58,U-125,[COPS] AtCoder Beginner Contest 190 — Screencast,2020-09-07,dp
-59,U-125,[COPS] AtCoder Beginner Contest 190 — Screencast,2020-09-07,implementation
-60,U-125,[COPS] AtCoder Beginner Contest 190 — Screencast,2020-09-07,binary search
-61,U-125,[COPS Editorial] AtCoder Beginner Contest 187 Video Editorials,2019-04-30,implementation
-62,U-125,[COPS Editorial] AtCoder Beginner Contest 187 Video Editorials,2019-04-30,graphs
-63,U-140,Invitation to ATMOS CodeDash,2018-05-04,dp
-64,U-140,Invitation to ATMOS CodeDash,2018-05-04,greedy
-65,U-140,Invitation to ATMOS CodeDash,2018-05-04,data structures
-66,U-140,Invitation to ATMOS CodeDash,2018-05-04,binary search
-67,U-140,Invitation to ATMOS CodeDash,2018-05-04,implementation
-68,U-141,The difference between ceil in C++ and Python ?,2019-09-18,number theory
-69,U-141,The difference between ceil in C++ and Python ?,2019-09-18,dp
-70,U-142,[Timus 1766] How to apply Gaussian elimination?,2012-03-07,strings
-71,U-151,Compiled file is too large error in G++,2015-04-04,data structures
-72,U-151,Compiled file is too large error in G++,2015-04-04,greedy
-73,U-151,Compiled file is too large error in G++,2015-04-04,math
-74,U-151,Compiled file is too large error in G++,2015-04-04,strings
-75,U-151,Compiled file is too large error in G++,2015-04-04,graphs
-76,U-159,Like Mike or not...,2019-09-26,data structures
-77,U-159,Like Mike or not...,2019-09-26,binary search
-78,U-159,Like Mike or not...,2019-09-26,strings
-79,U-159,Like Mike or not...,2019-09-26,math
-80,U-159,Like Mike or not...,2019-09-26,number theory
-81,U-162,Changing handle,2020-11-03,number theory
-82,U-162,Changing handle,2020-11-03,brute force
-83,U-162,Changing handle,2020-11-03,binary search
-84,U-163,Possible bug in the changing handles feature,2016-05-28,data structures
-85,U-163,Possible bug in the changing handles feature,2016-05-28,greedy
-86,U-163,Possible bug in the changing handles feature,2016-05-28,brute force
-87,U-163,Possible bug in the changing handles feature,2016-05-28,dp
-88,U-165,How to find the number of integral solution of linear diophantine equation between the range? Also how to find the solution for which (x+y) is minimum?Can anyone hep me to solve this?,2013-07-31,number theory
-89,U-165,How to find the number of integral solution of linear diophantine equation between the range? Also how to find the solution for which (x+y) is minimum?Can anyone hep me to solve this?,2013-07-31,dp
-90,U-165,How to find the number of integral solution of linear diophantine equation between the range? Also how to find the solution for which (x+y) is minimum?Can anyone hep me to solve this?,2013-07-31,data structures
-91,U-165,How to find the number of integral solution of linear diophantine equation between the range? Also how to find the solution for which (x+y) is minimum?Can anyone hep me to solve this?,2013-07-31,implementation
-92,U-165,Modulo Property Query,2018-10-26,dp
-93,U-165,Modulo Property Query,2018-10-26,brute force
-94,U-165,Modulo Property Query,2018-10-26,implementation
-95,U-165,Modulo Property Query,2018-10-26,data structures
-96,U-170,"N̶e̶e̶d̶ ̶h̶e̶l̶p̶: Selects K different columns from a 2xN matrix, maximizes the ratio of (sum selected top) to (sum selected bottom)",2012-02-25,greedy
-97,U-170,"N̶e̶e̶d̶ ̶h̶e̶l̶p̶: Selects K different columns from a 2xN matrix, maximizes the ratio of (sum selected top) to (sum selected bottom)",2012-02-25,brute force
-98,U-170,&quot;Statement is not available on English language&quot; for Mashups contain customized problems that are prepared on Polygon ,2015-10-25,number theory
-99,U-170,&quot;Statement is not available on English language&quot; for Mashups contain customized problems that are prepared on Polygon ,2015-10-25,dp
-100,U-196,Need help on a NTT problem,2016-12-18,strings
-101,U-196,Need help on a NTT problem,2016-12-18,greedy
-102,U-196,Need help on a NTT problem,2016-12-18,number theory
-103,U-196,Need help on a NTT problem,2016-12-18,implementation
-104,U-196,SPOJ — Maxmatch,2018-09-09,greedy
-105,U-196,SPOJ — Maxmatch,2018-09-09,graphs
-106,U-196,SPOJ — Maxmatch,2018-09-09,binary search
-107,U-196,SPOJ — Maxmatch,2018-09-09,brute force
-108,U-196,SPOJ — Maxmatch,2018-09-09,data structures
-109,U-196,Request for Gaussian Elimination Resources.,2015-05-09,graphs
-110,U-196,Compiler Behavior Confusion!,2020-01-12,binary search
-111,U-196,Compiler Behavior Confusion!,2020-01-12,graphs
-112,U-196,Editorial of Criterion 2020 Round 6,2017-03-30,number theory
-113,U-196,Editorial of Criterion 2020 Round 6,2017-03-30,implementation
-114,U-196,Editorial of Criterion 2020 Round 6,2017-03-30,dp
-115,U-196,Editorial of Criterion 2020 Round 6,2017-03-30,strings
-116,U-196,Criterion 2020 Round 6 (Rated),2013-04-24,number theory
-117,U-196,Criterion 2020 Round 6 (Rated),2013-04-24,dp
-118,U-196,Criterion 2020 Round 6 (Rated),2013-04-24,strings
-119,U-196,RUET Presents Inter University Programming Contest,2014-07-13,implementation
-120,U-196,Sherlock and Inversion (with merge sort tree),2018-04-05,math
-121,U-196,Contribution Confusion.,2014-02-10,implementation
-122,U-196,Contribution Confusion.,2014-02-10,dp
-123,U-196,Contribution Confusion.,2014-02-10,strings
-124,U-196,Contribution Confusion.,2014-02-10,brute force
-125,U-199,How do you create problems for contests?,2019-12-06,binary search
-126,U-199,How do you create problems for contests?,2019-12-06,implementation
-127,U-199,Christmas theme doesn't playe well with Dark Reader ,2019-09-11,implementation
-128,U-199,Christmas theme doesn't playe well with Dark Reader ,2019-09-11,data structures
-129,U-199,Christmas theme doesn't playe well with Dark Reader ,2019-09-11,math
-130,U-199,Christmas theme doesn't playe well with Dark Reader ,2019-09-11,binary search
-131,U-218,Codeforces Round 174 Div 2 Screencast,2017-10-28,strings
-132,U-218,Codeforces Round 174 Div 2 Screencast,2017-10-28,greedy
-133,U-218,Codeforces Round 174 Div 2 Screencast,2017-10-28,implementation
-134,U-226,Problem sets with I/O files,2018-09-22,greedy
-135,U-226,Problem sets with I/O files,2018-09-22,number theory
-136,U-226,Problem sets with I/O files,2018-09-22,dp
-137,U-226,Problem sets with I/O files,2018-09-22,implementation
-138,U-226,Problem sets with I/O files,2018-09-22,data structures
-139,U-227,[SOLVED] NTT is not working when module is big,2019-05-10,brute force
-140,U-227,[SOLVED] NTT is not working when module is big,2019-05-10,strings
-141,U-227,"[SOLVED]Codeforces Community, i need some help with problem.",2014-10-27,implementation
-142,U-227,"[SOLVED]Codeforces Community, i need some help with problem.",2014-10-27,data structures
-143,U-236,something wrong with organizations ranks,2020-12-07,data structures
-144,U-236,something wrong with organizations ranks,2020-12-07,binary search
-145,U-236,something wrong with organizations ranks,2020-12-07,dp
-146,U-236,Why the contribution can be below zero,2018-10-05,data structures
-147,U-268,Cannot figure out the reason of TLE...,2020-11-15,strings
-148,U-268,Cannot figure out the reason of TLE...,2020-11-15,number theory
-149,U-268,Cannot figure out the reason of TLE...,2020-11-15,implementation
-150,U-268,Cannot figure out the reason of TLE...,2020-11-15,data structures
-151,U-268,Cannot figure out the reason of TLE...,2020-11-15,math
-152,U-268,Why does the following segments give various outputs??,2020-02-16,strings
-153,U-268,Why does the following segments give various outputs??,2020-02-16,dp
-154,U-268,Why does the following segments give various outputs??,2020-02-16,graphs
-155,U-268,Is the build in lower_bound (when using set) slower than order_of_key and find_by_order of ordered_set?,2020-04-09,dp
-156,U-268,Is the build in lower_bound (when using set) slower than order_of_key and find_by_order of ordered_set?,2020-04-09,graphs
-157,U-268,Is the build in lower_bound (when using set) slower than order_of_key and find_by_order of ordered_set?,2020-04-09,number theory
-158,U-268,Is the build in lower_bound (when using set) slower than order_of_key and find_by_order of ordered_set?,2020-04-09,implementation
-159,U-268,Is the build in lower_bound (when using set) slower than order_of_key and find_by_order of ordered_set?,2020-04-09,binary search
-160,U-268,327B — Hungry Sequence ,2020-10-11,strings
-161,U-268,327B — Hungry Sequence ,2020-10-11,data structures
-162,U-268,327B — Hungry Sequence ,2020-10-11,implementation
-163,U-292,Invitation to Apeireon'20 Codesprint 360,2020-07-18,graphs
-164,U-292,How to Practice new topics efficiently?,2020-07-22,strings
-165,U-292,How to Practice new topics efficiently?,2020-07-22,greedy
-166,U-292,How to Practice new topics efficiently?,2020-07-22,graphs
-167,U-292,How to Practice new topics efficiently?,2020-07-22,implementation
+ID,Name,Date,Tag
+U-2,578C — Weakness and Poorness WA,2019-04-04,data structures
+U-2,578C — Weakness and Poorness WA,2019-04-04,greedy
+U-11,Paths in graphs....,2019-04-25,binary search
+U-11,Paths in graphs....,2019-04-25,greedy
+U-11,Paths in graphs....,2019-04-25,graphs
+U-11,Cheating in Codeforces rounds,2020-07-06,math
+U-11,Cheating in Codeforces rounds,2020-07-06,number theory
+U-11,Cheating in Codeforces rounds,2020-07-06,greedy
+U-11,Cheating in Codeforces rounds,2020-07-06,implementation
+U-11,Cheating in Codeforces rounds,2020-07-06,graphs
+U-53,Bitwise and of subarray sums problem,2013-12-17,number theory
+U-53,Bitwise and of subarray sums problem,2013-12-17,data structures
+U-53,Bitwise and of subarray sums problem,2013-12-17,graphs
+U-53,Bitwise and of subarray sums problem,2013-12-17,dp
+U-57,Help with problem involving bitmasking and SOS dp .,2017-03-30,dp
+U-57,Doubt regarding policy based data structure,2011-12-04,number theory
+U-57,Doubt regarding policy based data structure,2011-12-04,data structures
+U-57,Doubt regarding policy based data structure,2011-12-04,math
+U-57,Doubt regarding policy based data structure,2011-12-04,graphs
+U-57,How to give team contests during pandemic ?,2016-03-29,math
+U-57,How to give team contests during pandemic ?,2016-03-29,binary search
+U-57,How to give team contests during pandemic ?,2016-03-29,dp
+U-57,How to give team contests during pandemic ?,2016-03-29,implementation
+U-57,How to give team contests during pandemic ?,2016-03-29,strings
+U-57,Help with Problem involving XOR,2011-09-05,strings
+U-57,help in a problem TRENDGCD at spoj,2013-09-04,strings
+U-65,IZHO editorials,2020-12-23,brute force
+U-65,IZHO editorials,2020-12-23,graphs
+U-65,IZHO editorials,2020-12-23,strings
+U-65,IZHO editorials,2020-12-23,implementation
+U-87,regarding precomputation run time calculation on spoj,2020-06-08,strings
+U-87,regarding precomputation run time calculation on spoj,2020-06-08,implementation
+U-101,Same solution one got tle on 11th tc. one accepted after system testing????,2018-08-23,binary search
+U-101,Same solution one got tle on 11th tc. one accepted after system testing????,2018-08-23,strings
+U-104,Please help me with memset() and fill(),2014-06-15,implementation
+U-104,Please help me with memset() and fill(),2014-06-15,binary search
+U-104,Please help me with memset() and fill(),2014-06-15,strings
+U-104,Please help me with memset() and fill(),2014-06-15,graphs
+U-104,Please help me with memset() and fill(),2014-06-15,math
+U-105,Strange error ,2012-01-31,brute force
+U-105,Strange error ,2012-01-31,strings
+U-105,Strange error ,2012-01-31,binary search
+U-116,Codeforces Round #671 Editorial,2017-04-20,greedy
+U-116,Codeforces Round #671,2017-10-26,binary search
+U-116,Codeforces Round #671,2017-10-26,strings
+U-117,"Cannot get AC on Mashmokh and Reverse Operation, test #72 output is wrong",2017-10-11,strings
+U-124,Got acussed of copying another user's code!!!,2007-07-28,dp
+U-124,Got acussed of copying another user's code!!!,2007-07-28,graphs
+U-124,Got acussed of copying another user's code!!!,2007-07-28,brute force
+U-125,[COPS] AtCoder Beginner Contest 190 — Screencast,2020-09-07,greedy
+U-125,[COPS] AtCoder Beginner Contest 190 — Screencast,2020-09-07,brute force
+U-125,[COPS Editorial] AtCoder Beginner Contest 187 Video Editorials,2019-04-30,number theory
+U-125,[COPS Editorial] AtCoder Beginner Contest 187 Video Editorials,2019-04-30,strings
+U-140,Invitation to ATMOS CodeDash,2018-05-04,greedy
+U-140,Invitation to ATMOS CodeDash,2018-05-04,graphs
+U-141,The difference between ceil in C++ and Python ?,2019-09-18,binary search
+U-141,The difference between ceil in C++ and Python ?,2019-09-18,graphs
+U-141,The difference between ceil in C++ and Python ?,2019-09-18,data structures
+U-141,The difference between ceil in C++ and Python ?,2019-09-18,math
+U-141,The difference between ceil in C++ and Python ?,2019-09-18,implementation
+U-142,[Timus 1766] How to apply Gaussian elimination?,2012-03-07,number theory
+U-142,[Timus 1766] How to apply Gaussian elimination?,2012-03-07,dp
+U-142,[Timus 1766] How to apply Gaussian elimination?,2012-03-07,graphs
+U-142,[Timus 1766] How to apply Gaussian elimination?,2012-03-07,greedy
+U-151,Compiled file is too large error in G++,2015-04-04,binary search
+U-159,Like Mike or not...,2019-09-26,data structures
+U-159,Like Mike or not...,2019-09-26,brute force
+U-159,Like Mike or not...,2019-09-26,implementation
+U-159,Like Mike or not...,2019-09-26,graphs
+U-159,Like Mike or not...,2019-09-26,greedy
+U-162,Changing handle,2020-11-03,data structures
+U-162,Changing handle,2020-11-03,implementation
+U-162,Changing handle,2020-11-03,binary search
+U-162,Changing handle,2020-11-03,brute force
+U-162,Changing handle,2020-11-03,math
+U-163,Possible bug in the changing handles feature,2016-05-28,brute force
+U-163,Possible bug in the changing handles feature,2016-05-28,greedy
+U-163,Possible bug in the changing handles feature,2016-05-28,graphs
+U-163,Possible bug in the changing handles feature,2016-05-28,number theory
+U-163,Possible bug in the changing handles feature,2016-05-28,strings
+U-165,How to find the number of integral solution of linear diophantine equation between the range? Also how to find the solution for which (x+y) is minimum?Can anyone hep me to solve this?,2013-07-31,math
+U-165,How to find the number of integral solution of linear diophantine equation between the range? Also how to find the solution for which (x+y) is minimum?Can anyone hep me to solve this?,2013-07-31,brute force
+U-165,How to find the number of integral solution of linear diophantine equation between the range? Also how to find the solution for which (x+y) is minimum?Can anyone hep me to solve this?,2013-07-31,implementation
+U-165,Modulo Property Query,2018-10-26,brute force
+U-170,"N̶e̶e̶d̶ ̶h̶e̶l̶p̶: Selects K different columns from a 2xN matrix, maximizes the ratio of (sum selected top) to (sum selected bottom)",2012-02-25,binary search
+U-170,"N̶e̶e̶d̶ ̶h̶e̶l̶p̶: Selects K different columns from a 2xN matrix, maximizes the ratio of (sum selected top) to (sum selected bottom)",2012-02-25,math
+U-170,"N̶e̶e̶d̶ ̶h̶e̶l̶p̶: Selects K different columns from a 2xN matrix, maximizes the ratio of (sum selected top) to (sum selected bottom)",2012-02-25,strings
+U-170,"N̶e̶e̶d̶ ̶h̶e̶l̶p̶: Selects K different columns from a 2xN matrix, maximizes the ratio of (sum selected top) to (sum selected bottom)",2012-02-25,number theory
+U-170,"N̶e̶e̶d̶ ̶h̶e̶l̶p̶: Selects K different columns from a 2xN matrix, maximizes the ratio of (sum selected top) to (sum selected bottom)",2012-02-25,greedy
+U-170,&quot;Statement is not available on English language&quot; for Mashups contain customized problems that are prepared on Polygon ,2015-10-25,data structures
+U-196,Need help on a NTT problem,2016-12-18,dp
+U-196,Need help on a NTT problem,2016-12-18,brute force
+U-196,SPOJ — Maxmatch,2018-09-09,binary search
+U-196,SPOJ — Maxmatch,2018-09-09,dp
+U-196,SPOJ — Maxmatch,2018-09-09,math
+U-196,SPOJ — Maxmatch,2018-09-09,strings
+U-196,SPOJ — Maxmatch,2018-09-09,data structures
+U-196,Request for Gaussian Elimination Resources.,2015-05-09,math
+U-196,Request for Gaussian Elimination Resources.,2015-05-09,strings
+U-196,Request for Gaussian Elimination Resources.,2015-05-09,number theory
+U-196,Request for Gaussian Elimination Resources.,2015-05-09,binary search
+U-196,Compiler Behavior Confusion!,2020-01-12,brute force
+U-196,Compiler Behavior Confusion!,2020-01-12,data structures
+U-196,Compiler Behavior Confusion!,2020-01-12,binary search
+U-196,Editorial of Criterion 2020 Round 6,2017-03-30,dp
+U-196,Editorial of Criterion 2020 Round 6,2017-03-30,implementation
+U-196,Editorial of Criterion 2020 Round 6,2017-03-30,graphs
+U-196,Criterion 2020 Round 6 (Rated),2013-04-24,binary search
+U-196,Criterion 2020 Round 6 (Rated),2013-04-24,data structures
+U-196,Criterion 2020 Round 6 (Rated),2013-04-24,implementation
+U-196,Criterion 2020 Round 6 (Rated),2013-04-24,number theory
+U-196,RUET Presents Inter University Programming Contest,2014-07-13,brute force
+U-196,RUET Presents Inter University Programming Contest,2014-07-13,graphs
+U-196,RUET Presents Inter University Programming Contest,2014-07-13,number theory
+U-196,Sherlock and Inversion (with merge sort tree),2018-04-05,data structures
+U-196,Sherlock and Inversion (with merge sort tree),2018-04-05,math
+U-196,Sherlock and Inversion (with merge sort tree),2018-04-05,graphs
+U-196,Contribution Confusion.,2014-02-10,implementation
+U-199,How do you create problems for contests?,2019-12-06,data structures
+U-199,How do you create problems for contests?,2019-12-06,dp
+U-199,Christmas theme doesn't playe well with Dark Reader ,2019-09-11,implementation
+U-199,Christmas theme doesn't playe well with Dark Reader ,2019-09-11,number theory
+U-218,Codeforces Round 174 Div 2 Screencast,2017-10-28,greedy
+U-226,Problem sets with I/O files,2018-09-22,greedy
+U-226,Problem sets with I/O files,2018-09-22,dp
+U-226,Problem sets with I/O files,2018-09-22,strings
+U-226,Problem sets with I/O files,2018-09-22,math
+U-227,[SOLVED] NTT is not working when module is big,2019-05-10,brute force
+U-227,"[SOLVED]Codeforces Community, i need some help with problem.",2014-10-27,data structures
+U-236,something wrong with organizations ranks,2020-12-07,math
+U-236,something wrong with organizations ranks,2020-12-07,brute force
+U-236,something wrong with organizations ranks,2020-12-07,implementation
+U-236,something wrong with organizations ranks,2020-12-07,strings
+U-236,something wrong with organizations ranks,2020-12-07,dp
+U-236,Why the contribution can be below zero,2018-10-05,dp
+U-236,Why the contribution can be below zero,2018-10-05,strings
+U-268,Cannot figure out the reason of TLE...,2020-11-15,greedy
+U-268,Cannot figure out the reason of TLE...,2020-11-15,graphs
+U-268,Cannot figure out the reason of TLE...,2020-11-15,dp
+U-268,Cannot figure out the reason of TLE...,2020-11-15,brute force
+U-268,Why does the following segments give various outputs??,2020-02-16,brute force
+U-268,Why does the following segments give various outputs??,2020-02-16,strings
+U-268,Why does the following segments give various outputs??,2020-02-16,data structures
+U-268,Why does the following segments give various outputs??,2020-02-16,dp
+U-268,Why does the following segments give various outputs??,2020-02-16,math
+U-268,Is the build in lower_bound (when using set) slower than order_of_key and find_by_order of ordered_set?,2020-04-09,strings
+U-268,Is the build in lower_bound (when using set) slower than order_of_key and find_by_order of ordered_set?,2020-04-09,dp
+U-268,327B — Hungry Sequence ,2020-10-11,number theory
+U-292,Invitation to Apeireon'20 Codesprint 360,2020-07-18,data structures
+U-292,Invitation to Apeireon'20 Codesprint 360,2020-07-18,greedy
+U-292,Invitation to Apeireon'20 Codesprint 360,2020-07-18,dp
+U-292,Invitation to Apeireon'20 Codesprint 360,2020-07-18,binary search
+U-292,How to Practice new topics efficiently?,2020-07-22,data structures
