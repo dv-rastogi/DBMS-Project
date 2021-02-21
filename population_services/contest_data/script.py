@@ -3,7 +3,7 @@ import requests
 from random_word import RandomWords
 import random
 import datetime
-
+UNIV_TAGS = ["graphs", "dp", "binary search", "greedy", "implementation", "data structures", "brute force", "math","strings", "number theory"]
 
 def random_date(start, end):
     """
@@ -15,6 +15,38 @@ def random_date(start, end):
     random_second = random.randrange(int_delta)
     return start + datetime.timedelta(seconds=random_second)
 
+def form_contest_tags():
+    readcontest = pd.read_csv('../../tables/contests.csv')
+
+    res = {
+        "ID": [],
+        "Name": [],
+        "Tag": [],
+        "Date":[]
+    }
+    done = {}
+    for i in readcontest.index:
+        numofTags = random.randint(0, 5)
+        if(numofTags==0):
+            continue
+        for j in range(0, numofTags):
+            id = random.randint(0, len(UNIV_TAGS) - 1)
+            x = readcontest["ID"][i]
+            y = readcontest["Name"][i]
+            z = UNIV_TAGS[id]
+            k=readcontest["Date"][i]
+            if (x, y, z, k) in done:
+                continue
+
+            res["ID"].append(x)
+            res["Name"].append(y)
+            res["Tag"].append(z)
+            res["Date"].append(k)
+            done[(x, y, z, k)] = True
+    # print(res)
+    df = pd.DataFrame.from_dict(res)
+    print(df.head())
+    df.to_csv('../../tables/contest_tags.csv', index=False)
 
 def form_contests():
     rand = RandomWords()
@@ -48,11 +80,11 @@ def form_contests():
         res["Likes"].append(random.randint(0, 100))
     print(res)
     df = pd.DataFrame.from_dict(res)
-    print(df.head())
-    df.to_csv('../../tables/contests.csv', index=False)
+    # print(df.head())
+    # df.to_csv('../../tables/contests.csv', index=False)
 
 
 
 
 if __name__ == "__main__":
-    form_contests()
+    form_contest_tags()
