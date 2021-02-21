@@ -184,7 +184,7 @@ def form_cf_users():
 
 
 # For modelling entity Problems
-def get_cf_problems(tags: list):
+def get_cf_problems():
 	'''
 	returns problem set of cf on basis of tags
 	'''
@@ -244,23 +244,29 @@ def form_problems_cf_wtags():
 	
 	df1 = pd.DataFrame.from_dict(res1)
 	print(df1.head())
-	df1.to_csv('../../tables/problems.csv')
+	df1.to_csv('../../tables/problems.csv', index=False)
 
 	# form tags
 	res2 = {
 		"Problem_ID": [],
 		"Tag": []
 	}
+	# To avoid duplicates
+	done = {}
 	pid = 1
 	for prob in probs:
 		for tag in prob["Tags"]:
-			res2["Problem_ID"].append(pid)
-			res2["Tag"].append(tag)
+			if (pid, tag) not in done:
+				res2["Problem_ID"].append(pid)
+				res2["Tag"].append(tag)
+				done[(pid, tag)] = True
+			else:
+				continue
 		pid += 1
 
 	df2 = pd.DataFrame.from_dict(res2)
 	print(df2.head())
-	df2.to_csv('../../tables/problems_tags.csv')
+	df2.to_csv('../../tables/problems_tags.csv', index=False)
 
 
 # For modelling relationship SOLVED
