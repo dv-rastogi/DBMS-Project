@@ -322,5 +322,5 @@ Pending Requests (Group to user) (Many)
 #### Todo
 * Ramit - See specialization in mySQL
 
-## CONTINUED ON https://docs.google.com/document/d/1XAYdYL4a8Gqx5Dk7uUGeGUcB-u6skmaRll87LstPg8Y/edit
-## ER Diagram on https://lucid.app/lucidchart/invitations/accept/19b7f169-3a72-47b7-8707-55db59ce1e5e
+#### CONTINUED ON google docs queries & relationships
+#### ER Diagram on lucid chart 'er dbms group 2'
