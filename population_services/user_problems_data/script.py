@@ -312,7 +312,43 @@ def get_cf_user_status(username: str):
 				result[dic["Name"]] = dic
 	return result
 
+# needs users.csv & problems.csv
+def form_solves():
+
+	dfu = pd.read_csv('../../tables/users.csv')
+	dfp = pd.read_csv('../../tables/problems.csv')
+
+	ptoid = {}
+	for idx in dfp.index:
+		# cf problems are distinct
+		assert (dfp["Name"][idx] not in ptoid)
+		ptoid[dfp["Name"][idx]] = idx
+
+	res = {
+		"User_ID": [],
+		"Problem_ID": [],
+		"Language": [],
+		"Date": [],
+	}
+
+	for idx in dfu.index:
+		print("For", dfu["User_Name"][idx])
+		probs = get_cf_user_status(dfu["User_Name"][idx])
+		for prob in list(probs.values()):
+			if prob["Name"] not in ptoid:
+				continue
+			res["User_ID"].append(dfu["ID"][idx])
+			res["Problem_ID"].append(dfp["Problem_ID"][ptoid[prob["Name"]]])
+			res["Language"].append(prob["Language"])
+			res["Date"].append(prob["Date"].split()[0])
+	
+	df = pd.DataFrame.from_dict(res)
+	print(df.head())
+	df.to_csv('../../tables/solved.csv', index=False)
+
 
 if __name__ == "__main__":
 	# form_cf_users()
-	form_problems_cf_wtags()
+	# form_problems_cf_wtags()
+	# form_solves()
+	get_cf_user_status("Obamium")
