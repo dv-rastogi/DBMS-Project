@@ -51,9 +51,9 @@ def form_blogs():
 				res["Name"].append(title)
 
 				# Add blog date
-				dLow = datetime.datetime.strptime(users['DateOfJoining'][i] + ' 1:30 PM', '%d-%m-%Y %I:%M %p')
+				dLow = datetime.datetime.strptime(users['DateOfJoining'][i] + ' 1:30 PM', '%Y-%m-%d %I:%M %p')
 				dHigh = datetime.datetime.strptime('1/1/2021 1:30 PM', '%m/%d/%Y %I:%M %p')
-				res["Date"].append(random_date(dLow, dHigh))
+				res["Date"].append(random_date(dLow, dHigh).date().strftime("%Y-%m-%d"))
 
 				# Add blog content
 				x = None
@@ -96,4 +96,5 @@ def form_blogs_tags():
 			
 
 if __name__ == "__main__":		
+	form_blogs()
 	form_blogs_tags()

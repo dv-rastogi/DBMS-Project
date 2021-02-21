@@ -167,13 +167,13 @@ def form_cf_users():
 		res["Location_Country"].append(random_loc[1])
 
 		# Add DOB
-		got_date = random_date(dLowDOB, dHighDOB).date().strftime("%d-%m-%Y")
-		res["DateOfBirth"].append(got_date)
+		got_date = random_date(dLowDOB, dHighDOB)
+		res["DateOfBirth"].append(got_date.date().strftime("%Y-%m-%d"))
 
 		# Add Date of joining
-		date_obj_low = datetime.datetime.strptime(got_date, "%d-%m-%Y")
+		date_obj_low = got_date
 		date_obj_low += datetime.timedelta(days=13*365) # Add 13 years
-		res["DateOfJoining"].append(random_date(date_obj_low, dHighJoin).date().strftime("%d-%m-%Y"))
+		res["DateOfJoining"].append(random_date(date_obj_low, dHighJoin).date().strftime("%Y-%m-%d"))
 
 		# Add trust rating, 100 is default
 		res["TrustRating"].append(100)
@@ -269,4 +269,5 @@ def get_cf_user_status(username: str):
 
 
 if __name__ == "__main__":
-    form_problems_cf()
+    # form_problems_cf()
+	form_cf_users()

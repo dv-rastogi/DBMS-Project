@@ -22,14 +22,16 @@ def form_premium():
     for idx in premium_users.index:
         # print(premium_users["DateOfJoining"][idx])
         djoin=premium_users["DateOfJoining"][idx]
-        dLow = datetime.strptime(djoin+' 1:30 PM', '%d-%m-%Y %I:%M %p')
+        dLow = datetime.strptime(djoin+' 1:30 PM', '%Y-%m-%d %I:%M %p')
         dHigh = datetime.strptime('2/18/2022 4:50 AM', '%m/%d/%Y %I:%M %p')
+
         sub_start_date=random_date(dLow,dHigh)
         sub_end_date=random_date(sub_start_date,dHigh)
+        
         res["ID"].append(premium_users["ID"][idx])
         res["Profile_Visits"].append(random.randint(0,300))
-        res["Subscription_Time_Start"].append(sub_start_date.date().strftime("%d-%m-%Y"))
-        res["Subscription_Time_End"].append(sub_end_date.date().strftime("%d-%m-%Y"))
+        res["Subscription_Time_Start"].append(sub_start_date.date().strftime("%Y-%m-%d"))
+        res["Subscription_Time_End"].append(sub_end_date.date().strftime("%Y-%m-%d"))
     df = pd.DataFrame.from_dict(res)
     print(df.head())
     df.to_csv('../../tables/premium_users.csv', index=False)

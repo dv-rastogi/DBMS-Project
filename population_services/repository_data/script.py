@@ -101,8 +101,8 @@ def form_repository():
         for name in titles[:random.randint(1, 4)]:
             res["ID"].append(dfu["ID"][idx])
             res["Name"].append(name)
-            dLow = datetime.datetime.strptime(dfu['DateOfJoining'][idx] + ' 1:30 PM', '%d-%m-%Y %I:%M %p')
-            res["Date"].append(random_date(dLow, dHigh).date().strftime("%d-%m-%Y"))
+            dLow = datetime.datetime.strptime(dfu['DateOfJoining'][idx] + ' 1:30 PM', '%Y-%m-%d %I:%M %p')
+            res["Date"].append(random_date(dLow, dHigh).date().strftime("%Y-%m-%d"))
 
     df = pd.DataFrame.from_dict(res)
     print(df.head())

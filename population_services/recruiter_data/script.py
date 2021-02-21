@@ -92,7 +92,7 @@ def form_name_email_loc():
         res["Location_Country"].append(location[1])
 
         # Add date
-        res["DateOfJoining"].append(random_date(dLow, dHigh).date().strftime("%d-%m-%Y")) # Format date here
+        res["DateOfJoining"].append(random_date(dLow, dHigh).date().strftime("%Y-%m-%d")) # Format date here
 
     assert (len(res["ID"]) == LIM)
     df = pd.DataFrame.from_dict(res)
@@ -114,12 +114,12 @@ def form_recruiter_preferred():
     drDate = dict(dr["DateOfJoining"])
     res = {"Recruiter_ID": [], "User_ID": []}
     for recruiter in drID:
-        date_r = datetime.strptime(drDate[recruiter], "%d-%m-%Y")
+        date_r = datetime.strptime(drDate[recruiter], "%Y-%m-%d")
         collected = []
         duDate = dict(du["DateOfJoining"])
         duID = dict(du["ID"])
         for idx in duDate:
-            date_u = datetime.strptime(duDate[idx], "%d-%m-%Y")
+            date_u = datetime.strptime(duDate[idx], "%Y-%m-%d")
             if date_u > date_r:
                 collected.append(duID[idx])
         
@@ -160,12 +160,12 @@ def form_recruiter_recruited():
     dHigh = datetime.strptime('1/1/2021 1:30 PM', '%m/%d/%Y %I:%M %p')
 
     for recruiter in drID:
-        date_r = datetime.strptime(drDate[recruiter], "%d-%m-%Y")
+        date_r = datetime.strptime(drDate[recruiter], "%Y-%m-%d")
         collected = []
         duDate = dict(du["DateOfJoining"])
         duID = dict(du["ID"])
         for idx in duDate:
-            date_u = datetime.strptime(duDate[idx], "%d-%m-%Y")
+            date_u = datetime.strptime(duDate[idx], "%Y-%m-%d")
             if date_u > date_r:
                 collected.append((duID[idx], date_u))
         
@@ -176,7 +176,7 @@ def form_recruiter_recruited():
                 continue  
             res["Recruiter_ID"].append(drID[recruiter])
             res["User_ID"].append(x[0])
-            res["DateOfRecruitment"].append(random_date(x[1], dHigh).date().strftime("%d-%m-%Y"))
+            res["DateOfRecruitment"].append(random_date(x[1], dHigh).date().strftime("%Y-%m-%d"))
 
     df = pd.DataFrame.from_dict(res)
     print(df.head())
@@ -184,5 +184,6 @@ def form_recruiter_recruited():
 
 
 if __name__ == "__main__":
+    # form_name_email_loc()
+    # form_recruiter_preferred()   
     form_recruiter_recruited()   
-    

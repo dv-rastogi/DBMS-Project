@@ -1,6 +1,12 @@
-All tables are to be saved and referenced from ../tables
+All tables are to be saved and referenced from ../../tables
+Admin & Programming Organization are to be manually written
 Order of formation:
-1. Recruiters
-2. Users
-3. Recruiter_Prefers_Users
-4. Recruiter_Recruits_Users
+1. recruiters
+2. users
+3. recruiter_prefers_users
+4. recruiter_recruits_users
+5. following
+6. premium users
+7. repository 
+8. blogs
+9. blogs_tags

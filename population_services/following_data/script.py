@@ -1,7 +1,7 @@
 import pandas as pd
 import random
 
-
+# Form following, needs users.csv
 def form_following():
     # Pairs of users
     pair = {}
@@ -27,5 +27,7 @@ def form_following():
     df = pd.DataFrame.from_dict(res)
     print(df.head())
     df.to_csv('../../tables/following.csv', index=False)
+
+
 if __name__ == "__main__":
     form_following()
