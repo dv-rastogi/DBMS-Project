@@ -151,13 +151,25 @@ def form_favourites():
         "Name": [],
         "Problem_ID": []
     }
+
+    # To avoid duplicacy
+    done = {}
+
     for i in readrep.index:
         prob = random.randint(2, 6)
         for j in range(1, prob + 1):
             id = random.randint(0, length-1)
-            res["Users_ID"].append(readrep["ID"][i])
-            res["Name"].append(readrep["Name"][i])
-            res["Problem_ID"].append(readprob["Problem_ID"][id])
+            x = readrep["ID"][i]
+            y = readrep["Name"][i]
+            z = readprob["Problem_ID"][id]
+
+            if (x, y, z) in done:
+                continue
+
+            res["Users_ID"].append(x)
+            res["Name"].append(y)
+            res["Problem_ID"].append(z)
+            done[(x, y, z)] = True
 
     df = pd.DataFrame.from_dict(res)
     print(df.head())
@@ -175,13 +187,25 @@ def form_todo():
         "Name": [],
         "Problem_ID": []
     }
+    
+    # To avoid duplicacy
+    done = {}
+
     for i in readrep.index:
         prob = random.randint(2, 6)
         for j in range(1, prob + 1):
             id = random.randint(0, length-1)
-            res["Users_ID"].append(readrep["ID"][i])
-            res["Name"].append(readrep["Name"][i])
-            res["Problem_ID"].append(readprob["Problem_ID"][id])
+            x = readrep["ID"][i]
+            y = readrep["Name"][i]
+            z = readprob["Problem_ID"][id]
+
+            if (x, y, z) in done:
+                continue
+
+            res["Users_ID"].append(x)
+            res["Name"].append(y)
+            res["Problem_ID"].append(z)
+            done[(x, y, z)] = True
 
     df = pd.DataFrame.from_dict(res)
     print(df.head())
