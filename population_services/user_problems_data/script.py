@@ -312,6 +312,33 @@ def get_cf_user_status(username: str):
 				result[dic["Name"]] = dic
 	return result
 
+
+# needs users.csv
+def form_user_languages():
+	res = {"ID": [], "Language": []}
+	readuser = pd.read_csv('../../tables/users.csv')
+
+    # To avoid duplicacy
+	done = {}
+
+	for i in readuser.index:	
+		numOfLang = random.randint(1, 5)
+		x = readuser["ID"][i]
+		for j in range(0,numOfLang):
+			idx = random.randint(0, len(UNIV_LANG)-1)
+			y = UNIV_LANG[idx]
+			if (x, y) in done:
+				continue
+			
+			res["ID"].append(x)
+			res["Language"].append(y)
+			done[(x, y)] = True
+
+	df = pd.DataFrame.from_dict(res)
+	print(df.head())
+	df.to_csv('../../tables/user_languages.csv', index=False)
+
+
 # needs users.csv & problems.csv
 def form_solves():
 
@@ -351,4 +378,5 @@ if __name__ == "__main__":
 	# form_cf_users()
 	# form_problems_cf_wtags()
 	# form_solves()
-	get_cf_user_status("Obamium")
+	# form_user_languages()
+	get_cf_user_status("tourist")
