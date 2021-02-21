@@ -140,6 +140,56 @@ def form_repo_templates():
     df.to_csv('../../tables/repo_templates.csv', index=False)
 
 
+# Form favourites needs repository.csv & problems.csv
+def form_favourites():
+    readrep = pd.read_csv('../../tables/repository.csv')
+    readprob = pd.read_csv('../../tables/problems.csv')
+    length = len((readprob.to_dict())["Problem_ID"])
+
+    res = {
+        "Users_ID": [], 
+        "Name": [],
+        "Problem_ID": []
+    }
+    for i in readrep.index:
+        prob = random.randint(2, 6)
+        for j in range(1, prob + 1):
+            id = random.randint(0, length-1)
+            res["Users_ID"].append(readrep["ID"][i])
+            res["Name"].append(readrep["Name"][i])
+            res["Problem_ID"].append(readprob["Problem_ID"][id])
+
+    df = pd.DataFrame.from_dict(res)
+    print(df.head())
+    df.to_csv('../../tables/favourites.csv', index=False)
+
+
+# Form todolist needs repository.csv & problems.csv
+def form_todo():
+    readrep = pd.read_csv('../../tables/repository.csv')
+    readprob = pd.read_csv('../../tables/problems.csv')
+    length = len((readprob.to_dict())["Problem_ID"])
+
+    res = {
+        "Users_ID": [], 
+        "Name": [],
+        "Problem_ID": []
+    }
+    for i in readrep.index:
+        prob = random.randint(2, 6)
+        for j in range(1, prob + 1):
+            id = random.randint(0, length-1)
+            res["Users_ID"].append(readrep["ID"][i])
+            res["Name"].append(readrep["Name"][i])
+            res["Problem_ID"].append(readprob["Problem_ID"][id])
+
+    df = pd.DataFrame.from_dict(res)
+    print(df.head())
+    df.to_csv('../../tables/todolist.csv', index=False)
+
+
 if __name__ == "__main__":
     # form_repository()
-    form_repo_templates()
+    # form_repo_templates()
+    form_favourites()
+    form_todo()
