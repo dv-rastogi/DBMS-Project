@@ -1,5 +1,0 @@
-User
-  1. Problems of certain tags and difficulties
-     - SELECT * FROM Problems where Tag =
-     - SELECT * FROM Problems where difficulty > $DIFFICULTY ???
-  2. 
