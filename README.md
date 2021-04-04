@@ -6,6 +6,12 @@
 - [Ramit](https://github.com/ramit19086)
 - [Ritik](https://github.com/ritikagg2907)
 
+## How to setup
+- Navigate to the repository `DBMS-Project`
+- Create a virtual environment `python -m venv env`
+- Activate it `env/Scripts/activate`
+- Install from requirements.txt `pip install -r requirements.txt`
+
 ## Deadlines
 - Class presentation &nbsp; ``` Feb 1 ```
 - Mid project document submission &nbsp; ``` Feb 21 ```
