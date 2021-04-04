@@ -1,16 +1,16 @@
-header{
-   
-    background-image: url(head.png);
+header {
+    background-image: url(../assets/head.png);
     background-size:cover;
     background-position: center;
     background-attachment: fixed;
     background-repeat: no-repeat;
     height:100vh;
- 	}
+}
+
 .navbar {
     border-bottom: #000000 3px solid;
-/*    background-color: #515356;*/
-    background-color: #d1fdb7 ;    }
+    background-color: #d1fdb7;    
+}
 
 .navbar li a:link,
 .navbar li a:visited {
@@ -28,10 +28,11 @@ header{
     border-bottom: 2px solid #e67e22; 
 }
 
-.navbar-toggler-icon{
+.navbar-toggler-icon {
     height: 40px;
     width: 40px;
 }
-h2{
+
+h2 {
     font-size: 2.5rem;
 }
