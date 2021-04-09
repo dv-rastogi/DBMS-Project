@@ -1,3 +1,4 @@
 .vscode
 backup_tables/
 env/
+__pycache__
