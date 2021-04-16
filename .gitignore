@@ -2,3 +2,4 @@
 backup_tables/
 env/
 __pycache__
+.env
