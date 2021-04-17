@@ -18,7 +18,7 @@ conf = {
 }
 
 
-# NEED TO ADD VIEWS BEFORE THE SCRIPT
+# NEED TO ADD VIEWS BEFORE THE SCRIPT (views.sql)
 
 users = {
 
@@ -46,7 +46,7 @@ users = {
     },
 
     'recruiter_codebook': {
-        "SELECT": ["recruiters", "users", "user_languages", "preferred", "recruited", "problems", "solved", "problems_tags", "repository", "repo_templates", "repository", "repo_tags", "blogs", "blogs_tags", "member_of", "`groups`", "admin"],
+        "SELECT": ["recruiters", "users", "user_languages", "preferred", "recruited", "problems", "solved", "problems_tags", "repository", "repo_templates", "repository", "repo_tags", "blogs", "blogs_tags", "member_of", "`groups`", "admin", "registered"],
         "INSERT": ["recruited", "preferred"],
         "UPDATE": ["recruited", "preferred", "recruiters"],
         "DELETE": ["recruited", "preferred"]
@@ -75,18 +75,21 @@ for privelege in users['user_codebook']:
 
 ## Views priveleges
 views = {
-    'user_codebook': [],
-    'premium_user_codebook': [],
+    'user_codebook': ["USER_STRENGTH", "FOLLOWERS", "PROBLEM_SOLVED_COUNT", "UPCOMING_CONTESTS"],
+    'premium_user_codebook': ["NUM_FOLLOWERS", "PREMIUM_AMOUNT_PAID"],
     'group_leader_codebook': [],
     'admin_codebook': ["*"],
-    'organisation_codebook': [],
-    'recruiter_codebook': []
+    'organisation_codebook': ["INCREASE_IN_REGISTERED"],
+    'recruiter_codebook': ["USER_STRENGTH", "FOLLOWERS"]
 }
+
+views['premium_user_codebook'] += views['user_codebook']
+views['group_leader_codebook'] += views['user_codebook']
 
 def setup(cu, db):
     # Dropping users
     for user in users:
-        q = f"DROP USER IF EXISTS '`{user}`'@'localhost';"        
+        q = f"DROP USER IF EXISTS '{user}'@'localhost';"        
         try: 
             print(f"Done deletion with {user}")
             cu.execute(q)
@@ -146,6 +149,24 @@ for user in users:
             
             print(f"Done {grant} with {table} for {user}")       
 
+    for view in views:
+        q = f"""
+            GRANT SELECT ON `{db_name}`.{table} TO '{user}'@'localhost';
+        """
+        # print(q)
+        try:
+            cu.execute(q)
+            db.commit()
+        except Exception as e:
+            print(q)
+            print("Exception", e)
+            print(f'Continuing...')
+            break
+        
+        print(f"Done SELECT with view {table} for {user}")
+
+
 flush_pri()
 
 cu.close()
+print("SEE YA!")
