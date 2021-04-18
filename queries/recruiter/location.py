@@ -1,4 +1,5 @@
 from . import conn, cursor
+from prettytable import PrettyTable
 
 def analyse():
 
@@ -17,11 +18,6 @@ def analyse():
         users u Group by u.Location_City;
         """
         cursor.execute(q1)
-        print(*list(cursor.column_names))
-        ans1 = cursor.fetchall()
-        for x in ans1:
-            print(*list(x))
-        print()
 
     elif cho == 1:
         print("-- Location wise average rating of users --")
@@ -30,19 +26,16 @@ def analyse():
         Group by u.Location_City; 
         """
         cursor.execute(q2)
-        print(*list(cursor.column_names))
-        ans2 = cursor.fetchall()
-        for x in ans2:
-            print(*list(x))
-        print()
 
     elif cho == 3:
         print("-- Location wise user density --")
         q3 = """SELECT Location_Country, Location_City, COUNT(*) as no_of_users 
         from users group by Location_Country, Location_City WITH ROLLUP; """
         cursor.execute(q3)
-        print(*list(cursor.column_names))
-        ans3 = cursor.fetchall()
-        for x in ans3:
-            print(*list(x))
-        print()
+
+    t = PrettyTable(list(cursor.column_names))
+    ans = cursor.fetchall()
+    for x in ans:
+        t.add_row(list(x))
+    print(t)
+    print()

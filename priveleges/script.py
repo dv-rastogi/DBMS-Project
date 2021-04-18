@@ -23,9 +23,9 @@ conf = {
 users = {
 
     'user_codebook': {
-        "SELECT": ["problems", "problems_tags", "solved", "repository", "repo_templates", "repository", "repo_tags", "blogs", "blogs_tags", "contests", "contest_tags", "member_of", "`groups`", "recruited", "recruiters", "registered", "todolist", "user_languages", "favourites", "admin"],
+        "SELECT": ["users", "problems", "problems_tags", "solved", "repository", "repo_templates", "repository", "repo_tags", "blogs", "blogs_tags", "contests", "contest_tags", "member_of", "`groups`", "recruited", "recruiters", "registered", "todolist", "user_languages", "favourites", "admin"],
         "INSERT": ["solved", "repository", "repo_templates", "repo_tags", "blogs", "blogs_tags", "`groups`", "registered", "todolist", "user_languages", "favourites"],
-        "UPDATE": ["repository", "repo_templates", "repo_tags", "blogs", "blogs_tags", "registered", "user_languages"],
+        "UPDATE": ["users", "repository", "repo_templates", "repo_tags", "blogs", "blogs_tags", "registered", "user_languages"],
         "DELETE": ["repository", "repo_templates", "repo_tags", "blogs", "blogs_tags", "member_of", "registered", "todolist", "user_languages", "favourites"]
     },
 
@@ -53,7 +53,7 @@ users = {
     },
     
     'organisation_codebook': {
-        "SELECT": ["contests", "contest_tags", "registered", "organisation_paysto", "admin", "problems", "problems_tags"],
+        "SELECT": ["users", "contests", "contest_tags", "registered", "organisation_paysto", "admin", "problems", "problems_tags"],
         "INSERT": ["contests", "contest_tags", "registered", "organisation_paysto", "problems", "problems_tags"],
         "UPDATE": ["contests", "contest_tags", "registered", "problems", "problems_tags"],
         "DELETE": ["contests", "contest_tags", "registered", "problems", "problems_tags"]

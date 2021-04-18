@@ -2,17 +2,17 @@ import mysql.connector
 from prettytable import PrettyTable
 
 conn = mysql.connector.connect(
-    user='user_codebook',
-    password='user_codebook',
+    user='group_leader_codebook',
+    password='group_leader_codebook',
     host='localhost',
     database='cp-stats'
 )
 
 cursor = conn.cursor()
-print("user cursor initiated!")
+print("group admin cursor initiated!")
 
 def query():
-    print("QUERYING AS USER")
+    print("QUERYING AS GROUP ADMIN")
     q = input("ENTER YOUR QUERY: ")
     try:
         cursor.execute(q)

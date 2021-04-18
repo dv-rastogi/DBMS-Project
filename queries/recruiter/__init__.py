@@ -1,4 +1,5 @@
 import mysql.connector
+from prettytable import PrettyTable
 
 conn = mysql.connector.connect(
     user='recruiter_codebook',
@@ -20,11 +21,11 @@ def query():
         return
     
     try:
-        print(*list(cursor.column_names))
+        t = PrettyTable(list(cursor.column_names))
         res = cursor.fetchall()
-        print("RESULT")
         for r in res:
-            print(*list(r))
+            t.add_row(list(r))
+        print(t)
     except Exception as e:
         pass
 
