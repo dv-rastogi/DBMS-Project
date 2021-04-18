@@ -75,12 +75,12 @@ for privelege in users['user_codebook']:
 
 ## Views priveleges
 views = {
-    'user_codebook': ["USER_STRENGTH", "FOLLOWERS", "PROBLEM_SOLVED_COUNT", "UPCOMING_CONTESTS"],
+    'user_codebook': ["USER_STRENGTH", "NUM_FOLLOWERS", "PROBLEM_SOLVED_COUNT", "UPCOMING_CONTESTS"],
     'premium_user_codebook': ["NUM_FOLLOWERS", "PREMIUM_AMOUNT_PAID"],
     'group_leader_codebook': [],
     'admin_codebook': ["*"],
     'organisation_codebook': ["INCREASE_IN_REGISTERED"],
-    'recruiter_codebook': ["USER_STRENGTH", "FOLLOWERS"]
+    'recruiter_codebook': ["USER_STRENGTH", "NUM_FOLLOWERS"]
 }
 
 views['premium_user_codebook'] += views['user_codebook']
@@ -149,9 +149,9 @@ for user in users:
             
             print(f"Done {grant} with {table} for {user}")       
 
-    for view in views:
+    for view in views[user]:
         q = f"""
-            GRANT SELECT ON `{db_name}`.{table} TO '{user}'@'localhost';
+            GRANT SELECT ON `{db_name}`.{view} TO '{user}'@'localhost';
         """
         # print(q)
         try:
@@ -163,7 +163,7 @@ for user in users:
             print(f'Continuing...')
             break
         
-        print(f"Done SELECT with view {table} for {user}")
+        print(f"Done SELECT with view {view} for {user}")
 
 
 flush_pri()
