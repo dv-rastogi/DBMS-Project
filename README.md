@@ -11,8 +11,3 @@
 - Create a virtual environment `python -m venv env`
 - Activate it `env/Scripts/activate`
 - Install from requirements.txt `pip install -r requirements.txt`
-
-## Deadlines
-- Class presentation &nbsp; ``` Feb 1 ```
-- Mid project document submission &nbsp; ``` Feb 21 ```
-- Final project submission &nbsp; ``` April 19 ```
